@@ -86,6 +86,7 @@ This repository contains a complete framework for Pine Script development with o
 - **All Pine Script Versions**: Organized documentation for v3, v4, v5, and v6
 - **Easy Navigation**: Categorized by functions, variables, constants, etc.
 - **Version Comparison**: Track evolution of Pine Script features
+- **Auto-Update Tools**: Python scripts to automatically scrape latest references from TradingView
 
 ### 2. **Development Guidelines**
 - **Coding Standards**: Rules for Pine Script syntax and style
@@ -111,7 +112,13 @@ This repository contains a complete framework for Pine Script development with o
 - **State Preservation**: Maintain context of ongoing work
 - **Workflow Documentation**: Record completed tasks and next steps
 
-### 6. **Clean Organization**
+### 6. **Powerful Python Tools**
+- **Reference Scraping**: Automatically download latest Pine Script references from TradingView
+- **PDF Conversion**: Convert references to PDF for offline reading
+- **Organization Tools**: Parse and organize reference materials by category
+- **Automation Scripts**: Streamline repetitive development tasks
+
+### 7. **Clean Organization**
 - **Minimal Clutter**: Only essential files and directories retained
 - **Logical Structure**: Easy navigation and maintenance
 - **Consistent Formatting**: Standardized across all components
@@ -166,6 +173,31 @@ Follow coding standards in `guidelines/` directory
 2. **Update**: Create checkpoints after completing subtasks
 3. **Resume**: Use latest checkpoint to continue interrupted work
 4. **Track**: Monitor overall progress throughout development
+
+### Auto-Update Pine Script References
+Keep your Pine Script references up-to-date with our powerful Python tools:
+
+```bash
+# Scrape all Pine Script versions from TradingView
+python scripts/scrape_all_versions.py
+
+# Organize scraped references into categories
+python scripts/organize_pine_reference.py
+
+# Convert references to PDF for offline reading
+python scripts/convert_to_pdf.py
+```
+
+Requirements:
+- Python 3.6+
+- requests library
+- beautifulsoup4 library
+- selenium (for selenium-based scraping)
+
+Install requirements:
+```bash
+pip install requests beautifulsoup4 selenium
+```
 
 ## Enhanced Development with Qwen Code
 

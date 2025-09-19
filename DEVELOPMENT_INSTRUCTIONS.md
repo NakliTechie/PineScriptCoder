@@ -184,6 +184,42 @@ With Qwen Code, you'll be able to:
 - Catch errors before testing in TradingView
 - Accelerate your development workflow
 
+## Pine Script Reference Management
+
+This framework includes powerful Python tools for managing Pine Script references:
+
+### Automatic Reference Updates
+Keep your Pine Script references current with our automated tools:
+
+```bash
+# Scrape all Pine Script versions from TradingView
+python scripts/scrape_all_versions.py
+
+# Organize scraped references into categories
+python scripts/organize_pine_reference.py
+
+# Convert references to PDF for offline reading
+python scripts/convert_to_pdf.py
+```
+
+### Benefits
+- **Always Current**: Automatically download the latest references from TradingView
+- **Multi-Version Support**: Support for Pine Script v3, v4, v5, and v6
+- **Well-Organized**: References automatically categorized by function type
+- **Offline Access**: Convert to PDF for reading without internet
+- **Time Saving**: No manual copying and pasting of reference materials
+
+### Requirements
+- Python 3.6+
+- requests library
+- beautifulsoup4 library
+- selenium (for selenium-based scraping)
+
+Install requirements:
+```bash
+pip install requests beautifulsoup4 selenium
+```
+
 ## Screener-Specific Development Guidelines
 
 ### Automated Screener Generation Process

@@ -87,6 +87,8 @@ This framework provides a structured approach to Pine Script development with or
 ## Key Development Commands
 
 - **Test single instance**: Copy screener code to TradingView editor
+- **Update Pine Script references**: `python scripts/scrape_all_versions.py`
+- **Organize references**: `python scripts/organize_pine_reference.py`
 
 ## Code Style Guidelines
 
@@ -140,3 +142,22 @@ With Qwen Code, you'll be able to:
 - Automatically generate documentation for your custom screeners
 - Catch errors before testing in TradingView
 - Accelerate your development workflow
+
+## Pine Script Reference Management
+
+This framework includes powerful Python tools for managing Pine Script references:
+
+- **Automatic Scraping**: Download the latest Pine Script references directly from TradingView
+- **Multi-Version Support**: Support for Pine Script v3, v4, v5, and v6
+- **Organization Tools**: Automatically organize references by categories (functions, variables, etc.)
+- **PDF Conversion**: Convert references to PDF for offline reading
+- **Regular Updates**: Keep your references current with automated tools
+
+To update your Pine Script references:
+```bash
+# Scrape all versions
+python scripts/scrape_all_versions.py
+
+# Organize references
+python scripts/organize_pine_reference.py
+```
