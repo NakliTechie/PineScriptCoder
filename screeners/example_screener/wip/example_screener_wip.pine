@@ -1,0 +1,36 @@
+//@version=5
+indicator("Example Screener - 1", overlay = true, max_lines_count = 500, max_labels_count = 500, max_boxes_count = 500)
+
+// --- Inputs ---
+// Screener Display
+col_width = input.float(5, title = 'Column Width (%)', group = "Screener Display")
+scr_numb = input.int(1, title = 'Screen #', tooltip = '1 - rightmost screener', minval = 1, group = "Screener Display")
+
+// Strategy Parameters
+// TODO: Add your strategy parameters here
+
+// --- TODO: Add symbol inputs ---
+// TODO: Add 40 symbol inputs with enable flags
+
+// --- Script Name ---
+string SCRIPT_NAME = "Example Screener"
+
+// --- Colors Definition ---
+// TODO: Define color scheme for signals
+
+// --- Helper Functions ---
+// TODO: Add helper functions for symbol processing
+
+// --- Main Calculation Function ---
+calculateSignal() => 
+    // TODO: Implement your signal calculation logic
+    "---"
+
+// --- Security Calls ---
+// TODO: Add security calls for all symbols
+
+// --- Arrays ---
+// TODO: Initialize arrays for symbols, enable flags, and signals
+
+// --- Table Drawing ---
+// TODO: Implement table drawing logic

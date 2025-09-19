@@ -1,40 +1,39 @@
 # Pine Script Development Framework
 
-This repository contains a complete framework for Pine Script development with organized references, guidelines, and development tools.
+This repository contains a complete framework for Pine Script development with organized references, guidelines, and development tools. **This framework was created using Qwen Code and is best used with Qwen Code for maximum productivity.**
 
 ## Directory Structure
 
 ```
-├── checkpoints/                  # Progress tracking and resume capability
-│   ├── checkpoint_*.json           # Timestamped checkpoint files
-│   ├── latest_checkpoint.json      # Symlink to most recent checkpoint
-│   ├── template_checkpoint.json    # Template for new checkpoints
-│   ├── README.md                  # Checkpoint system documentation
-│   └── DEVELOPMENT_GUIDE.md       # Detailed usage guide
-├── guidelines/                    # Development guidelines and rules
+├── Development_Framework/          # Framework components
+│   ├── checkpoint_system/          # Progress tracking and resume capability
+│   │   ├── checkpoint_*.json         # Timestamped checkpoint files
+│   │   ├── latest_checkpoint.json    # Symlink to most recent checkpoint
+│   │   ├── template_checkpoint.json  # Template for new checkpoints
+│   │   ├── README.md                # Checkpoint system documentation
+│   │   └── DEVELOPMENT_GUIDE.md     # Detailed usage guide
+│   └── README.md                   # Framework documentation
+├── guidelines/                     # Development guidelines and rules
 │   ├── original_guidelines.txt     # Original guidelines from user
 │   ├── pine_script_guidelines.json # Structured guidelines (JSON)
 │   ├── pine_script_guidelines.md   # Structured guidelines (Markdown)
 │   └── pine_script_quick_reference.txt # Quick reference guide
-├── pine_script_references/        # Official Pine Script reference (v3-v6)
+├── pine_script_references/         # Official Pine Script reference (v3-v6)
 │   ├── v3/                         # Version 3 reference
 │   ├── v4/                         # Version 4 reference
 │   ├── v5/                         # Version 5 reference
 │   ├── v6/                         # Version 6 reference
 │   ├── OVERALL_SUMMARY.md          # Comparison of all versions
 │   └── README.md                   # Overview of all references
-├── screeners/                     # Screener development organized by type
-│   ├── hti_screener/              # HTI (Hull T3 Indicator) screener - 10 instance deployment
+├── screeners/                      # Screener development organized by type
+│   ├── example_screener/           # Example screener implementation
 │   │   ├── wip/                    # Work-in-progress development
-│   │   ├── final/                  # Final production instances (1-10)
-│   │   └── README.md              # HTI screener documentation
+│   │   ├── final/                  # Final production version
+│   │   └── README.md              # Example screener documentation
 │   ├── multi_column/              # Multi-column screeners by information density
 │   │   ├── wip/                    # Work-in-progress development
 │   │   ├── final/                  # Final production versions
 │   │   └── README.md              # Multi-column screener documentation
-│   ├── wip/                        # General work-in-progress files
-│   ├── DEVELOPMENT_WORKFLOW.md     # Step-by-step development process
-│   ├── OPERATING_GUIDE.md          # Technical implementation details
 │   └── README.md                  # Screeners overview
 ├── scripts/                       # Utility scripts for development
 │   ├── checkpoint_manager.py        # Checkpoint management system
@@ -74,6 +73,10 @@ This repository contains a complete framework for Pine Script development with o
 │   │   ├── random_03_30_active.txt       # Random subset 3
 │   │   └── all_tickers.txt              # Complete list of all unique tickers
 │   └── README.md                 # Tickers organization documentation
+├── from_scratch/                  # New development from scratch
+├── improve_existing/              # Enhancement of existing code
+├── atr_retracement_ema_signals.pine   # EMA signals example
+├── atr_retracement_ema_strategy.pine  # EMA strategy example
 └── README.md                      # Main project overview
 ```
 
@@ -90,7 +93,7 @@ This repository contains a complete framework for Pine Script development with o
 - **Best Practices**: Efficient code delivery preferences
 
 ### 3. **Screener Development Framework**
-- **HTI Screener**: Multi-instance architecture with 10 positions
+- **Multi-Instance Architecture**: Scalable screener designs with position control
 - **Multi-Column**: Information density focused screeners
 - **Workflow**: Structured development process from WIP to production
 - **Templates**: Ready-to-use code templates for different development types
@@ -163,6 +166,31 @@ Follow coding standards in `guidelines/` directory
 2. **Update**: Create checkpoints after completing subtasks
 3. **Resume**: Use latest checkpoint to continue interrupted work
 4. **Track**: Monitor overall progress throughout development
+
+## Enhanced Development with Qwen Code
+
+**This framework was created using Qwen Code and is optimized for use with Qwen Code.** Qwen Code is an AI-powered development environment that provides:
+
+- **Intelligent Code Completion**: Get context-aware suggestions as you develop Pine Script code
+- **Automated Documentation**: Generate documentation as you code
+- **Error Prevention**: Catch potential Pine Script syntax and logic issues before they become problems
+- **Workflow Automation**: Streamline repetitive tasks with intelligent automation
+- **Code Refactoring**: Easily improve existing code with AI-assisted refactoring
+- **Multi-file Management**: Manage complex multi-file Pine Script projects with ease
+
+To get the most out of this framework, we highly recommend using Qwen Code:
+
+1. Visit the [Qwen Code website](https://www.qwen.com) (link to be added)
+2. Follow the installation instructions for your platform
+3. Open this project folder in Qwen Code
+4. Start developing with enhanced productivity
+
+With Qwen Code, you'll be able to:
+- Navigate the framework structure more easily
+- Get intelligent suggestions for Pine Script development
+- Automatically generate documentation for your custom screeners
+- Catch errors before testing in TradingView
+- Accelerate your development workflow
 
 ## Key Benefits
 

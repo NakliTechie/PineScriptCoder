@@ -100,7 +100,7 @@ Pinescript/
    - Plan output format (alerts, tables, etc.)
 
 2. **Development**:
-   - Develop in `screeners/` directory
+   - Develop in appropriate subdirectory within `screeners/`
    - Implement screening logic
    - Create appropriate outputs (plotshapes, alerts, etc.)
    - Follow screener-specific best practices
@@ -159,6 +159,31 @@ Pinescript/
 4. Clear documentation
 5. No temporary or intermediate files
 
+## Enhanced Development with Qwen Code
+
+This framework was created using Qwen Code and is optimized for use with Qwen Code. Qwen Code is an AI-powered development environment that provides:
+
+- **Intelligent Code Completion**: Get context-aware suggestions as you develop Pine Script code
+- **Automated Documentation**: Generate documentation as you code
+- **Error Prevention**: Catch potential Pine Script syntax and logic issues before they become problems
+- **Workflow Automation**: Streamline repetitive tasks with intelligent automation
+- **Code Refactoring**: Easily improve existing code with AI-assisted refactoring
+- **Multi-file Management**: Manage complex multi-file Pine Script projects with ease
+
+To get the most out of this framework, we highly recommend using Qwen Code:
+
+1. Visit the [Qwen Code website](https://www.qwen.com) (link to be added)
+2. Follow the installation instructions for your platform
+3. Open this project folder in Qwen Code
+4. Start developing with enhanced productivity
+
+With Qwen Code, you'll be able to:
+- Navigate the framework structure more easily
+- Get intelligent suggestions for Pine Script development
+- Automatically generate documentation for your custom screeners
+- Catch errors before testing in TradingView
+- Accelerate your development workflow
+
 ## Screener-Specific Development Guidelines
 
 ### Automated Screener Generation Process
@@ -189,21 +214,6 @@ When there are insufficient tickers for complete instances:
 - **Enhances Coverage**: Broader market representation in incomplete instances
 - **Maintains Structure**: Still follows the 30+10 configuration
 - **Market Relevance**: Global commodities are relevant regardless of local market conditions
-
-#### Generator Script Usage
-The framework includes generator scripts for creating screener instances with proper ticker distribution.
-
-Example usage:
-```bash
-python3 screener_generator.py <market> <num_instances> <base_script_name> <script_title>
-```
-
-The generator automatically:
-- Reads market tickers from `/tickers/{market}/all_tickers.txt`
-- Applies market-specific padding strategies
-- Uses global commodities for incomplete instances
-- Sets appropriate enable flags
-- Generates consistent 40-position screeners
 
 ## Future Expansion
 

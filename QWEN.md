@@ -1,6 +1,6 @@
 # Pine Script Development Framework
 
-This is a comprehensive Pine Script development framework with organized references, guidelines, and development tools for creating TradingView indicators, strategies, and screeners.
+This is a comprehensive Pine Script development framework with organized references, guidelines, and development tools for creating TradingView indicators, strategies, and screeners. **This framework was created using Qwen Code and is optimized for use with Qwen Code.**
 
 ## Project Overview
 
@@ -29,8 +29,18 @@ This framework provides a structured approach to Pine Script development with or
 │   ├── v6/                         # Version 6 reference
 │   ├── OVERALL_SUMMARY.md          # Comparison of all versions
 │   └── README.md                   # Overview of all references
-├── scripts/                        # Utility scripts for development
-│   ├── checkpoint_manager.py       # Checkpoint management system
+├── screeners/                      # Screener development organized by type
+│   ├── example_screener/           # Example screener implementation
+│   │   ├── wip/                    # Work-in-progress development
+│   │   ├── final/                  # Final production version
+│   │   └── README.md              # Example screener documentation
+│   ├── multi_column/              # Multi-column screeners by information density
+│   │   ├── wip/                    # Work-in-progress development
+│   │   ├── final/                  # Final production versions
+│   │   └── README.md              # Multi-column screener documentation
+│   └── README.md                  # Screeners overview
+├── scripts/                       # Utility scripts for development
+│   ├── checkpoint_manager.py        # Checkpoint management system
 │   ├── simple_checkpoint.py        # Simple checkpoint utility
 │   ├── convert_to_pdf.py           # Convert Pine Script reference to PDF
 │   ├── organize_pine_reference.py  # Organize Pine Script reference materials
@@ -40,15 +50,15 @@ This framework provides a structured approach to Pine Script development with or
 │   ├── scrape_all_versions.py      # Scrape all Pine Script versions
 │   ├── scrape_pine_reference.py    # Scrape Pine Script reference
 │   └── scrape_pine_reference_selenium.py # Scrape Pine Script reference with Selenium
-├── templates/                      # Code templates for different development types
+├── templates/                     # Code templates for different development types
 │   ├── gold_standard_screener_template.pine # Multi-instance screener template
-│   ├── indicator_template.pine     # New indicator development template
-│   ├── strategy_template.pine      # New strategy development template
+│   ├── indicator_template.pine    # New indicator development template
+│   ├── strategy_template.pine     # New strategy development template
 │   ├── screener_template.pine      # New screener development template
-│   ├── improvement_template.pine   # Code improvement template
-│   └── README.md                   # Template usage documentation
-├── tickers/                        # Market tickers organized for screener development
-│   ├── india/                      # Indian market tickers (30 active + 10 dummy)
+│   ├── improvement_template.pine  # Code improvement template
+│   └── README.md                  # Template usage documentation
+├── tickers/                       # Market tickers organized for screener development
+│   ├── india/                     # Indian market tickers (30 active + 10 dummy)
 │   │   ├── alphabetical_30_active.txt  # Alphabetically sorted tickers
 │   │   ├── alphabetical_30_active.pine  # Pine Script formatted version
 │   │   ├── popular_30_active.txt       # Popular tickers
@@ -57,7 +67,7 @@ This framework provides a structured approach to Pine Script development with or
 │   │   ├── random_02_30_active.txt      # Random subset 2
 │   │   ├── random_03_30_active.txt       # Random subset 3
 │   │   └── all_tickers.txt              # Complete list of all unique tickers
-│   ├── us/                         # US market tickers (30 active + 10 dummy)
+│   ├── us/                        # US market tickers (30 active + 10 dummy)
 │   │   ├── alphabetical_30_active.txt  # Alphabetically sorted tickers
 │   │   ├── alphabetical_30_active.pine  # Pine Script formatted version
 │   │   ├── popular_30_active.txt       # Popular tickers
@@ -66,7 +76,9 @@ This framework provides a structured approach to Pine Script development with or
 │   │   ├── random_02_30_active.txt      # Random subset 2
 │   │   ├── random_03_30_active.txt       # Random subset 3
 │   │   └── all_tickers.txt              # Complete list of all unique tickers
-│   └── README.md                   # Tickers organization documentation
+│   └── README.md                 # Tickers organization documentation
+├── from_scratch/                  # New development from scratch
+├── improve_existing/              # Enhancement of existing code
 ├── atr_retracement_ema_signals.pine   # EMA signals example
 ├── atr_retracement_ema_strategy.pine  # EMA strategy example
 └── README.md                          # Main project overview
@@ -103,3 +115,28 @@ This framework provides a structured approach to Pine Script development with or
 - Create checkpoints after major tasks
 - Resume work using `latest_checkpoint.json`
 - Document next steps and current focus in each checkpoint
+
+## Using This Framework with Qwen Code
+
+This framework was created using Qwen Code and is optimized for use with Qwen Code, which provides:
+
+- **Intelligent Code Completion**: Get context-aware suggestions as you develop Pine Script code
+- **Automated Documentation**: Generate documentation as you code
+- **Error Prevention**: Catch potential Pine Script syntax and logic issues before they become problems
+- **Workflow Automation**: Streamline repetitive tasks with intelligent automation
+- **Code Refactoring**: Easily improve existing code with AI-assisted refactoring
+- **Multi-file Management**: Manage complex multi-file Pine Script projects with ease
+
+To get the most out of this framework, we highly recommend using Qwen Code:
+
+1. Visit the [Qwen Code website](https://www.qwen.com) (link to be added)
+2. Follow the installation instructions for your platform
+3. Open this project folder in Qwen Code
+4. Start developing with enhanced productivity
+
+With Qwen Code, you'll be able to:
+- Navigate the framework structure more easily
+- Get intelligent suggestions for Pine Script development
+- Automatically generate documentation for your custom screeners
+- Catch errors before testing in TradingView
+- Accelerate your development workflow
