@@ -47,5 +47,5 @@ Before posting any code, always:
 For new indicators, always include:
 ```
 // This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
-// © ChiragPatnaik
+// © PineScript Development Framework
 ```

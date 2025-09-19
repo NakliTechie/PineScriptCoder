@@ -9,7 +9,7 @@ import datetime
 from typing import Dict, List, Any
 
 class CheckpointManager:
-    def __init__(self, project_root: str = "/Users/chiragpatnaik/Pinescript"):
+    def __init__(self, project_root: str = "."):
         self.project_root = project_root
         self.checkpoints_dir = os.path.join(project_root, "checkpoints")
         self.template_file = os.path.join(self.checkpoints_dir, "template_checkpoint.json")

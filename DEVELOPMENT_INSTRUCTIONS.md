@@ -191,13 +191,11 @@ When there are insufficient tickers for complete instances:
 - **Market Relevance**: Global commodities are relevant regardless of local market conditions
 
 #### Generator Script Usage
-```bash
-python3 generate_screener_instances.py <market> <num_instances> <base_script_name> <script_title>
-```
+The framework includes generator scripts for creating screener instances with proper ticker distribution.
 
-Example:
+Example usage:
 ```bash
-python3 generate_screener_instances.py us 10 KURU "Kurutoga Screener"
+python3 screener_generator.py <market> <num_instances> <base_script_name> <script_title>
 ```
 
 The generator automatically:

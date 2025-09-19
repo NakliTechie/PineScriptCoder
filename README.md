@@ -39,8 +39,14 @@ This repository contains a complete framework for Pine Script development with o
 ├── scripts/                       # Utility scripts for development
 │   ├── checkpoint_manager.py        # Checkpoint management system
 │   ├── simple_checkpoint.py        # Simple checkpoint utility
-│   ├── generate_clean_organized_tickers.py # Ticker organization script
-│   └── generate_30_active_ticker_subsets.py # 30 active + 10 dummy ticker generator
+│   ├── convert_to_pdf.py           # Convert Pine Script reference to PDF
+│   ├── organize_pine_reference.py  # Organize Pine Script reference materials
+│   ├── parse_all_versions.py       # Parse all Pine Script versions
+│   ├── parse_toc.py                # Parse table of contents
+│   ├── pineref2pdf.py              # Convert Pine Script reference to PDF
+│   ├── scrape_all_versions.py      # Scrape all Pine Script versions
+│   ├── scrape_pine_reference.py    # Scrape Pine Script reference
+│   └── scrape_pine_reference_selenium.py # Scrape Pine Script reference with Selenium
 ├── templates/                     # Code templates for different development types
 │   ├── gold_standard_screener_template.pine # Multi-instance screener template
 │   ├── hti_screener_example.pine  # HTI screener concrete example

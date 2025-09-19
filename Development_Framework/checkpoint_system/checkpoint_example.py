@@ -5,7 +5,7 @@ Example Development Workflow with Checkpoint Integration
 
 import sys
 import os
-sys.path.append('/Users/chiragpatnaik/Pinescript/scripts')
+sys.path.append('./scripts')
 
 from checkpoint_manager import CheckpointManager
 

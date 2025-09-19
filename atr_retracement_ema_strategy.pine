@@ -1,5 +1,5 @@
 // This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
-// © ChiragPatnaik
+// © PineScript Development Framework
 
 //@version=5
 strategy("ATR Retracement EMA Strategy", overlay=true, margin_long=100, margin_short=100)

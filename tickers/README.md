@@ -108,5 +108,5 @@ tickers/
 ## Update Process
 To regenerate ticker lists with updated source data:
 1. Update the source CSV files (`india.csv`, `us.csv`)
-2. Run the generation script: `/Users/chiragpatnaik/Pinescript/scripts/generate_clean_organized_tickers.py`
+2. Run the generation script: `./scripts/generate_clean_organized_tickers.py`
 3. All organized files will be automatically regenerated with 30 active + 10 dummy structure

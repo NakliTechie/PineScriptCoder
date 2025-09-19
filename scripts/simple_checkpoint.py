@@ -10,7 +10,7 @@ from datetime import datetime
 import json
 
 # Add project scripts to path
-sys.path.append('/Users/chiragpatnaik/Pinescript/scripts')
+sys.path.append('./scripts')
 
 from checkpoint_manager import CheckpointManager
 

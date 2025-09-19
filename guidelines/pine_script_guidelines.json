@@ -58,6 +58,6 @@
   },
   "required_header": {
     "description": "Mandatory header for new indicators",
-    "content": "// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/\n// © ChiragPatnaik"
+    "content": "// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/\n// © PineScript Development Framework"
   }
 }

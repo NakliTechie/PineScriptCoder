@@ -24,4 +24,4 @@ Large rewrites only if requested.
 When writing new reindicators, or full code for copy paste, be sure to incorproate the following two lines at the very beginning 
 
 // This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
-// © ChiragPatnaik
+// © PineScript Development Framework

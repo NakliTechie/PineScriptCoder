@@ -32,8 +32,14 @@ This framework provides a structured approach to Pine Script development with or
 ├── scripts/                        # Utility scripts for development
 │   ├── checkpoint_manager.py       # Checkpoint management system
 │   ├── simple_checkpoint.py        # Simple checkpoint utility
-│   ├── generate_clean_organized_tickers.py # Ticker organization script
-│   └── generate_30_active_ticker_subsets.py # 30 active + 10 dummy ticker generator
+│   ├── convert_to_pdf.py           # Convert Pine Script reference to PDF
+│   ├── organize_pine_reference.py  # Organize Pine Script reference materials
+│   ├── parse_all_versions.py       # Parse all Pine Script versions
+│   ├── parse_toc.py                # Parse table of contents
+│   ├── pineref2pdf.py              # Convert Pine Script reference to PDF
+│   ├── scrape_all_versions.py      # Scrape all Pine Script versions
+│   ├── scrape_pine_reference.py    # Scrape Pine Script reference
+│   └── scrape_pine_reference_selenium.py # Scrape Pine Script reference with Selenium
 ├── templates/                      # Code templates for different development types
 │   ├── signals/                    # Signal templates
 │   ├── gold_standard_screener_template.pine # Multi-instance screener template
@@ -65,17 +71,12 @@ This framework provides a structured approach to Pine Script development with or
 │   └── README.md                   # Tickers organization documentation
 ├── atr_retracement_ema_signals.pine   # EMA signals example
 ├── atr_retracement_ema_strategy.pine  # EMA strategy example
-├── generate_generic_screener.py       # Generic screener generator
-├── generate_screener_instances.py     # Screener instances generator
-├── generate_screener_instances_v2.py  # Updated screener instances generator
 └── README.md                          # Main project overview
 ```
 
 ## Key Development Commands
 
 - **Test single instance**: Copy screener code to TradingView editor
-- **Generate tickers**: `python scripts/generate_30_active_ticker_subsets.py`
-- **Generate screeners**: `python generate_screener_instances.py`
 
 ## Code Style Guidelines
 
