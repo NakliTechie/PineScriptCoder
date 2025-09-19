@@ -159,31 +159,6 @@ Pinescript/
 4. Clear documentation
 5. No temporary or intermediate files
 
-## Enhanced Development with Qwen Code
-
-This framework was created using Qwen Code and is optimized for use with Qwen Code. Qwen Code is an AI-powered development environment that provides:
-
-- **Intelligent Code Completion**: Get context-aware suggestions as you develop Pine Script code
-- **Automated Documentation**: Generate documentation as you code
-- **Error Prevention**: Catch potential Pine Script syntax and logic issues before they become problems
-- **Workflow Automation**: Streamline repetitive tasks with intelligent automation
-- **Code Refactoring**: Easily improve existing code with AI-assisted refactoring
-- **Multi-file Management**: Manage complex multi-file Pine Script projects with ease
-
-To get the most out of this framework, we highly recommend using Qwen Code:
-
-1. Visit the [Qwen Code website](https://www.qwen.com) (link to be added)
-2. Follow the installation instructions for your platform
-3. Open this project folder in Qwen Code
-4. Start developing with enhanced productivity
-
-With Qwen Code, you'll be able to:
-- Navigate the framework structure more easily
-- Get intelligent suggestions for Pine Script development
-- Automatically generate documentation for your custom screeners
-- Catch errors before testing in TradingView
-- Accelerate your development workflow
-
 ## Pine Script Reference Management
 
 This framework includes powerful Python tools for managing Pine Script references:

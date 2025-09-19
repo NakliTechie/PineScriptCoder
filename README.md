@@ -1,6 +1,6 @@
 # Pine Script Development Framework
 
-This repository contains a complete framework for Pine Script development with organized references, guidelines, and development tools. **This framework was created using Qwen Code and is best used with Qwen Code for maximum productivity.**
+This repository contains a complete framework for Pine Script development with organized references, guidelines, and development tools.
 
 ## Directory Structure
 
@@ -199,30 +199,9 @@ Install requirements:
 pip install requests beautifulsoup4 selenium
 ```
 
-## Enhanced Development with Qwen Code
+## Enhanced Development Experience
 
-**This framework was created using Qwen Code and is optimized for use with Qwen Code.** Qwen Code is an AI-powered development environment that provides:
-
-- **Intelligent Code Completion**: Get context-aware suggestions as you develop Pine Script code
-- **Automated Documentation**: Generate documentation as you code
-- **Error Prevention**: Catch potential Pine Script syntax and logic issues before they become problems
-- **Workflow Automation**: Streamline repetitive tasks with intelligent automation
-- **Code Refactoring**: Easily improve existing code with AI-assisted refactoring
-- **Multi-file Management**: Manage complex multi-file Pine Script projects with ease
-
-To get the most out of this framework, we highly recommend using Qwen Code:
-
-1. Visit the [Qwen Code website](https://www.qwen.com) (link to be added)
-2. Follow the installation instructions for your platform
-3. Open this project folder in Qwen Code
-4. Start developing with enhanced productivity
-
-With Qwen Code, you'll be able to:
-- Navigate the framework structure more easily
-- Get intelligent suggestions for Pine Script development
-- Automatically generate documentation for your custom screeners
-- Catch errors before testing in TradingView
-- Accelerate your development workflow
+For an enhanced development experience, we recommend checking out [Qwen Code](https://github.com/QwenLM/qwen-code), an AI-powered development environment that provides intelligent code completion, automated documentation, and workflow automation for Pine Script development.
 
 ## Key Benefits
 
