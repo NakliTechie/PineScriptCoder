@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-08-24T17:43:38.247227",
+  "project_name": "RSI Screener",
+  "session_id": "RSI Screener_screener",
+  "overall_progress": 25,
+  "completed_tasks": [
+    "Create screener template",
+    "Define input parameters"
+  ],
+  "pending_tasks": [
+    "Implement core logic functions",
+    "Add helper functions",
+    "Setup display/output formatting",
+    "Integrate ticker inputs",
+    "Add signal calculation logic",
+    "Implement table display (if screener)",
+    "Add alert conditions (if applicable)",
+    "Testing and validation",
+    "Documentation",
+    "Final review"
+  ],
+  "milestones_reached": [],
+  "current_focus": "Implement RSI calculation logic",
+  "current_file": "screeners/rsi_screener/wip/rsi_screener.pine",
+  "current_section": "",
+  "next_steps": [
+    "Implement RSI calculation logic"
+  ],
+  "lines_of_code": 0,
+  "functions_implemented": 0,
+  "features_completed": 0,
+  "testing_status": "not_started",
+  "resume_instructions": [
+    "Navigate to screeners/rsi_screener/wip/",
+    "Open rsi_screener.pine in editor",
+    "Begin implementing template structure"
+  ],
+  "dependencies_resolved": false,
+  "known_issues": [],
+  "blocking_factors": [],
+  "additional_notes": ""
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "",
+  "project_name": "",
+  "session_id": "",
+  "overall_progress": 0,
+  "completed_tasks": [],
+  "pending_tasks": [],
+  "milestones_reached": [],
+  "current_focus": "",
+  "current_file": "",
+  "current_section": "",
+  "next_steps": [],
+  "lines_of_code": 0,
+  "functions_implemented": 0,
+  "features_completed": 0,
+  "testing_status": "not_started",
+  "resume_instructions": [],
+  "dependencies_resolved": false,
+  "known_issues": [],
+  "blocking_factors": [],
+  "additional_notes": ""
+}

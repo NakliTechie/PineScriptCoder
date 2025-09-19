@@ -1,0 +1,18 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © ChiragPatnaik
+
+//@version=5
+indicator("New Indicator Template", overlay=true)
+
+// Input parameters
+length = input.int(14, "Length", minval=1)
+source = input.source(close, "Source")
+
+// Calculations
+// TODO: Add your indicator calculations here
+
+// Plotting
+// TODO: Add your plot statements here
+
+// Alerts
+// TODO: Add alert conditions if needed

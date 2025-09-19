@@ -1,0 +1,66 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © ChiragPatnaik
+
+//@version=5
+indicator("ATR Retracement EMA Signals", overlay=true)
+
+// Input parameters
+atrLength = input.int(100, "ATR Length", minval=1)
+atrMultiplier = input.float(2.5, "ATR Multiplier", minval=0.1)
+emaLength = input.int(34, "EMA Length", minval=1)
+retracementLookback = input.int(5, "Retracement Lookback Period", minval=1)
+
+// Calculations
+atr = ta.atr(atrLength)
+ema34 = ta.ema(close, emaLength)
+
+// Detect strong moves (2.5x ATR)
+moveUp = high - low > atrMultiplier * atr
+moveDown = low - high < -atrMultiplier * atr
+
+// Detect retracements after strong moves
+// For long setup: price pulls back after an up move
+// Check if we had a strong up move within the lookback period
+recentMoveUp = false
+for i = 1 to retracementLookback
+    if moveUp[i]
+        recentMoveUp := true
+
+// Retracement condition for long: price is lower than previous bar but higher than 2 bars ago
+retracementUp = recentMoveUp and close < close[1] and close > close[2]
+
+// For short setup: price pulls back after a down move
+// Check if we had a strong down move within the lookback period
+recentMoveDown = false
+for i = 1 to retracementLookback
+    if moveDown[i]
+        recentMoveDown := true
+
+// Retracement condition for short: price is higher than previous bar but lower than 2 bars ago
+retracementDown = recentMoveDown and close > close[1] and close < close[2]
+
+// EMA crossover detection
+crossoverUp = ta.crossover(close, ema34)
+crossoverDown = ta.crossunder(close, ema34)
+
+// Define buy/sell conditions
+// Buy signal: 2.5x ATR up move -> retracement -> EMA crossover
+longCondition = retracementUp and crossoverUp
+
+// Sell signal: 2.5x ATR down move -> retracement -> EMA crossover
+shortCondition = retracementDown and crossoverDown
+
+// Plotting
+plot(ema34, "EMA 34", color=color.blue)
+
+// Plot buy/sell signals
+plotshape(longCondition, style=shape.triangleup, location=location.belowbar, color=color.green, size=size.small, title="Buy Signal")
+plotshape(shortCondition, style=shape.triangledown, location=location.abovebar, color=color.red, size=size.small, title="Sell Signal")
+
+// Plot strong moves
+plotchar(moveUp, "Strong Up Move", "▲", location.abovebar, color=color.green, size=size.tiny)
+plotchar(moveDown, "Strong Down Move", "▼", location.belowbar, color=color.red, size=size.tiny)
+
+// Add alerts
+alertcondition(longCondition, title="Buy Signal", message="ATR Retracement EMA Buy Signal")
+alertcondition(shortCondition, title="Sell Signal", message="ATR Retracement EMA Sell Signal")

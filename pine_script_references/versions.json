@@ -1,0 +1,154 @@
+{
+  "v3": {
+    "section_0": {
+      "title": "Version 3Version 4Version 5Version 6Pine Script® language reference manual",
+      "class": [
+        "tv-layout-width",
+        "tv-script-reference",
+        "tv-script-reference--left-column-active",
+        "js-script-reference"
+      ],
+      "id": ""
+    },
+    "section_1": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__left-column",
+        "js-sticky-container",
+        "i-hidden"
+      ],
+      "id": ""
+    },
+    "section_9": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__version-switcher",
+        "js-version-switcher"
+      ],
+      "id": ""
+    },
+    "section_11": {
+      "title": "Pine Script® language reference manual",
+      "class": [
+        "tv-script-reference__right-column",
+        "js-main-header",
+        "i-hidden"
+      ],
+      "id": ""
+    }
+  },
+  "v4": {
+    "section_0": {
+      "title": "Version 3Version 4Version 5Version 6Pine Script® language reference manual",
+      "class": [
+        "tv-layout-width",
+        "tv-script-reference",
+        "tv-script-reference--left-column-active",
+        "js-script-reference"
+      ],
+      "id": ""
+    },
+    "section_1": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__left-column",
+        "js-sticky-container",
+        "i-hidden"
+      ],
+      "id": ""
+    },
+    "section_9": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__version-switcher",
+        "js-version-switcher"
+      ],
+      "id": ""
+    },
+    "section_11": {
+      "title": "Pine Script® language reference manual",
+      "class": [
+        "tv-script-reference__right-column",
+        "js-main-header",
+        "i-hidden"
+      ],
+      "id": ""
+    }
+  },
+  "v5": {
+    "section_0": {
+      "title": "Version 3Version 4Version 5Version 6Pine Script® language reference manual",
+      "class": [
+        "tv-layout-width",
+        "tv-script-reference",
+        "tv-script-reference--left-column-active",
+        "js-script-reference"
+      ],
+      "id": ""
+    },
+    "section_1": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__left-column",
+        "js-sticky-container",
+        "i-hidden"
+      ],
+      "id": ""
+    },
+    "section_9": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__version-switcher",
+        "js-version-switcher"
+      ],
+      "id": ""
+    },
+    "section_11": {
+      "title": "Pine Script® language reference manual",
+      "class": [
+        "tv-script-reference__right-column",
+        "js-main-header",
+        "i-hidden"
+      ],
+      "id": ""
+    }
+  },
+  "v6": {
+    "section_0": {
+      "title": "Version 3Version 4Version 5Version 6Pine Script® language reference manual",
+      "class": [
+        "tv-layout-width",
+        "tv-script-reference",
+        "tv-script-reference--left-column-active",
+        "js-script-reference"
+      ],
+      "id": ""
+    },
+    "section_1": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__left-column",
+        "js-sticky-container",
+        "i-hidden"
+      ],
+      "id": ""
+    },
+    "section_9": {
+      "title": "Version 3Version 4Version 5Version 6",
+      "class": [
+        "tv-script-reference__version-switcher",
+        "js-version-switcher"
+      ],
+      "id": ""
+    },
+    "section_11": {
+      "title": "Pine Script® language reference manual",
+      "class": [
+        "tv-script-reference__right-column",
+        "js-main-header",
+        "i-hidden"
+      ],
+      "id": ""
+    }
+  }
+}

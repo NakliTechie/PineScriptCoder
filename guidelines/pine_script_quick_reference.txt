@@ -1,0 +1,32 @@
+# PINE SCRIPT QUICK REFERENCE - COMMON MISTAKES TO AVOID
+
+## SYNTAX RESTRICTIONS
+;  - ILLEGAL (don't use semicolons for line breaks)
+\  - ILLEGAL (don't use backslashes for line continuation)
++  - ILLEGAL (don't use plus to break lines)
+
+## FUNCTION CORRECTIONS
+ta.sum     → use math.sum instead
+alertcondition() → use alert() instead
+nz()       → only for int/float, NOT for bool/text
+
+## SCOPE LIMITATIONS
+plotshape  → cannot use inside if statements
+=> syntax  → cannot define functions inside other functions
+
+## NAMING
+Symbol names → replace special chars with _
+
+## INDENTATION
+if/else/else if → must be properly indented (PineScript is finicky)
+
+## DELIVERY PREFERENCES
+- Return efficient code
+- Use light touch (minimal changes)
+- For long code: return snippets with previous context
+- Include license header in new indicators
+
+## PRE-CHECK ALWAYS
+1. Syntax verification
+2. Allowed vs illegal checks
+3. Reference the guidelines list

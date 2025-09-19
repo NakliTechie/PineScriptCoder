@@ -1,0 +1,23 @@
+// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © ChiragPatnaik
+
+//@version=5
+indicator("Code Improvement Template", overlay=true)
+
+// Original code comments
+// TODO: Document what the original code did
+
+// Improvements made
+// TODO: List improvements being made
+
+// Input parameters
+// TODO: Add or modify input parameters
+
+// Calculations
+// TODO: Add improved calculations
+
+// Plotting
+// TODO: Add or modify plot statements
+
+// Alerts
+// TODO: Add or modify alert conditions

@@ -1,0 +1,363 @@
+//@version=5
+indicator('{{SCRIPT_NAME}} - {{SCREEN_NUMBER}}', overlay = true, max_lines_count = 500, max_labels_count = 500, max_boxes_count = 500)
+
+// --- Inputs ---
+// Screener Display
+col_width = input.float(5, title = 'Column Width (%)', group = "Screener Display")
+scr_numb = input.int({{SCREEN_NUMBER}}, title = 'Screen #', tooltip = '1 - rightmost screener', minval = 1, group = "Screener Display")
+
+// Strategy Parameters
+// TODO: Add strategy-specific parameters here
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// SYMBOLS - Enable Flags
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u01 = input.bool(true, title = '', group = 'Symbols', inline = 's01')
+u02 = input.bool(true, title = '', group = 'Symbols', inline = 's02')
+u03 = input.bool(true, title = '', group = 'Symbols', inline = 's03')
+u04 = input.bool(true, title = '', group = 'Symbols', inline = 's04')
+u05 = input.bool(true, title = '', group = 'Symbols', inline = 's05')
+u06 = input.bool(true, title = '', group = 'Symbols', inline = 's06')
+u07 = input.bool(true, title = '', group = 'Symbols', inline = 's07')
+u08 = input.bool(true, title = '', group = 'Symbols', inline = 's08')
+u09 = input.bool(true, title = '', group = 'Symbols', inline = 's09')
+u10 = input.bool(true, title = '', group = 'Symbols', inline = 's10')
+u11 = input.bool(true, title = '', group = 'Symbols', inline = 's11')
+u12 = input.bool(true, title = '', group = 'Symbols', inline = 's12')
+u13 = input.bool(true, title = '', group = 'Symbols', inline = 's13')
+u14 = input.bool(true, title = '', group = 'Symbols', inline = 's14')
+u15 = input.bool(true, title = '', group = 'Symbols', inline = 's15')
+u16 = input.bool(true, title = '', group = 'Symbols', inline = 's16')
+u17 = input.bool(true, title = '', group = 'Symbols', inline = 's17')
+u18 = input.bool(true, title = '', group = 'Symbols', inline = 's18')
+u19 = input.bool(true, title = '', group = 'Symbols', inline = 's19')
+u20 = input.bool(true, title = '', group = 'Symbols', inline = 's20')
+u21 = input.bool(true, title = '', group = 'Symbols', inline = 's21')
+u22 = input.bool(true, title = '', group = 'Symbols', inline = 's22')
+u23 = input.bool(true, title = '', group = 'Symbols', inline = 's23')
+u24 = input.bool(true, title = '', group = 'Symbols', inline = 's24')
+u25 = input.bool(true, title = '', group = 'Symbols', inline = 's25')
+u26 = input.bool(true, title = '', group = 'Symbols', inline = 's26')
+u27 = input.bool(true, title = '', group = 'Symbols', inline = 's27')
+u28 = input.bool(true, title = '', group = 'Symbols', inline = 's28')
+u29 = input.bool(true, title = '', group = 'Symbols', inline = 's29')
+u30 = input.bool(true, title = '', group = 'Symbols', inline = 's30')
+u31 = input.bool(false, title = '', group = 'Symbols', inline = 's31')
+u32 = input.bool(false, title = '', group = 'Symbols', inline = 's32')
+u33 = input.bool(false, title = '', group = 'Symbols', inline = 's33')
+u34 = input.bool(false, title = '', group = 'Symbols', inline = 's34')
+u35 = input.bool(false, title = '', group = 'Symbols', inline = 's35')
+u36 = input.bool(false, title = '', group = 'Symbols', inline = 's36')
+u37 = input.bool(false, title = '', group = 'Symbols', inline = 's37')
+u38 = input.bool(false, title = '', group = 'Symbols', inline = 's38')
+u39 = input.bool(false, title = '', group = 'Symbols', inline = 's39')
+u40 = input.bool(false, title = '', group = 'Symbols', inline = 's40')
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// SYMBOLS - Tickers
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+s01 = input.symbol("NVDA", group = 'Symbols', inline = "s01")
+s02 = input.symbol("AAPL", group = 'Symbols', inline = "s02")
+s03 = input.symbol("TSLA", group = 'Symbols', inline = "s03")
+s04 = input.symbol("AMZN", group = 'Symbols', inline = "s04")
+s05 = input.symbol("GOOGL", group = 'Symbols', inline = "s05")
+s06 = input.symbol("MSFT", group = 'Symbols', inline = "s06")
+s07 = input.symbol("META", group = 'Symbols', inline = "s07")
+s08 = input.symbol("AMD", group = 'Symbols', inline = "s08")
+s09 = input.symbol("INTC", group = 'Symbols', inline = "s09")
+s10 = input.symbol("NFLX", group = 'Symbols', inline = "s10")
+s11 = input.symbol("PYPL", group = 'Symbols', inline = "s11")
+s12 = input.symbol("CRM", group = 'Symbols', inline = "s12")
+s13 = input.symbol("V", group = 'Symbols', inline = "s13")
+s14 = input.symbol("MA", group = 'Symbols', inline = "s14")
+s15 = input.symbol("DIS", group = 'Symbols', inline = "s15")
+s16 = input.symbol("BA", group = 'Symbols', inline = "s16")
+s17 = input.symbol("JPM", group = 'Symbols', inline = "s17")
+s18 = input.symbol("GS", group = 'Symbols', inline = "s18")
+s19 = input.symbol("WMT", group = 'Symbols', inline = "s19")
+s20 = input.symbol("KO", group = 'Symbols', inline = "s20")
+s21 = input.symbol("PEP", group = 'Symbols', inline = "s21")
+s22 = input.symbol("XOM", group = 'Symbols', inline = "s22")
+s23 = input.symbol("CVX", group = 'Symbols', inline = "s23")
+s24 = input.symbol("JNJ", group = 'Symbols', inline = "s24")
+s25 = input.symbol("PFE", group = 'Symbols', inline = "s25")
+s26 = input.symbol("UNH", group = 'Symbols', inline = "s26")
+s27 = input.symbol("HD", group = 'Symbols', inline = "s27")
+s28 = input.symbol("LOW", group = 'Symbols', inline = "s28")
+s29 = input.symbol("COST", group = 'Symbols', inline = "s29")
+s30 = input.symbol("SBUX", group = 'Symbols', inline = "s30")
+s31 = input.symbol('BTCUSDT', group = 'Symbols', inline = 's31')
+s32 = input.symbol('ETHUSDT', group = 'Symbols', inline = 's32')
+s33 = input.symbol('BNBUSDT', group = 'Symbols', inline = 's33')
+s34 = input.symbol('SOLUSDT', group = 'Symbols', inline = 's34')
+s35 = input.symbol('ADAUSDT', group = 'Symbols', inline = 's35')
+s36 = input.symbol('DOTUSDT', group = 'Symbols', inline = 's36')
+s37 = input.symbol('LINKUSDT', group = 'Symbols', inline = 's37')
+s38 = input.symbol('MATICUSDT', group = 'Symbols', inline = 's38')
+s39 = input.symbol('AVAXUSDT', group = 'Symbols', inline = 's39')
+s40 = input.symbol('DOGEUSDT', group = 'Symbols', inline = 's40')
+
+// --- Script Name ---
+string SCRIPT_NAME = "{{SCRIPT_NAME}}"
+
+// --- Colors Definition ---
+colorNeutralBG = color.new(color.gray, 0)
+colorSignalTXT = color.new(color.white, 0)
+colorBuyBG = color.new(color.green, 75)
+colorSellBG = color.new(color.red, 75)
+
+// --- Helper function for symbol name ---
+_only_symbol_name(s) => 
+    string _sym = ""
+    if not na(s)
+        if str.contains(s, ":")
+            _sym := array.get(str.split(s, ':'), 1)
+        else
+            _sym := s
+        _sym := str.replace_all(_sym, "_", "-")
+    _sym
+
+// --- HELPER FUNCTIONS (Define all helper functions here) ---
+// TODO: Add your helper functions here
+// Example format:
+// f_your_helper_function(param1, param2) =>
+//     // Your helper logic here
+//     result
+
+// --- MAIN CALCULATION FUNCTION ---
+calculateSignal() => 
+    // TODO: Implement your signal calculation logic here
+    // This is where you put your strategy logic
+    // You can call helper functions defined above
+    
+    // Example placeholder logic:
+    bool longSignal = ta.crossover(close, ta.sma(close, 20))
+    bool shortSignal = ta.crossunder(close, ta.sma(close, 20))
+    
+    string signalCode = "---"
+    if longSignal
+        signalCode := "BUY"
+    else if shortSignal
+        signalCode := "SELL"
+        
+    // Append percentage change if a signal exists
+    if signalCode != "---"
+        float pct_change = ((close - close[1]) / close[1]) * 100.0
+        string pct_change_str = str.format(" {0,number,#.##}%", pct_change)
+        signalCode := signalCode + pct_change_str
+        
+    signalCode
+
+// --- Security Calls ---
+s_expr = calculateSignal() 
+
+signal01 = request.security(s01, timeframe.period, s_expr)
+signal02 = request.security(s02, timeframe.period, s_expr)
+signal03 = request.security(s03, timeframe.period, s_expr)
+signal04 = request.security(s04, timeframe.period, s_expr)
+signal05 = request.security(s05, timeframe.period, s_expr)
+signal06 = request.security(s06, timeframe.period, s_expr)
+signal07 = request.security(s07, timeframe.period, s_expr)
+signal08 = request.security(s08, timeframe.period, s_expr)
+signal09 = request.security(s09, timeframe.period, s_expr)
+signal10 = request.security(s10, timeframe.period, s_expr)
+signal11 = request.security(s11, timeframe.period, s_expr)
+signal12 = request.security(s12, timeframe.period, s_expr)
+signal13 = request.security(s13, timeframe.period, s_expr)
+signal14 = request.security(s14, timeframe.period, s_expr)
+signal15 = request.security(s15, timeframe.period, s_expr)
+signal16 = request.security(s16, timeframe.period, s_expr)
+signal17 = request.security(s17, timeframe.period, s_expr)
+signal18 = request.security(s18, timeframe.period, s_expr)
+signal19 = request.security(s19, timeframe.period, s_expr)
+signal20 = request.security(s20, timeframe.period, s_expr)
+signal21 = request.security(s21, timeframe.period, s_expr)
+signal22 = request.security(s22, timeframe.period, s_expr)
+signal23 = request.security(s23, timeframe.period, s_expr)
+signal24 = request.security(s24, timeframe.period, s_expr)
+signal25 = request.security(s25, timeframe.period, s_expr)
+signal26 = request.security(s26, timeframe.period, s_expr)
+signal27 = request.security(s27, timeframe.period, s_expr)
+signal28 = request.security(s28, timeframe.period, s_expr)
+signal29 = request.security(s29, timeframe.period, s_expr)
+signal30 = request.security(s30, timeframe.period, s_expr)
+signal31 = request.security(s31, timeframe.period, s_expr)
+signal32 = request.security(s32, timeframe.period, s_expr)
+signal33 = request.security(s33, timeframe.period, s_expr)
+signal34 = request.security(s34, timeframe.period, s_expr)
+signal35 = request.security(s35, timeframe.period, s_expr)
+signal36 = request.security(s36, timeframe.period, s_expr)
+signal37 = request.security(s37, timeframe.period, s_expr)
+signal38 = request.security(s38, timeframe.period, s_expr)
+signal39 = request.security(s39, timeframe.period, s_expr)
+signal40 = request.security(s40, timeframe.period, s_expr)
+
+// --- ARRAYS ---
+var s_arr = array.new_string(40)
+var u_arr = array.new_bool(40)
+var signal_arr = array.new_string(40)
+
+if barstate.isfirst
+    array.set(s_arr, 0, _only_symbol_name(s01))
+    array.set(u_arr, 0, u01)
+    array.set(s_arr, 1, _only_symbol_name(s02))
+    array.set(u_arr, 1, u02)
+    array.set(s_arr, 2, _only_symbol_name(s03))
+    array.set(u_arr, 2, u03)
+    array.set(s_arr, 3, _only_symbol_name(s04))
+    array.set(u_arr, 3, u04)
+    array.set(s_arr, 4, _only_symbol_name(s05))
+    array.set(u_arr, 4, u05)
+    array.set(s_arr, 5, _only_symbol_name(s06))
+    array.set(u_arr, 5, u06)
+    array.set(s_arr, 6, _only_symbol_name(s07))
+    array.set(u_arr, 6, u07)
+    array.set(s_arr, 7, _only_symbol_name(s08))
+    array.set(u_arr, 7, u08)
+    array.set(s_arr, 8, _only_symbol_name(s09))
+    array.set(u_arr, 8, u09)
+    array.set(s_arr, 9, _only_symbol_name(s10))
+    array.set(u_arr, 9, u10)
+    array.set(s_arr, 10, _only_symbol_name(s11))
+    array.set(u_arr, 10, u11)
+    array.set(s_arr, 11, _only_symbol_name(s12))
+    array.set(u_arr, 11, u12)
+    array.set(s_arr, 12, _only_symbol_name(s13))
+    array.set(u_arr, 12, u13)
+    array.set(s_arr, 13, _only_symbol_name(s14))
+    array.set(u_arr, 13, u14)
+    array.set(s_arr, 14, _only_symbol_name(s15))
+    array.set(u_arr, 14, u15)
+    array.set(s_arr, 15, _only_symbol_name(s16))
+    array.set(u_arr, 15, u16)
+    array.set(s_arr, 16, _only_symbol_name(s17))
+    array.set(u_arr, 16, u17)
+    array.set(s_arr, 17, _only_symbol_name(s18))
+    array.set(u_arr, 17, u18)
+    array.set(s_arr, 18, _only_symbol_name(s19))
+    array.set(u_arr, 18, u19)
+    array.set(s_arr, 19, _only_symbol_name(s20))
+    array.set(u_arr, 19, u20)
+    array.set(s_arr, 20, _only_symbol_name(s21))
+    array.set(u_arr, 20, u21)
+    array.set(s_arr, 21, _only_symbol_name(s22))
+    array.set(u_arr, 21, u22)
+    array.set(s_arr, 22, _only_symbol_name(s23))
+    array.set(u_arr, 22, u23)
+    array.set(s_arr, 23, _only_symbol_name(s24))
+    array.set(u_arr, 23, u24)
+    array.set(s_arr, 24, _only_symbol_name(s25))
+    array.set(u_arr, 24, u25)
+    array.set(s_arr, 25, _only_symbol_name(s26))
+    array.set(u_arr, 25, u26)
+    array.set(s_arr, 26, _only_symbol_name(s27))
+    array.set(u_arr, 26, u27)
+    array.set(s_arr, 27, _only_symbol_name(s28))
+    array.set(u_arr, 27, u28)
+    array.set(s_arr, 28, _only_symbol_name(s29))
+    array.set(u_arr, 28, u29)
+    array.set(s_arr, 29, _only_symbol_name(s30))
+    array.set(u_arr, 29, u30)
+    array.set(s_arr, 30, _only_symbol_name(s31))
+    array.set(u_arr, 30, u31)
+    array.set(s_arr, 31, _only_symbol_name(s32))
+    array.set(u_arr, 31, u32)
+    array.set(s_arr, 32, _only_symbol_name(s33))
+    array.set(u_arr, 32, u33)
+    array.set(s_arr, 33, _only_symbol_name(s34))
+    array.set(u_arr, 33, u34)
+    array.set(s_arr, 34, _only_symbol_name(s35))
+    array.set(u_arr, 34, u35)
+    array.set(s_arr, 35, _only_symbol_name(s36))
+    array.set(u_arr, 35, u36)
+    array.set(s_arr, 36, _only_symbol_name(s37))
+    array.set(u_arr, 36, u37)
+    array.set(s_arr, 37, _only_symbol_name(s38))
+    array.set(u_arr, 37, u38)
+    array.set(s_arr, 38, _only_symbol_name(s39))
+    array.set(u_arr, 38, u39)
+    array.set(s_arr, 39, _only_symbol_name(s40))
+    array.set(u_arr, 39, u40)
+
+// Update signal_arr on every bar
+array.set(signal_arr, 0, signal01)
+array.set(signal_arr, 1, signal02)
+array.set(signal_arr, 2, signal03)
+array.set(signal_arr, 3, signal04)
+array.set(signal_arr, 4, signal05)
+array.set(signal_arr, 5, signal06)
+array.set(signal_arr, 6, signal07)
+array.set(signal_arr, 7, signal08)
+array.set(signal_arr, 8, signal09)
+array.set(signal_arr, 9, signal10)
+array.set(signal_arr, 10, signal11)
+array.set(signal_arr, 11, signal12)
+array.set(signal_arr, 12, signal13)
+array.set(signal_arr, 13, signal14)
+array.set(signal_arr, 14, signal15)
+array.set(signal_arr, 15, signal16)
+array.set(signal_arr, 16, signal17)
+array.set(signal_arr, 17, signal18)
+array.set(signal_arr, 18, signal19)
+array.set(signal_arr, 19, signal20)
+array.set(signal_arr, 20, signal21)
+array.set(signal_arr, 21, signal22)
+array.set(signal_arr, 22, signal23)
+array.set(signal_arr, 23, signal24)
+array.set(signal_arr, 24, signal25)
+array.set(signal_arr, 25, signal26)
+array.set(signal_arr, 26, signal27)
+array.set(signal_arr, 27, signal28)
+array.set(signal_arr, 28, signal29)
+array.set(signal_arr, 29, signal30)
+array.set(signal_arr, 30, signal31)
+array.set(signal_arr, 31, signal32)
+array.set(signal_arr, 32, signal33)
+array.set(signal_arr, 33, signal34)
+array.set(signal_arr, 34, signal35)
+array.set(signal_arr, 35, signal36)
+array.set(signal_arr, 36, signal37)
+array.set(signal_arr, 37, signal38)
+array.set(signal_arr, 38, signal39)
+array.set(signal_arr, 39, signal40)
+
+
+// --- Table Drawing ---
+var tbl = table.new(position.top_right, scr_numb > 1 ? 3 : 2, 50, frame_color = #151715, frame_width = 1, border_width = 2, border_color = color.new(color.white, 100))
+
+if barstate.islast
+    table.clear(tbl, 0, 0, scr_numb > 1 ? 2 : 1, 49)
+
+    var int countBuy = 0
+    var int countSell = 0
+    countBuy := 0
+    countSell := 0
+
+    int rounded_col_width = int(math.round(col_width))
+
+    string header_text = SCRIPT_NAME + " - " + str.tostring(scr_numb)
+    table.cell(tbl, 0, 0, 'Symbol', width = rounded_col_width, text_halign = text.align_center, bgcolor = color.gray, text_color = color.white, text_size = size.small)
+    table.cell(tbl, 1, 0, header_text, width = rounded_col_width, text_halign = text.align_center, bgcolor = color.gray, text_color = color.white, text_size = size.small)
+    if scr_numb > 1
+        table.cell(tbl, 2, 0, '', width = rounded_col_width * 2 * (scr_numb - 1), text_halign = text.align_center, bgcolor = color.new(color.gray, 100), text_size = size.small)
+
+    int visible_row_index = 1 
+    for i = 0 to 39 by 1
+        if array.get(u_arr, i) 
+            string signal_val_from_array = array.get(signal_arr, i)
+            string current_signal = na(signal_val_from_array) ? "---" : signal_val_from_array
+            string ticker_name = array.get(s_arr, i)
+
+            color signal_bg_col = colorNeutralBG 
+            
+            if str.contains(current_signal, "BUY")
+                countBuy += 1
+                signal_bg_col := colorBuyBG
+            else if str.contains(current_signal, "SELL")
+                countSell += 1
+                signal_bg_col := colorSellBG
+
+            table.cell(tbl, 0, visible_row_index, ticker_name, text_halign = text.align_center, bgcolor = color.gray, text_color = color.white, text_size = size.small, width = rounded_col_width)
+            table.cell(tbl, 1, visible_row_index, current_signal, text_halign = text.align_center, bgcolor = signal_bg_col, text_color = colorSignalTXT, text_size = size.small, width = rounded_col_width)
+
+            visible_row_index += 1

@@ -1,0 +1,6846 @@
+{
+  "categories": {
+    "Variables": [
+      {
+        "name": "accdist",
+        "href": "var_accdist",
+        "data_name": "accdist",
+        "type": "variable"
+      },
+      {
+        "name": "bar_index",
+        "href": "var_bar_index",
+        "data_name": "bar_index",
+        "type": "variable"
+      },
+      {
+        "name": "barstate.isconfirmed",
+        "href": "var_barstate.isconfirmed",
+        "data_name": "barstate.isconfirmed",
+        "type": "property"
+      },
+      {
+        "name": "barstate.isfirst",
+        "href": "var_barstate.isfirst",
+        "data_name": "barstate.isfirst",
+        "type": "property"
+      },
+      {
+        "name": "barstate.ishistory",
+        "href": "var_barstate.ishistory",
+        "data_name": "barstate.ishistory",
+        "type": "property"
+      },
+      {
+        "name": "barstate.islast",
+        "href": "var_barstate.islast",
+        "data_name": "barstate.islast",
+        "type": "property"
+      },
+      {
+        "name": "barstate.islastconfirmedhistory",
+        "href": "var_barstate.islastconfirmedhistory",
+        "data_name": "barstate.islastconfirmedhistory",
+        "type": "property"
+      },
+      {
+        "name": "barstate.isnew",
+        "href": "var_barstate.isnew",
+        "data_name": "barstate.isnew",
+        "type": "property"
+      },
+      {
+        "name": "barstate.isrealtime",
+        "href": "var_barstate.isrealtime",
+        "data_name": "barstate.isrealtime",
+        "type": "property"
+      },
+      {
+        "name": "close",
+        "href": "var_close",
+        "data_name": "close",
+        "type": "variable"
+      },
+      {
+        "name": "dayofmonth",
+        "href": "var_dayofmonth",
+        "data_name": "dayofmonth",
+        "type": "variable"
+      },
+      {
+        "name": "dayofweek",
+        "href": "var_dayofweek",
+        "data_name": "dayofweek",
+        "type": "variable"
+      },
+      {
+        "name": "high",
+        "href": "var_high",
+        "data_name": "high",
+        "type": "variable"
+      },
+      {
+        "name": "hl2",
+        "href": "var_hl2",
+        "data_name": "hl2",
+        "type": "variable"
+      },
+      {
+        "name": "hlc3",
+        "href": "var_hlc3",
+        "data_name": "hlc3",
+        "type": "variable"
+      },
+      {
+        "name": "hour",
+        "href": "var_hour",
+        "data_name": "hour",
+        "type": "variable"
+      },
+      {
+        "name": "iii",
+        "href": "var_iii",
+        "data_name": "iii",
+        "type": "variable"
+      },
+      {
+        "name": "low",
+        "href": "var_low",
+        "data_name": "low",
+        "type": "variable"
+      },
+      {
+        "name": "minute",
+        "href": "var_minute",
+        "data_name": "minute",
+        "type": "variable"
+      },
+      {
+        "name": "month",
+        "href": "var_month",
+        "data_name": "month",
+        "type": "variable"
+      },
+      {
+        "name": "na",
+        "href": "var_na",
+        "data_name": "na",
+        "type": "variable"
+      },
+      {
+        "name": "nvi",
+        "href": "var_nvi",
+        "data_name": "nvi",
+        "type": "variable"
+      },
+      {
+        "name": "obv",
+        "href": "var_obv",
+        "data_name": "obv",
+        "type": "variable"
+      },
+      {
+        "name": "ohlc4",
+        "href": "var_ohlc4",
+        "data_name": "ohlc4",
+        "type": "variable"
+      },
+      {
+        "name": "open",
+        "href": "var_open",
+        "data_name": "open",
+        "type": "variable"
+      },
+      {
+        "name": "pvi",
+        "href": "var_pvi",
+        "data_name": "pvi",
+        "type": "variable"
+      },
+      {
+        "name": "pvt",
+        "href": "var_pvt",
+        "data_name": "pvt",
+        "type": "variable"
+      },
+      {
+        "name": "second",
+        "href": "var_second",
+        "data_name": "second",
+        "type": "variable"
+      },
+      {
+        "name": "session.ismarket",
+        "href": "var_session.ismarket",
+        "data_name": "session.ismarket",
+        "type": "property"
+      },
+      {
+        "name": "session.ispostmarket",
+        "href": "var_session.ispostmarket",
+        "data_name": "session.ispostmarket",
+        "type": "property"
+      },
+      {
+        "name": "session.ispremarket",
+        "href": "var_session.ispremarket",
+        "data_name": "session.ispremarket",
+        "type": "property"
+      },
+      {
+        "name": "strategy.closedtrades",
+        "href": "var_strategy.closedtrades",
+        "data_name": "strategy.closedtrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.equity",
+        "href": "var_strategy.equity",
+        "data_name": "strategy.equity",
+        "type": "property"
+      },
+      {
+        "name": "strategy.eventrades",
+        "href": "var_strategy.eventrades",
+        "data_name": "strategy.eventrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.grossloss",
+        "href": "var_strategy.grossloss",
+        "data_name": "strategy.grossloss",
+        "type": "property"
+      },
+      {
+        "name": "strategy.grossprofit",
+        "href": "var_strategy.grossprofit",
+        "data_name": "strategy.grossprofit",
+        "type": "property"
+      },
+      {
+        "name": "strategy.initial_capital",
+        "href": "var_strategy.initial_capital",
+        "data_name": "strategy.initial_capital",
+        "type": "property"
+      },
+      {
+        "name": "strategy.losstrades",
+        "href": "var_strategy.losstrades",
+        "data_name": "strategy.losstrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_contracts_held_all",
+        "href": "var_strategy.max_contracts_held_all",
+        "data_name": "strategy.max_contracts_held_all",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_contracts_held_long",
+        "href": "var_strategy.max_contracts_held_long",
+        "data_name": "strategy.max_contracts_held_long",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_contracts_held_short",
+        "href": "var_strategy.max_contracts_held_short",
+        "data_name": "strategy.max_contracts_held_short",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_drawdown",
+        "href": "var_strategy.max_drawdown",
+        "data_name": "strategy.max_drawdown",
+        "type": "property"
+      },
+      {
+        "name": "strategy.netprofit",
+        "href": "var_strategy.netprofit",
+        "data_name": "strategy.netprofit",
+        "type": "property"
+      },
+      {
+        "name": "strategy.openprofit",
+        "href": "var_strategy.openprofit",
+        "data_name": "strategy.openprofit",
+        "type": "property"
+      },
+      {
+        "name": "strategy.opentrades",
+        "href": "var_strategy.opentrades",
+        "data_name": "strategy.opentrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.position_avg_price",
+        "href": "var_strategy.position_avg_price",
+        "data_name": "strategy.position_avg_price",
+        "type": "property"
+      },
+      {
+        "name": "strategy.position_entry_name",
+        "href": "var_strategy.position_entry_name",
+        "data_name": "strategy.position_entry_name",
+        "type": "property"
+      },
+      {
+        "name": "strategy.position_size",
+        "href": "var_strategy.position_size",
+        "data_name": "strategy.position_size",
+        "type": "property"
+      },
+      {
+        "name": "strategy.wintrades",
+        "href": "var_strategy.wintrades",
+        "data_name": "strategy.wintrades",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.basecurrency",
+        "href": "var_syminfo.basecurrency",
+        "data_name": "syminfo.basecurrency",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.currency",
+        "href": "var_syminfo.currency",
+        "data_name": "syminfo.currency",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.description",
+        "href": "var_syminfo.description",
+        "data_name": "syminfo.description",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.mintick",
+        "href": "var_syminfo.mintick",
+        "data_name": "syminfo.mintick",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.pointvalue",
+        "href": "var_syminfo.pointvalue",
+        "data_name": "syminfo.pointvalue",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.prefix",
+        "href": "var_syminfo.prefix",
+        "data_name": "syminfo.prefix",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.root",
+        "href": "var_syminfo.root",
+        "data_name": "syminfo.root",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.session",
+        "href": "var_syminfo.session",
+        "data_name": "syminfo.session",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.ticker",
+        "href": "var_syminfo.ticker",
+        "data_name": "syminfo.ticker",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.tickerid",
+        "href": "var_syminfo.tickerid",
+        "data_name": "syminfo.tickerid",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.timezone",
+        "href": "var_syminfo.timezone",
+        "data_name": "syminfo.timezone",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.type",
+        "href": "var_syminfo.type",
+        "data_name": "syminfo.type",
+        "type": "property"
+      },
+      {
+        "name": "time",
+        "href": "var_time",
+        "data_name": "time",
+        "type": "variable"
+      },
+      {
+        "name": "time_close",
+        "href": "var_time_close",
+        "data_name": "time_close",
+        "type": "variable"
+      },
+      {
+        "name": "time_tradingday",
+        "href": "var_time_tradingday",
+        "data_name": "time_tradingday",
+        "type": "variable"
+      },
+      {
+        "name": "timeframe.isdaily",
+        "href": "var_timeframe.isdaily",
+        "data_name": "timeframe.isdaily",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.isdwm",
+        "href": "var_timeframe.isdwm",
+        "data_name": "timeframe.isdwm",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.isintraday",
+        "href": "var_timeframe.isintraday",
+        "data_name": "timeframe.isintraday",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.isminutes",
+        "href": "var_timeframe.isminutes",
+        "data_name": "timeframe.isminutes",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.ismonthly",
+        "href": "var_timeframe.ismonthly",
+        "data_name": "timeframe.ismonthly",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.isseconds",
+        "href": "var_timeframe.isseconds",
+        "data_name": "timeframe.isseconds",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.isweekly",
+        "href": "var_timeframe.isweekly",
+        "data_name": "timeframe.isweekly",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.multiplier",
+        "href": "var_timeframe.multiplier",
+        "data_name": "timeframe.multiplier",
+        "type": "property"
+      },
+      {
+        "name": "timeframe.period",
+        "href": "var_timeframe.period",
+        "data_name": "timeframe.period",
+        "type": "property"
+      },
+      {
+        "name": "timenow",
+        "href": "var_timenow",
+        "data_name": "timenow",
+        "type": "variable"
+      },
+      {
+        "name": "tr",
+        "href": "var_tr",
+        "data_name": "tr",
+        "type": "variable"
+      },
+      {
+        "name": "volume",
+        "href": "var_volume",
+        "data_name": "volume",
+        "type": "variable"
+      },
+      {
+        "name": "vwap",
+        "href": "var_vwap",
+        "data_name": "vwap",
+        "type": "variable"
+      },
+      {
+        "name": "wad",
+        "href": "var_wad",
+        "data_name": "wad",
+        "type": "variable"
+      },
+      {
+        "name": "weekofyear",
+        "href": "var_weekofyear",
+        "data_name": "weekofyear",
+        "type": "variable"
+      },
+      {
+        "name": "wvad",
+        "href": "var_wvad",
+        "data_name": "wvad",
+        "type": "variable"
+      },
+      {
+        "name": "year",
+        "href": "var_year",
+        "data_name": "year",
+        "type": "variable"
+      }
+    ],
+    "Constants": [
+      {
+        "name": "adjustment.dividends",
+        "href": "const_adjustment.dividends",
+        "data_name": "adjustment.dividends",
+        "type": "property"
+      },
+      {
+        "name": "adjustment.none",
+        "href": "const_adjustment.none",
+        "data_name": "adjustment.none",
+        "type": "property"
+      },
+      {
+        "name": "adjustment.splits",
+        "href": "const_adjustment.splits",
+        "data_name": "adjustment.splits",
+        "type": "property"
+      },
+      {
+        "name": "alert.freq_all",
+        "href": "const_alert.freq_all",
+        "data_name": "alert.freq_all",
+        "type": "property"
+      },
+      {
+        "name": "alert.freq_once_per_bar",
+        "href": "const_alert.freq_once_per_bar",
+        "data_name": "alert.freq_once_per_bar",
+        "type": "property"
+      },
+      {
+        "name": "alert.freq_once_per_bar_close",
+        "href": "const_alert.freq_once_per_bar_close",
+        "data_name": "alert.freq_once_per_bar_close",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.gaps_off",
+        "href": "const_barmerge.gaps_off",
+        "data_name": "barmerge.gaps_off",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.gaps_on",
+        "href": "const_barmerge.gaps_on",
+        "data_name": "barmerge.gaps_on",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.lookahead_off",
+        "href": "const_barmerge.lookahead_off",
+        "data_name": "barmerge.lookahead_off",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.lookahead_on",
+        "href": "const_barmerge.lookahead_on",
+        "data_name": "barmerge.lookahead_on",
+        "type": "property"
+      },
+      {
+        "name": "color.aqua",
+        "href": "const_color.aqua",
+        "data_name": "color.aqua",
+        "type": "property"
+      },
+      {
+        "name": "color.black",
+        "href": "const_color.black",
+        "data_name": "color.black",
+        "type": "property"
+      },
+      {
+        "name": "color.blue",
+        "href": "const_color.blue",
+        "data_name": "color.blue",
+        "type": "property"
+      },
+      {
+        "name": "color.fuchsia",
+        "href": "const_color.fuchsia",
+        "data_name": "color.fuchsia",
+        "type": "property"
+      },
+      {
+        "name": "color.gray",
+        "href": "const_color.gray",
+        "data_name": "color.gray",
+        "type": "property"
+      },
+      {
+        "name": "color.green",
+        "href": "const_color.green",
+        "data_name": "color.green",
+        "type": "property"
+      },
+      {
+        "name": "color.lime",
+        "href": "const_color.lime",
+        "data_name": "color.lime",
+        "type": "property"
+      },
+      {
+        "name": "color.maroon",
+        "href": "const_color.maroon",
+        "data_name": "color.maroon",
+        "type": "property"
+      },
+      {
+        "name": "color.navy",
+        "href": "const_color.navy",
+        "data_name": "color.navy",
+        "type": "property"
+      },
+      {
+        "name": "color.olive",
+        "href": "const_color.olive",
+        "data_name": "color.olive",
+        "type": "property"
+      },
+      {
+        "name": "color.orange",
+        "href": "const_color.orange",
+        "data_name": "color.orange",
+        "type": "property"
+      },
+      {
+        "name": "color.purple",
+        "href": "const_color.purple",
+        "data_name": "color.purple",
+        "type": "property"
+      },
+      {
+        "name": "color.red",
+        "href": "const_color.red",
+        "data_name": "color.red",
+        "type": "property"
+      },
+      {
+        "name": "color.silver",
+        "href": "const_color.silver",
+        "data_name": "color.silver",
+        "type": "property"
+      },
+      {
+        "name": "color.teal",
+        "href": "const_color.teal",
+        "data_name": "color.teal",
+        "type": "property"
+      },
+      {
+        "name": "color.white",
+        "href": "const_color.white",
+        "data_name": "color.white",
+        "type": "property"
+      },
+      {
+        "name": "color.yellow",
+        "href": "const_color.yellow",
+        "data_name": "color.yellow",
+        "type": "property"
+      },
+      {
+        "name": "currency.AUD",
+        "href": "const_currency.AUD",
+        "data_name": "currency.aud",
+        "type": "property"
+      },
+      {
+        "name": "currency.CAD",
+        "href": "const_currency.CAD",
+        "data_name": "currency.cad",
+        "type": "property"
+      },
+      {
+        "name": "currency.CHF",
+        "href": "const_currency.CHF",
+        "data_name": "currency.chf",
+        "type": "property"
+      },
+      {
+        "name": "currency.EUR",
+        "href": "const_currency.EUR",
+        "data_name": "currency.eur",
+        "type": "property"
+      },
+      {
+        "name": "currency.GBP",
+        "href": "const_currency.GBP",
+        "data_name": "currency.gbp",
+        "type": "property"
+      },
+      {
+        "name": "currency.HKD",
+        "href": "const_currency.HKD",
+        "data_name": "currency.hkd",
+        "type": "property"
+      },
+      {
+        "name": "currency.JPY",
+        "href": "const_currency.JPY",
+        "data_name": "currency.jpy",
+        "type": "property"
+      },
+      {
+        "name": "currency.NOK",
+        "href": "const_currency.NOK",
+        "data_name": "currency.nok",
+        "type": "property"
+      },
+      {
+        "name": "currency.NONE",
+        "href": "const_currency.NONE",
+        "data_name": "currency.none",
+        "type": "property"
+      },
+      {
+        "name": "currency.NZD",
+        "href": "const_currency.NZD",
+        "data_name": "currency.nzd",
+        "type": "property"
+      },
+      {
+        "name": "currency.RUB",
+        "href": "const_currency.RUB",
+        "data_name": "currency.rub",
+        "type": "property"
+      },
+      {
+        "name": "currency.SEK",
+        "href": "const_currency.SEK",
+        "data_name": "currency.sek",
+        "type": "property"
+      },
+      {
+        "name": "currency.SGD",
+        "href": "const_currency.SGD",
+        "data_name": "currency.sgd",
+        "type": "property"
+      },
+      {
+        "name": "currency.TRY",
+        "href": "const_currency.TRY",
+        "data_name": "currency.try",
+        "type": "property"
+      },
+      {
+        "name": "currency.USD",
+        "href": "const_currency.USD",
+        "data_name": "currency.usd",
+        "type": "property"
+      },
+      {
+        "name": "currency.ZAR",
+        "href": "const_currency.ZAR",
+        "data_name": "currency.zar",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.friday",
+        "href": "const_dayofweek.friday",
+        "data_name": "dayofweek.friday",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.monday",
+        "href": "const_dayofweek.monday",
+        "data_name": "dayofweek.monday",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.saturday",
+        "href": "const_dayofweek.saturday",
+        "data_name": "dayofweek.saturday",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.sunday",
+        "href": "const_dayofweek.sunday",
+        "data_name": "dayofweek.sunday",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.thursday",
+        "href": "const_dayofweek.thursday",
+        "data_name": "dayofweek.thursday",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.tuesday",
+        "href": "const_dayofweek.tuesday",
+        "data_name": "dayofweek.tuesday",
+        "type": "property"
+      },
+      {
+        "name": "dayofweek.wednesday",
+        "href": "const_dayofweek.wednesday",
+        "data_name": "dayofweek.wednesday",
+        "type": "property"
+      },
+      {
+        "name": "display.all",
+        "href": "const_display.all",
+        "data_name": "display.all",
+        "type": "property"
+      },
+      {
+        "name": "display.none",
+        "href": "const_display.none",
+        "data_name": "display.none",
+        "type": "property"
+      },
+      {
+        "name": "dividends.gross",
+        "href": "const_dividends.gross",
+        "data_name": "dividends.gross",
+        "type": "property"
+      },
+      {
+        "name": "dividends.net",
+        "href": "const_dividends.net",
+        "data_name": "dividends.net",
+        "type": "property"
+      },
+      {
+        "name": "earnings.actual",
+        "href": "const_earnings.actual",
+        "data_name": "earnings.actual",
+        "type": "property"
+      },
+      {
+        "name": "earnings.estimate",
+        "href": "const_earnings.estimate",
+        "data_name": "earnings.estimate",
+        "type": "property"
+      },
+      {
+        "name": "extend.both",
+        "href": "const_extend.both",
+        "data_name": "extend.both",
+        "type": "property"
+      },
+      {
+        "name": "extend.left",
+        "href": "const_extend.left",
+        "data_name": "extend.left",
+        "type": "property"
+      },
+      {
+        "name": "extend.none",
+        "href": "const_extend.none",
+        "data_name": "extend.none",
+        "type": "property"
+      },
+      {
+        "name": "extend.right",
+        "href": "const_extend.right",
+        "data_name": "extend.right",
+        "type": "property"
+      },
+      {
+        "name": "format.inherit",
+        "href": "const_format.inherit",
+        "data_name": "format.inherit",
+        "type": "property"
+      },
+      {
+        "name": "format.mintick",
+        "href": "const_format.mintick",
+        "data_name": "format.mintick",
+        "type": "property"
+      },
+      {
+        "name": "format.percent",
+        "href": "const_format.percent",
+        "data_name": "format.percent",
+        "type": "property"
+      },
+      {
+        "name": "format.price",
+        "href": "const_format.price",
+        "data_name": "format.price",
+        "type": "property"
+      },
+      {
+        "name": "format.volume",
+        "href": "const_format.volume",
+        "data_name": "format.volume",
+        "type": "property"
+      },
+      {
+        "name": "hline.style_dashed",
+        "href": "const_hline.style_dashed",
+        "data_name": "hline.style_dashed",
+        "type": "property"
+      },
+      {
+        "name": "hline.style_dotted",
+        "href": "const_hline.style_dotted",
+        "data_name": "hline.style_dotted",
+        "type": "property"
+      },
+      {
+        "name": "hline.style_solid",
+        "href": "const_hline.style_solid",
+        "data_name": "hline.style_solid",
+        "type": "property"
+      },
+      {
+        "name": "input.bool",
+        "href": "const_input.bool",
+        "data_name": "input.bool",
+        "type": "property"
+      },
+      {
+        "name": "input.color",
+        "href": "const_input.color",
+        "data_name": "input.color",
+        "type": "property"
+      },
+      {
+        "name": "input.float",
+        "href": "const_input.float",
+        "data_name": "input.float",
+        "type": "property"
+      },
+      {
+        "name": "input.integer",
+        "href": "const_input.integer",
+        "data_name": "input.integer",
+        "type": "property"
+      },
+      {
+        "name": "input.price",
+        "href": "const_input.price",
+        "data_name": "input.price",
+        "type": "property"
+      },
+      {
+        "name": "input.resolution",
+        "href": "const_input.resolution",
+        "data_name": "input.resolution",
+        "type": "property"
+      },
+      {
+        "name": "input.session",
+        "href": "const_input.session",
+        "data_name": "input.session",
+        "type": "property"
+      },
+      {
+        "name": "input.source",
+        "href": "const_input.source",
+        "data_name": "input.source",
+        "type": "property"
+      },
+      {
+        "name": "input.string",
+        "href": "const_input.string",
+        "data_name": "input.string",
+        "type": "property"
+      },
+      {
+        "name": "input.symbol",
+        "href": "const_input.symbol",
+        "data_name": "input.symbol",
+        "type": "property"
+      },
+      {
+        "name": "input.time",
+        "href": "const_input.time",
+        "data_name": "input.time",
+        "type": "property"
+      },
+      {
+        "name": "label.style_arrowdown",
+        "href": "const_label.style_arrowdown",
+        "data_name": "label.style_arrowdown",
+        "type": "property"
+      },
+      {
+        "name": "label.style_arrowup",
+        "href": "const_label.style_arrowup",
+        "data_name": "label.style_arrowup",
+        "type": "property"
+      },
+      {
+        "name": "label.style_circle",
+        "href": "const_label.style_circle",
+        "data_name": "label.style_circle",
+        "type": "property"
+      },
+      {
+        "name": "label.style_cross",
+        "href": "const_label.style_cross",
+        "data_name": "label.style_cross",
+        "type": "property"
+      },
+      {
+        "name": "label.style_diamond",
+        "href": "const_label.style_diamond",
+        "data_name": "label.style_diamond",
+        "type": "property"
+      },
+      {
+        "name": "label.style_flag",
+        "href": "const_label.style_flag",
+        "data_name": "label.style_flag",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_center",
+        "href": "const_label.style_label_center",
+        "data_name": "label.style_label_center",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_down",
+        "href": "const_label.style_label_down",
+        "data_name": "label.style_label_down",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_left",
+        "href": "const_label.style_label_left",
+        "data_name": "label.style_label_left",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_lower_left",
+        "href": "const_label.style_label_lower_left",
+        "data_name": "label.style_label_lower_left",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_lower_right",
+        "href": "const_label.style_label_lower_right",
+        "data_name": "label.style_label_lower_right",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_right",
+        "href": "const_label.style_label_right",
+        "data_name": "label.style_label_right",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_up",
+        "href": "const_label.style_label_up",
+        "data_name": "label.style_label_up",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_upper_left",
+        "href": "const_label.style_label_upper_left",
+        "data_name": "label.style_label_upper_left",
+        "type": "property"
+      },
+      {
+        "name": "label.style_label_upper_right",
+        "href": "const_label.style_label_upper_right",
+        "data_name": "label.style_label_upper_right",
+        "type": "property"
+      },
+      {
+        "name": "label.style_none",
+        "href": "const_label.style_none",
+        "data_name": "label.style_none",
+        "type": "property"
+      },
+      {
+        "name": "label.style_square",
+        "href": "const_label.style_square",
+        "data_name": "label.style_square",
+        "type": "property"
+      },
+      {
+        "name": "label.style_triangledown",
+        "href": "const_label.style_triangledown",
+        "data_name": "label.style_triangledown",
+        "type": "property"
+      },
+      {
+        "name": "label.style_triangleup",
+        "href": "const_label.style_triangleup",
+        "data_name": "label.style_triangleup",
+        "type": "property"
+      },
+      {
+        "name": "label.style_xcross",
+        "href": "const_label.style_xcross",
+        "data_name": "label.style_xcross",
+        "type": "property"
+      },
+      {
+        "name": "line.style_arrow_both",
+        "href": "const_line.style_arrow_both",
+        "data_name": "line.style_arrow_both",
+        "type": "property"
+      },
+      {
+        "name": "line.style_arrow_left",
+        "href": "const_line.style_arrow_left",
+        "data_name": "line.style_arrow_left",
+        "type": "property"
+      },
+      {
+        "name": "line.style_arrow_right",
+        "href": "const_line.style_arrow_right",
+        "data_name": "line.style_arrow_right",
+        "type": "property"
+      },
+      {
+        "name": "line.style_dashed",
+        "href": "const_line.style_dashed",
+        "data_name": "line.style_dashed",
+        "type": "property"
+      },
+      {
+        "name": "line.style_dotted",
+        "href": "const_line.style_dotted",
+        "data_name": "line.style_dotted",
+        "type": "property"
+      },
+      {
+        "name": "line.style_solid",
+        "href": "const_line.style_solid",
+        "data_name": "line.style_solid",
+        "type": "property"
+      },
+      {
+        "name": "location.abovebar",
+        "href": "const_location.abovebar",
+        "data_name": "location.abovebar",
+        "type": "property"
+      },
+      {
+        "name": "location.absolute",
+        "href": "const_location.absolute",
+        "data_name": "location.absolute",
+        "type": "property"
+      },
+      {
+        "name": "location.belowbar",
+        "href": "const_location.belowbar",
+        "data_name": "location.belowbar",
+        "type": "property"
+      },
+      {
+        "name": "location.bottom",
+        "href": "const_location.bottom",
+        "data_name": "location.bottom",
+        "type": "property"
+      },
+      {
+        "name": "location.top",
+        "href": "const_location.top",
+        "data_name": "location.top",
+        "type": "property"
+      },
+      {
+        "name": "math.e",
+        "href": "const_math.e",
+        "data_name": "math.e",
+        "type": "property"
+      },
+      {
+        "name": "math.phi",
+        "href": "const_math.phi",
+        "data_name": "math.phi",
+        "type": "property"
+      },
+      {
+        "name": "math.pi",
+        "href": "const_math.pi",
+        "data_name": "math.pi",
+        "type": "property"
+      },
+      {
+        "name": "math.rphi",
+        "href": "const_math.rphi",
+        "data_name": "math.rphi",
+        "type": "property"
+      },
+      {
+        "name": "order.ascending",
+        "href": "const_order.ascending",
+        "data_name": "order.ascending",
+        "type": "property"
+      },
+      {
+        "name": "order.descending",
+        "href": "const_order.descending",
+        "data_name": "order.descending",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_area",
+        "href": "const_plot.style_area",
+        "data_name": "plot.style_area",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_areabr",
+        "href": "const_plot.style_areabr",
+        "data_name": "plot.style_areabr",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_circles",
+        "href": "const_plot.style_circles",
+        "data_name": "plot.style_circles",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_columns",
+        "href": "const_plot.style_columns",
+        "data_name": "plot.style_columns",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_cross",
+        "href": "const_plot.style_cross",
+        "data_name": "plot.style_cross",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_histogram",
+        "href": "const_plot.style_histogram",
+        "data_name": "plot.style_histogram",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_line",
+        "href": "const_plot.style_line",
+        "data_name": "plot.style_line",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_linebr",
+        "href": "const_plot.style_linebr",
+        "data_name": "plot.style_linebr",
+        "type": "property"
+      },
+      {
+        "name": "plot.style_stepline",
+        "href": "const_plot.style_stepline",
+        "data_name": "plot.style_stepline",
+        "type": "property"
+      },
+      {
+        "name": "position.bottom_center",
+        "href": "const_position.bottom_center",
+        "data_name": "position.bottom_center",
+        "type": "property"
+      },
+      {
+        "name": "position.bottom_left",
+        "href": "const_position.bottom_left",
+        "data_name": "position.bottom_left",
+        "type": "property"
+      },
+      {
+        "name": "position.bottom_right",
+        "href": "const_position.bottom_right",
+        "data_name": "position.bottom_right",
+        "type": "property"
+      },
+      {
+        "name": "position.middle_center",
+        "href": "const_position.middle_center",
+        "data_name": "position.middle_center",
+        "type": "property"
+      },
+      {
+        "name": "position.middle_left",
+        "href": "const_position.middle_left",
+        "data_name": "position.middle_left",
+        "type": "property"
+      },
+      {
+        "name": "position.middle_right",
+        "href": "const_position.middle_right",
+        "data_name": "position.middle_right",
+        "type": "property"
+      },
+      {
+        "name": "position.top_center",
+        "href": "const_position.top_center",
+        "data_name": "position.top_center",
+        "type": "property"
+      },
+      {
+        "name": "position.top_left",
+        "href": "const_position.top_left",
+        "data_name": "position.top_left",
+        "type": "property"
+      },
+      {
+        "name": "position.top_right",
+        "href": "const_position.top_right",
+        "data_name": "position.top_right",
+        "type": "property"
+      },
+      {
+        "name": "scale.left",
+        "href": "const_scale.left",
+        "data_name": "scale.left",
+        "type": "property"
+      },
+      {
+        "name": "scale.none",
+        "href": "const_scale.none",
+        "data_name": "scale.none",
+        "type": "property"
+      },
+      {
+        "name": "scale.right",
+        "href": "const_scale.right",
+        "data_name": "scale.right",
+        "type": "property"
+      },
+      {
+        "name": "session.extended",
+        "href": "const_session.extended",
+        "data_name": "session.extended",
+        "type": "property"
+      },
+      {
+        "name": "session.regular",
+        "href": "const_session.regular",
+        "data_name": "session.regular",
+        "type": "property"
+      },
+      {
+        "name": "shape.arrowdown",
+        "href": "const_shape.arrowdown",
+        "data_name": "shape.arrowdown",
+        "type": "property"
+      },
+      {
+        "name": "shape.arrowup",
+        "href": "const_shape.arrowup",
+        "data_name": "shape.arrowup",
+        "type": "property"
+      },
+      {
+        "name": "shape.circle",
+        "href": "const_shape.circle",
+        "data_name": "shape.circle",
+        "type": "property"
+      },
+      {
+        "name": "shape.cross",
+        "href": "const_shape.cross",
+        "data_name": "shape.cross",
+        "type": "property"
+      },
+      {
+        "name": "shape.diamond",
+        "href": "const_shape.diamond",
+        "data_name": "shape.diamond",
+        "type": "property"
+      },
+      {
+        "name": "shape.flag",
+        "href": "const_shape.flag",
+        "data_name": "shape.flag",
+        "type": "property"
+      },
+      {
+        "name": "shape.labeldown",
+        "href": "const_shape.labeldown",
+        "data_name": "shape.labeldown",
+        "type": "property"
+      },
+      {
+        "name": "shape.labelup",
+        "href": "const_shape.labelup",
+        "data_name": "shape.labelup",
+        "type": "property"
+      },
+      {
+        "name": "shape.square",
+        "href": "const_shape.square",
+        "data_name": "shape.square",
+        "type": "property"
+      },
+      {
+        "name": "shape.triangledown",
+        "href": "const_shape.triangledown",
+        "data_name": "shape.triangledown",
+        "type": "property"
+      },
+      {
+        "name": "shape.triangleup",
+        "href": "const_shape.triangleup",
+        "data_name": "shape.triangleup",
+        "type": "property"
+      },
+      {
+        "name": "shape.xcross",
+        "href": "const_shape.xcross",
+        "data_name": "shape.xcross",
+        "type": "property"
+      },
+      {
+        "name": "size.auto",
+        "href": "const_size.auto",
+        "data_name": "size.auto",
+        "type": "property"
+      },
+      {
+        "name": "size.huge",
+        "href": "const_size.huge",
+        "data_name": "size.huge",
+        "type": "property"
+      },
+      {
+        "name": "size.large",
+        "href": "const_size.large",
+        "data_name": "size.large",
+        "type": "property"
+      },
+      {
+        "name": "size.normal",
+        "href": "const_size.normal",
+        "data_name": "size.normal",
+        "type": "property"
+      },
+      {
+        "name": "size.small",
+        "href": "const_size.small",
+        "data_name": "size.small",
+        "type": "property"
+      },
+      {
+        "name": "size.tiny",
+        "href": "const_size.tiny",
+        "data_name": "size.tiny",
+        "type": "property"
+      },
+      {
+        "name": "splits.denominator",
+        "href": "const_splits.denominator",
+        "data_name": "splits.denominator",
+        "type": "property"
+      },
+      {
+        "name": "splits.numerator",
+        "href": "const_splits.numerator",
+        "data_name": "splits.numerator",
+        "type": "property"
+      },
+      {
+        "name": "strategy.cash",
+        "href": "const_strategy.cash",
+        "data_name": "strategy.cash",
+        "type": "property"
+      },
+      {
+        "name": "strategy.commission.cash_per_contract",
+        "href": "const_strategy.commission.cash_per_contract",
+        "data_name": "strategy.commission.cash_per_contract",
+        "type": "property"
+      },
+      {
+        "name": "strategy.commission.cash_per_order",
+        "href": "const_strategy.commission.cash_per_order",
+        "data_name": "strategy.commission.cash_per_order",
+        "type": "property"
+      },
+      {
+        "name": "strategy.commission.percent",
+        "href": "const_strategy.commission.percent",
+        "data_name": "strategy.commission.percent",
+        "type": "property"
+      },
+      {
+        "name": "strategy.direction.all",
+        "href": "const_strategy.direction.all",
+        "data_name": "strategy.direction.all",
+        "type": "property"
+      },
+      {
+        "name": "strategy.direction.long",
+        "href": "const_strategy.direction.long",
+        "data_name": "strategy.direction.long",
+        "type": "property"
+      },
+      {
+        "name": "strategy.direction.short",
+        "href": "const_strategy.direction.short",
+        "data_name": "strategy.direction.short",
+        "type": "property"
+      },
+      {
+        "name": "strategy.fixed",
+        "href": "const_strategy.fixed",
+        "data_name": "strategy.fixed",
+        "type": "property"
+      },
+      {
+        "name": "strategy.long",
+        "href": "const_strategy.long",
+        "data_name": "strategy.long",
+        "type": "property"
+      },
+      {
+        "name": "strategy.oca.cancel",
+        "href": "const_strategy.oca.cancel",
+        "data_name": "strategy.oca.cancel",
+        "type": "property"
+      },
+      {
+        "name": "strategy.oca.none",
+        "href": "const_strategy.oca.none",
+        "data_name": "strategy.oca.none",
+        "type": "property"
+      },
+      {
+        "name": "strategy.oca.reduce",
+        "href": "const_strategy.oca.reduce",
+        "data_name": "strategy.oca.reduce",
+        "type": "property"
+      },
+      {
+        "name": "strategy.percent_of_equity",
+        "href": "const_strategy.percent_of_equity",
+        "data_name": "strategy.percent_of_equity",
+        "type": "property"
+      },
+      {
+        "name": "strategy.short",
+        "href": "const_strategy.short",
+        "data_name": "strategy.short",
+        "type": "property"
+      },
+      {
+        "name": "text.align_bottom",
+        "href": "const_text.align_bottom",
+        "data_name": "text.align_bottom",
+        "type": "property"
+      },
+      {
+        "name": "text.align_center",
+        "href": "const_text.align_center",
+        "data_name": "text.align_center",
+        "type": "property"
+      },
+      {
+        "name": "text.align_left",
+        "href": "const_text.align_left",
+        "data_name": "text.align_left",
+        "type": "property"
+      },
+      {
+        "name": "text.align_right",
+        "href": "const_text.align_right",
+        "data_name": "text.align_right",
+        "type": "property"
+      },
+      {
+        "name": "text.align_top",
+        "href": "const_text.align_top",
+        "data_name": "text.align_top",
+        "type": "property"
+      },
+      {
+        "name": "xloc.bar_index",
+        "href": "const_xloc.bar_index",
+        "data_name": "xloc.bar_index",
+        "type": "property"
+      },
+      {
+        "name": "xloc.bar_time",
+        "href": "const_xloc.bar_time",
+        "data_name": "xloc.bar_time",
+        "type": "property"
+      },
+      {
+        "name": "yloc.abovebar",
+        "href": "const_yloc.abovebar",
+        "data_name": "yloc.abovebar",
+        "type": "property"
+      },
+      {
+        "name": "yloc.belowbar",
+        "href": "const_yloc.belowbar",
+        "data_name": "yloc.belowbar",
+        "type": "property"
+      },
+      {
+        "name": "yloc.price",
+        "href": "const_yloc.price",
+        "data_name": "yloc.price",
+        "type": "property"
+      }
+    ],
+    "Functions": [
+      {
+        "name": "abs()",
+        "href": "fun_abs",
+        "data_name": "abs()",
+        "type": "function"
+      },
+      {
+        "name": "acos()",
+        "href": "fun_acos",
+        "data_name": "acos()",
+        "type": "function"
+      },
+      {
+        "name": "alert()",
+        "href": "fun_alert",
+        "data_name": "alert()",
+        "type": "function"
+      },
+      {
+        "name": "alertcondition()",
+        "href": "fun_alertcondition",
+        "data_name": "alertcondition()",
+        "type": "function"
+      },
+      {
+        "name": "alma()",
+        "href": "fun_alma",
+        "data_name": "alma()",
+        "type": "function"
+      },
+      {
+        "name": "array.avg()",
+        "href": "fun_array.avg",
+        "data_name": "array.avg()",
+        "type": "function"
+      },
+      {
+        "name": "array.clear()",
+        "href": "fun_array.clear",
+        "data_name": "array.clear()",
+        "type": "function"
+      },
+      {
+        "name": "array.concat()",
+        "href": "fun_array.concat",
+        "data_name": "array.concat()",
+        "type": "function"
+      },
+      {
+        "name": "array.copy()",
+        "href": "fun_array.copy",
+        "data_name": "array.copy()",
+        "type": "function"
+      },
+      {
+        "name": "array.covariance()",
+        "href": "fun_array.covariance",
+        "data_name": "array.covariance()",
+        "type": "function"
+      },
+      {
+        "name": "array.fill()",
+        "href": "fun_array.fill",
+        "data_name": "array.fill()",
+        "type": "function"
+      },
+      {
+        "name": "array.from()",
+        "href": "fun_array.from",
+        "data_name": "array.from()",
+        "type": "function"
+      },
+      {
+        "name": "array.get()",
+        "href": "fun_array.get",
+        "data_name": "array.get()",
+        "type": "function"
+      },
+      {
+        "name": "array.includes()",
+        "href": "fun_array.includes",
+        "data_name": "array.includes()",
+        "type": "function"
+      },
+      {
+        "name": "array.indexof()",
+        "href": "fun_array.indexof",
+        "data_name": "array.indexof()",
+        "type": "function"
+      },
+      {
+        "name": "array.insert()",
+        "href": "fun_array.insert",
+        "data_name": "array.insert()",
+        "type": "function"
+      },
+      {
+        "name": "array.join()",
+        "href": "fun_array.join",
+        "data_name": "array.join()",
+        "type": "function"
+      },
+      {
+        "name": "array.lastindexof()",
+        "href": "fun_array.lastindexof",
+        "data_name": "array.lastindexof()",
+        "type": "function"
+      },
+      {
+        "name": "array.max()",
+        "href": "fun_array.max",
+        "data_name": "array.max()",
+        "type": "function"
+      },
+      {
+        "name": "array.median()",
+        "href": "fun_array.median",
+        "data_name": "array.median()",
+        "type": "function"
+      },
+      {
+        "name": "array.min()",
+        "href": "fun_array.min",
+        "data_name": "array.min()",
+        "type": "function"
+      },
+      {
+        "name": "array.mode()",
+        "href": "fun_array.mode",
+        "data_name": "array.mode()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_bool()",
+        "href": "fun_array.new_bool",
+        "data_name": "array.new_bool()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_box()",
+        "href": "fun_array.new_box",
+        "data_name": "array.new_box()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_color()",
+        "href": "fun_array.new_color",
+        "data_name": "array.new_color()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_float()",
+        "href": "fun_array.new_float",
+        "data_name": "array.new_float()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_int()",
+        "href": "fun_array.new_int",
+        "data_name": "array.new_int()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_label()",
+        "href": "fun_array.new_label",
+        "data_name": "array.new_label()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_line()",
+        "href": "fun_array.new_line",
+        "data_name": "array.new_line()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_string()",
+        "href": "fun_array.new_string",
+        "data_name": "array.new_string()",
+        "type": "function"
+      },
+      {
+        "name": "array.new_table()",
+        "href": "fun_array.new_table",
+        "data_name": "array.new_table()",
+        "type": "function"
+      },
+      {
+        "name": "array.pop()",
+        "href": "fun_array.pop",
+        "data_name": "array.pop()",
+        "type": "function"
+      },
+      {
+        "name": "array.push()",
+        "href": "fun_array.push",
+        "data_name": "array.push()",
+        "type": "function"
+      },
+      {
+        "name": "array.range()",
+        "href": "fun_array.range",
+        "data_name": "array.range()",
+        "type": "function"
+      },
+      {
+        "name": "array.remove()",
+        "href": "fun_array.remove",
+        "data_name": "array.remove()",
+        "type": "function"
+      },
+      {
+        "name": "array.reverse()",
+        "href": "fun_array.reverse",
+        "data_name": "array.reverse()",
+        "type": "function"
+      },
+      {
+        "name": "array.set()",
+        "href": "fun_array.set",
+        "data_name": "array.set()",
+        "type": "function"
+      },
+      {
+        "name": "array.shift()",
+        "href": "fun_array.shift",
+        "data_name": "array.shift()",
+        "type": "function"
+      },
+      {
+        "name": "array.size()",
+        "href": "fun_array.size",
+        "data_name": "array.size()",
+        "type": "function"
+      },
+      {
+        "name": "array.slice()",
+        "href": "fun_array.slice",
+        "data_name": "array.slice()",
+        "type": "function"
+      },
+      {
+        "name": "array.sort()",
+        "href": "fun_array.sort",
+        "data_name": "array.sort()",
+        "type": "function"
+      },
+      {
+        "name": "array.standardize()",
+        "href": "fun_array.standardize",
+        "data_name": "array.standardize()",
+        "type": "function"
+      },
+      {
+        "name": "array.stdev()",
+        "href": "fun_array.stdev",
+        "data_name": "array.stdev()",
+        "type": "function"
+      },
+      {
+        "name": "array.sum()",
+        "href": "fun_array.sum",
+        "data_name": "array.sum()",
+        "type": "function"
+      },
+      {
+        "name": "array.unshift()",
+        "href": "fun_array.unshift",
+        "data_name": "array.unshift()",
+        "type": "function"
+      },
+      {
+        "name": "array.variance()",
+        "href": "fun_array.variance",
+        "data_name": "array.variance()",
+        "type": "function"
+      },
+      {
+        "name": "asin()",
+        "href": "fun_asin",
+        "data_name": "asin()",
+        "type": "function"
+      },
+      {
+        "name": "atan()",
+        "href": "fun_atan",
+        "data_name": "atan()",
+        "type": "function"
+      },
+      {
+        "name": "atr()",
+        "href": "fun_atr",
+        "data_name": "atr()",
+        "type": "function"
+      },
+      {
+        "name": "avg()",
+        "href": "fun_avg",
+        "data_name": "avg()",
+        "type": "function"
+      },
+      {
+        "name": "barcolor()",
+        "href": "fun_barcolor",
+        "data_name": "barcolor()",
+        "type": "function"
+      },
+      {
+        "name": "barssince()",
+        "href": "fun_barssince",
+        "data_name": "barssince()",
+        "type": "function"
+      },
+      {
+        "name": "bb()",
+        "href": "fun_bb",
+        "data_name": "bb()",
+        "type": "function"
+      },
+      {
+        "name": "bbw()",
+        "href": "fun_bbw",
+        "data_name": "bbw()",
+        "type": "function"
+      },
+      {
+        "name": "bgcolor()",
+        "href": "fun_bgcolor",
+        "data_name": "bgcolor()",
+        "type": "function"
+      },
+      {
+        "name": "bool()",
+        "href": "fun_bool",
+        "data_name": "bool()",
+        "type": "function"
+      },
+      {
+        "name": "box()",
+        "href": "fun_box",
+        "data_name": "box()",
+        "type": "function"
+      },
+      {
+        "name": "box.delete()",
+        "href": "fun_box.delete",
+        "data_name": "box.delete()",
+        "type": "function"
+      },
+      {
+        "name": "box.get_bottom()",
+        "href": "fun_box.get_bottom",
+        "data_name": "box.get_bottom()",
+        "type": "function"
+      },
+      {
+        "name": "box.get_left()",
+        "href": "fun_box.get_left",
+        "data_name": "box.get_left()",
+        "type": "function"
+      },
+      {
+        "name": "box.get_right()",
+        "href": "fun_box.get_right",
+        "data_name": "box.get_right()",
+        "type": "function"
+      },
+      {
+        "name": "box.get_top()",
+        "href": "fun_box.get_top",
+        "data_name": "box.get_top()",
+        "type": "function"
+      },
+      {
+        "name": "box.new()",
+        "href": "fun_box.new",
+        "data_name": "box.new()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_bgcolor()",
+        "href": "fun_box.set_bgcolor",
+        "data_name": "box.set_bgcolor()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_border_color()",
+        "href": "fun_box.set_border_color",
+        "data_name": "box.set_border_color()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_border_style()",
+        "href": "fun_box.set_border_style",
+        "data_name": "box.set_border_style()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_border_width()",
+        "href": "fun_box.set_border_width",
+        "data_name": "box.set_border_width()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_bottom()",
+        "href": "fun_box.set_bottom",
+        "data_name": "box.set_bottom()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_extend()",
+        "href": "fun_box.set_extend",
+        "data_name": "box.set_extend()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_left()",
+        "href": "fun_box.set_left",
+        "data_name": "box.set_left()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_lefttop()",
+        "href": "fun_box.set_lefttop",
+        "data_name": "box.set_lefttop()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_right()",
+        "href": "fun_box.set_right",
+        "data_name": "box.set_right()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_rightbottom()",
+        "href": "fun_box.set_rightbottom",
+        "data_name": "box.set_rightbottom()",
+        "type": "function"
+      },
+      {
+        "name": "box.set_top()",
+        "href": "fun_box.set_top",
+        "data_name": "box.set_top()",
+        "type": "function"
+      },
+      {
+        "name": "cci()",
+        "href": "fun_cci",
+        "data_name": "cci()",
+        "type": "function"
+      },
+      {
+        "name": "ceil()",
+        "href": "fun_ceil",
+        "data_name": "ceil()",
+        "type": "function"
+      },
+      {
+        "name": "change()",
+        "href": "fun_change",
+        "data_name": "change()",
+        "type": "function"
+      },
+      {
+        "name": "cmo()",
+        "href": "fun_cmo",
+        "data_name": "cmo()",
+        "type": "function"
+      },
+      {
+        "name": "cog()",
+        "href": "fun_cog",
+        "data_name": "cog()",
+        "type": "function"
+      },
+      {
+        "name": "color()",
+        "href": "fun_color",
+        "data_name": "color()",
+        "type": "function"
+      },
+      {
+        "name": "color.b()",
+        "href": "fun_color.b",
+        "data_name": "color.b()",
+        "type": "function"
+      },
+      {
+        "name": "color.from_gradient()",
+        "href": "fun_color.from_gradient",
+        "data_name": "color.from_gradient()",
+        "type": "function"
+      },
+      {
+        "name": "color.g()",
+        "href": "fun_color.g",
+        "data_name": "color.g()",
+        "type": "function"
+      },
+      {
+        "name": "color.new()",
+        "href": "fun_color.new",
+        "data_name": "color.new()",
+        "type": "function"
+      },
+      {
+        "name": "color.r()",
+        "href": "fun_color.r",
+        "data_name": "color.r()",
+        "type": "function"
+      },
+      {
+        "name": "color.rgb()",
+        "href": "fun_color.rgb",
+        "data_name": "color.rgb()",
+        "type": "function"
+      },
+      {
+        "name": "color.t()",
+        "href": "fun_color.t",
+        "data_name": "color.t()",
+        "type": "function"
+      },
+      {
+        "name": "correlation()",
+        "href": "fun_correlation",
+        "data_name": "correlation()",
+        "type": "function"
+      },
+      {
+        "name": "cos()",
+        "href": "fun_cos",
+        "data_name": "cos()",
+        "type": "function"
+      },
+      {
+        "name": "cross()",
+        "href": "fun_cross",
+        "data_name": "cross()",
+        "type": "function"
+      },
+      {
+        "name": "crossover()",
+        "href": "fun_crossover",
+        "data_name": "crossover()",
+        "type": "function"
+      },
+      {
+        "name": "crossunder()",
+        "href": "fun_crossunder",
+        "data_name": "crossunder()",
+        "type": "function"
+      },
+      {
+        "name": "cum()",
+        "href": "fun_cum",
+        "data_name": "cum()",
+        "type": "function"
+      },
+      {
+        "name": "dayofmonth()",
+        "href": "fun_dayofmonth",
+        "data_name": "dayofmonth()",
+        "type": "function"
+      },
+      {
+        "name": "dayofweek()",
+        "href": "fun_dayofweek",
+        "data_name": "dayofweek()",
+        "type": "function"
+      },
+      {
+        "name": "dev()",
+        "href": "fun_dev",
+        "data_name": "dev()",
+        "type": "function"
+      },
+      {
+        "name": "dividends()",
+        "href": "fun_dividends",
+        "data_name": "dividends()",
+        "type": "function"
+      },
+      {
+        "name": "dmi()",
+        "href": "fun_dmi",
+        "data_name": "dmi()",
+        "type": "function"
+      },
+      {
+        "name": "earnings()",
+        "href": "fun_earnings",
+        "data_name": "earnings()",
+        "type": "function"
+      },
+      {
+        "name": "ema()",
+        "href": "fun_ema",
+        "data_name": "ema()",
+        "type": "function"
+      },
+      {
+        "name": "exp()",
+        "href": "fun_exp",
+        "data_name": "exp()",
+        "type": "function"
+      },
+      {
+        "name": "falling()",
+        "href": "fun_falling",
+        "data_name": "falling()",
+        "type": "function"
+      },
+      {
+        "name": "fill()",
+        "href": "fun_fill",
+        "data_name": "fill()",
+        "type": "function"
+      },
+      {
+        "name": "financial()",
+        "href": "fun_financial",
+        "data_name": "financial()",
+        "type": "function"
+      },
+      {
+        "name": "fixnan()",
+        "href": "fun_fixnan",
+        "data_name": "fixnan()",
+        "type": "function"
+      },
+      {
+        "name": "float()",
+        "href": "fun_float",
+        "data_name": "float()",
+        "type": "function"
+      },
+      {
+        "name": "floor()",
+        "href": "fun_floor",
+        "data_name": "floor()",
+        "type": "function"
+      },
+      {
+        "name": "heikinashi()",
+        "href": "fun_heikinashi",
+        "data_name": "heikinashi()",
+        "type": "function"
+      },
+      {
+        "name": "highest()",
+        "href": "fun_highest",
+        "data_name": "highest()",
+        "type": "function"
+      },
+      {
+        "name": "highestbars()",
+        "href": "fun_highestbars",
+        "data_name": "highestbars()",
+        "type": "function"
+      },
+      {
+        "name": "hline()",
+        "href": "fun_hline",
+        "data_name": "hline()",
+        "type": "function"
+      },
+      {
+        "name": "hma()",
+        "href": "fun_hma",
+        "data_name": "hma()",
+        "type": "function"
+      },
+      {
+        "name": "hour()",
+        "href": "fun_hour",
+        "data_name": "hour()",
+        "type": "function"
+      },
+      {
+        "name": "iff()",
+        "href": "fun_iff",
+        "data_name": "iff()",
+        "type": "function"
+      },
+      {
+        "name": "input()",
+        "href": "fun_input",
+        "data_name": "input()",
+        "type": "function"
+      },
+      {
+        "name": "int()",
+        "href": "fun_int",
+        "data_name": "int()",
+        "type": "function"
+      },
+      {
+        "name": "kagi()",
+        "href": "fun_kagi",
+        "data_name": "kagi()",
+        "type": "function"
+      },
+      {
+        "name": "kc()",
+        "href": "fun_kc",
+        "data_name": "kc()",
+        "type": "function"
+      },
+      {
+        "name": "kcw()",
+        "href": "fun_kcw",
+        "data_name": "kcw()",
+        "type": "function"
+      },
+      {
+        "name": "label()",
+        "href": "fun_label",
+        "data_name": "label()",
+        "type": "function"
+      },
+      {
+        "name": "label.delete()",
+        "href": "fun_label.delete",
+        "data_name": "label.delete()",
+        "type": "function"
+      },
+      {
+        "name": "label.get_text()",
+        "href": "fun_label.get_text",
+        "data_name": "label.get_text()",
+        "type": "function"
+      },
+      {
+        "name": "label.get_x()",
+        "href": "fun_label.get_x",
+        "data_name": "label.get_x()",
+        "type": "function"
+      },
+      {
+        "name": "label.get_y()",
+        "href": "fun_label.get_y",
+        "data_name": "label.get_y()",
+        "type": "function"
+      },
+      {
+        "name": "label.new()",
+        "href": "fun_label.new",
+        "data_name": "label.new()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_color()",
+        "href": "fun_label.set_color",
+        "data_name": "label.set_color()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_size()",
+        "href": "fun_label.set_size",
+        "data_name": "label.set_size()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_style()",
+        "href": "fun_label.set_style",
+        "data_name": "label.set_style()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_text()",
+        "href": "fun_label.set_text",
+        "data_name": "label.set_text()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_textalign()",
+        "href": "fun_label.set_textalign",
+        "data_name": "label.set_textalign()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_textcolor()",
+        "href": "fun_label.set_textcolor",
+        "data_name": "label.set_textcolor()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_tooltip()",
+        "href": "fun_label.set_tooltip",
+        "data_name": "label.set_tooltip()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_x()",
+        "href": "fun_label.set_x",
+        "data_name": "label.set_x()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_xloc()",
+        "href": "fun_label.set_xloc",
+        "data_name": "label.set_xloc()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_xy()",
+        "href": "fun_label.set_xy",
+        "data_name": "label.set_xy()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_y()",
+        "href": "fun_label.set_y",
+        "data_name": "label.set_y()",
+        "type": "function"
+      },
+      {
+        "name": "label.set_yloc()",
+        "href": "fun_label.set_yloc",
+        "data_name": "label.set_yloc()",
+        "type": "function"
+      },
+      {
+        "name": "line()",
+        "href": "fun_line",
+        "data_name": "line()",
+        "type": "function"
+      },
+      {
+        "name": "line.delete()",
+        "href": "fun_line.delete",
+        "data_name": "line.delete()",
+        "type": "function"
+      },
+      {
+        "name": "line.get_price()",
+        "href": "fun_line.get_price",
+        "data_name": "line.get_price()",
+        "type": "function"
+      },
+      {
+        "name": "line.get_x1()",
+        "href": "fun_line.get_x1",
+        "data_name": "line.get_x1()",
+        "type": "function"
+      },
+      {
+        "name": "line.get_x2()",
+        "href": "fun_line.get_x2",
+        "data_name": "line.get_x2()",
+        "type": "function"
+      },
+      {
+        "name": "line.get_y1()",
+        "href": "fun_line.get_y1",
+        "data_name": "line.get_y1()",
+        "type": "function"
+      },
+      {
+        "name": "line.get_y2()",
+        "href": "fun_line.get_y2",
+        "data_name": "line.get_y2()",
+        "type": "function"
+      },
+      {
+        "name": "line.new()",
+        "href": "fun_line.new",
+        "data_name": "line.new()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_color()",
+        "href": "fun_line.set_color",
+        "data_name": "line.set_color()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_extend()",
+        "href": "fun_line.set_extend",
+        "data_name": "line.set_extend()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_style()",
+        "href": "fun_line.set_style",
+        "data_name": "line.set_style()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_width()",
+        "href": "fun_line.set_width",
+        "data_name": "line.set_width()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_x1()",
+        "href": "fun_line.set_x1",
+        "data_name": "line.set_x1()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_x2()",
+        "href": "fun_line.set_x2",
+        "data_name": "line.set_x2()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_xloc()",
+        "href": "fun_line.set_xloc",
+        "data_name": "line.set_xloc()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_xy1()",
+        "href": "fun_line.set_xy1",
+        "data_name": "line.set_xy1()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_xy2()",
+        "href": "fun_line.set_xy2",
+        "data_name": "line.set_xy2()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_y1()",
+        "href": "fun_line.set_y1",
+        "data_name": "line.set_y1()",
+        "type": "function"
+      },
+      {
+        "name": "line.set_y2()",
+        "href": "fun_line.set_y2",
+        "data_name": "line.set_y2()",
+        "type": "function"
+      },
+      {
+        "name": "linebreak()",
+        "href": "fun_linebreak",
+        "data_name": "linebreak()",
+        "type": "function"
+      },
+      {
+        "name": "linreg()",
+        "href": "fun_linreg",
+        "data_name": "linreg()",
+        "type": "function"
+      },
+      {
+        "name": "log()",
+        "href": "fun_log",
+        "data_name": "log()",
+        "type": "function"
+      },
+      {
+        "name": "log10()",
+        "href": "fun_log10",
+        "data_name": "log10()",
+        "type": "function"
+      },
+      {
+        "name": "lowest()",
+        "href": "fun_lowest",
+        "data_name": "lowest()",
+        "type": "function"
+      },
+      {
+        "name": "lowestbars()",
+        "href": "fun_lowestbars",
+        "data_name": "lowestbars()",
+        "type": "function"
+      },
+      {
+        "name": "macd()",
+        "href": "fun_macd",
+        "data_name": "macd()",
+        "type": "function"
+      },
+      {
+        "name": "max()",
+        "href": "fun_max",
+        "data_name": "max()",
+        "type": "function"
+      },
+      {
+        "name": "max_bars_back()",
+        "href": "fun_max_bars_back",
+        "data_name": "max_bars_back()",
+        "type": "function"
+      },
+      {
+        "name": "median()",
+        "href": "fun_median",
+        "data_name": "median()",
+        "type": "function"
+      },
+      {
+        "name": "mfi()",
+        "href": "fun_mfi",
+        "data_name": "mfi()",
+        "type": "function"
+      },
+      {
+        "name": "min()",
+        "href": "fun_min",
+        "data_name": "min()",
+        "type": "function"
+      },
+      {
+        "name": "minute()",
+        "href": "fun_minute",
+        "data_name": "minute()",
+        "type": "function"
+      },
+      {
+        "name": "mode()",
+        "href": "fun_mode",
+        "data_name": "mode()",
+        "type": "function"
+      },
+      {
+        "name": "mom()",
+        "href": "fun_mom",
+        "data_name": "mom()",
+        "type": "function"
+      },
+      {
+        "name": "month()",
+        "href": "fun_month",
+        "data_name": "month()",
+        "type": "function"
+      },
+      {
+        "name": "na()",
+        "href": "fun_na",
+        "data_name": "na()",
+        "type": "function"
+      },
+      {
+        "name": "nz()",
+        "href": "fun_nz",
+        "data_name": "nz()",
+        "type": "function"
+      },
+      {
+        "name": "offset()",
+        "href": "fun_offset",
+        "data_name": "offset()",
+        "type": "function"
+      },
+      {
+        "name": "percentile_linear_interpolation()",
+        "href": "fun_percentile_linear_interpolation",
+        "data_name": "percentile_linear_interpolation()",
+        "type": "function"
+      },
+      {
+        "name": "percentile_nearest_rank()",
+        "href": "fun_percentile_nearest_rank",
+        "data_name": "percentile_nearest_rank()",
+        "type": "function"
+      },
+      {
+        "name": "percentrank()",
+        "href": "fun_percentrank",
+        "data_name": "percentrank()",
+        "type": "function"
+      },
+      {
+        "name": "pivothigh()",
+        "href": "fun_pivothigh",
+        "data_name": "pivothigh()",
+        "type": "function"
+      },
+      {
+        "name": "pivotlow()",
+        "href": "fun_pivotlow",
+        "data_name": "pivotlow()",
+        "type": "function"
+      },
+      {
+        "name": "plot()",
+        "href": "fun_plot",
+        "data_name": "plot()",
+        "type": "function"
+      },
+      {
+        "name": "plotarrow()",
+        "href": "fun_plotarrow",
+        "data_name": "plotarrow()",
+        "type": "function"
+      },
+      {
+        "name": "plotbar()",
+        "href": "fun_plotbar",
+        "data_name": "plotbar()",
+        "type": "function"
+      },
+      {
+        "name": "plotcandle()",
+        "href": "fun_plotcandle",
+        "data_name": "plotcandle()",
+        "type": "function"
+      },
+      {
+        "name": "plotchar()",
+        "href": "fun_plotchar",
+        "data_name": "plotchar()",
+        "type": "function"
+      },
+      {
+        "name": "plotshape()",
+        "href": "fun_plotshape",
+        "data_name": "plotshape()",
+        "type": "function"
+      },
+      {
+        "name": "pointfigure()",
+        "href": "fun_pointfigure",
+        "data_name": "pointfigure()",
+        "type": "function"
+      },
+      {
+        "name": "pow()",
+        "href": "fun_pow",
+        "data_name": "pow()",
+        "type": "function"
+      },
+      {
+        "name": "quandl()",
+        "href": "fun_quandl",
+        "data_name": "quandl()",
+        "type": "function"
+      },
+      {
+        "name": "random()",
+        "href": "fun_random",
+        "data_name": "random()",
+        "type": "function"
+      },
+      {
+        "name": "range()",
+        "href": "fun_range",
+        "data_name": "range()",
+        "type": "function"
+      },
+      {
+        "name": "renko()",
+        "href": "fun_renko",
+        "data_name": "renko()",
+        "type": "function"
+      },
+      {
+        "name": "rising()",
+        "href": "fun_rising",
+        "data_name": "rising()",
+        "type": "function"
+      },
+      {
+        "name": "rma()",
+        "href": "fun_rma",
+        "data_name": "rma()",
+        "type": "function"
+      },
+      {
+        "name": "roc()",
+        "href": "fun_roc",
+        "data_name": "roc()",
+        "type": "function"
+      },
+      {
+        "name": "round()",
+        "href": "fun_round",
+        "data_name": "round()",
+        "type": "function"
+      },
+      {
+        "name": "round_to_mintick()",
+        "href": "fun_round_to_mintick",
+        "data_name": "round_to_mintick()",
+        "type": "function"
+      },
+      {
+        "name": "rsi()",
+        "href": "fun_rsi",
+        "data_name": "rsi()",
+        "type": "function"
+      },
+      {
+        "name": "sar()",
+        "href": "fun_sar",
+        "data_name": "sar()",
+        "type": "function"
+      },
+      {
+        "name": "second()",
+        "href": "fun_second",
+        "data_name": "second()",
+        "type": "function"
+      },
+      {
+        "name": "security()",
+        "href": "fun_security",
+        "data_name": "security()",
+        "type": "function"
+      },
+      {
+        "name": "sign()",
+        "href": "fun_sign",
+        "data_name": "sign()",
+        "type": "function"
+      },
+      {
+        "name": "sin()",
+        "href": "fun_sin",
+        "data_name": "sin()",
+        "type": "function"
+      },
+      {
+        "name": "sma()",
+        "href": "fun_sma",
+        "data_name": "sma()",
+        "type": "function"
+      },
+      {
+        "name": "splits()",
+        "href": "fun_splits",
+        "data_name": "splits()",
+        "type": "function"
+      },
+      {
+        "name": "sqrt()",
+        "href": "fun_sqrt",
+        "data_name": "sqrt()",
+        "type": "function"
+      },
+      {
+        "name": "stdev()",
+        "href": "fun_stdev",
+        "data_name": "stdev()",
+        "type": "function"
+      },
+      {
+        "name": "stoch()",
+        "href": "fun_stoch",
+        "data_name": "stoch()",
+        "type": "function"
+      },
+      {
+        "name": "str.format()",
+        "href": "fun_str.format",
+        "data_name": "str.format()",
+        "type": "function"
+      },
+      {
+        "name": "str.length()",
+        "href": "fun_str.length",
+        "data_name": "str.length()",
+        "type": "function"
+      },
+      {
+        "name": "str.replace_all()",
+        "href": "fun_str.replace_all",
+        "data_name": "str.replace_all()",
+        "type": "function"
+      },
+      {
+        "name": "str.split()",
+        "href": "fun_str.split",
+        "data_name": "str.split()",
+        "type": "function"
+      },
+      {
+        "name": "strategy()",
+        "href": "fun_strategy",
+        "data_name": "strategy()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.cancel()",
+        "href": "fun_strategy.cancel",
+        "data_name": "strategy.cancel()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.cancel_all()",
+        "href": "fun_strategy.cancel_all",
+        "data_name": "strategy.cancel_all()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.close()",
+        "href": "fun_strategy.close",
+        "data_name": "strategy.close()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.close_all()",
+        "href": "fun_strategy.close_all",
+        "data_name": "strategy.close_all()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.entry()",
+        "href": "fun_strategy.entry",
+        "data_name": "strategy.entry()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.exit()",
+        "href": "fun_strategy.exit",
+        "data_name": "strategy.exit()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.order()",
+        "href": "fun_strategy.order",
+        "data_name": "strategy.order()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.allow_entry_in()",
+        "href": "fun_strategy.risk.allow_entry_in",
+        "data_name": "strategy.risk.allow_entry_in()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_cons_loss_days()",
+        "href": "fun_strategy.risk.max_cons_loss_days",
+        "data_name": "strategy.risk.max_cons_loss_days()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_drawdown()",
+        "href": "fun_strategy.risk.max_drawdown",
+        "data_name": "strategy.risk.max_drawdown()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_intraday_filled_orders()",
+        "href": "fun_strategy.risk.max_intraday_filled_orders",
+        "data_name": "strategy.risk.max_intraday_filled_orders()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_intraday_loss()",
+        "href": "fun_strategy.risk.max_intraday_loss",
+        "data_name": "strategy.risk.max_intraday_loss()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_position_size()",
+        "href": "fun_strategy.risk.max_position_size",
+        "data_name": "strategy.risk.max_position_size()",
+        "type": "function"
+      },
+      {
+        "name": "string()",
+        "href": "fun_string",
+        "data_name": "string()",
+        "type": "function"
+      },
+      {
+        "name": "study()",
+        "href": "fun_study",
+        "data_name": "study()",
+        "type": "function"
+      },
+      {
+        "name": "sum()",
+        "href": "fun_sum",
+        "data_name": "sum()",
+        "type": "function"
+      },
+      {
+        "name": "supertrend()",
+        "href": "fun_supertrend",
+        "data_name": "supertrend()",
+        "type": "function"
+      },
+      {
+        "name": "swma()",
+        "href": "fun_swma",
+        "data_name": "swma()",
+        "type": "function"
+      },
+      {
+        "name": "table()",
+        "href": "fun_table",
+        "data_name": "table()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell()",
+        "href": "fun_table.cell",
+        "data_name": "table.cell()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_bgcolor()",
+        "href": "fun_table.cell_set_bgcolor",
+        "data_name": "table.cell_set_bgcolor()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_height()",
+        "href": "fun_table.cell_set_height",
+        "data_name": "table.cell_set_height()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_text()",
+        "href": "fun_table.cell_set_text",
+        "data_name": "table.cell_set_text()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_text_color()",
+        "href": "fun_table.cell_set_text_color",
+        "data_name": "table.cell_set_text_color()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_text_halign()",
+        "href": "fun_table.cell_set_text_halign",
+        "data_name": "table.cell_set_text_halign()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_text_size()",
+        "href": "fun_table.cell_set_text_size",
+        "data_name": "table.cell_set_text_size()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_text_valign()",
+        "href": "fun_table.cell_set_text_valign",
+        "data_name": "table.cell_set_text_valign()",
+        "type": "function"
+      },
+      {
+        "name": "table.cell_set_width()",
+        "href": "fun_table.cell_set_width",
+        "data_name": "table.cell_set_width()",
+        "type": "function"
+      },
+      {
+        "name": "table.clear()",
+        "href": "fun_table.clear",
+        "data_name": "table.clear()",
+        "type": "function"
+      },
+      {
+        "name": "table.delete()",
+        "href": "fun_table.delete",
+        "data_name": "table.delete()",
+        "type": "function"
+      },
+      {
+        "name": "table.new()",
+        "href": "fun_table.new",
+        "data_name": "table.new()",
+        "type": "function"
+      },
+      {
+        "name": "table.set_bgcolor()",
+        "href": "fun_table.set_bgcolor",
+        "data_name": "table.set_bgcolor()",
+        "type": "function"
+      },
+      {
+        "name": "table.set_border_color()",
+        "href": "fun_table.set_border_color",
+        "data_name": "table.set_border_color()",
+        "type": "function"
+      },
+      {
+        "name": "table.set_border_width()",
+        "href": "fun_table.set_border_width",
+        "data_name": "table.set_border_width()",
+        "type": "function"
+      },
+      {
+        "name": "table.set_frame_color()",
+        "href": "fun_table.set_frame_color",
+        "data_name": "table.set_frame_color()",
+        "type": "function"
+      },
+      {
+        "name": "table.set_frame_width()",
+        "href": "fun_table.set_frame_width",
+        "data_name": "table.set_frame_width()",
+        "type": "function"
+      },
+      {
+        "name": "table.set_position()",
+        "href": "fun_table.set_position",
+        "data_name": "table.set_position()",
+        "type": "function"
+      },
+      {
+        "name": "tan()",
+        "href": "fun_tan",
+        "data_name": "tan()",
+        "type": "function"
+      },
+      {
+        "name": "tickerid()",
+        "href": "fun_tickerid",
+        "data_name": "tickerid()",
+        "type": "function"
+      },
+      {
+        "name": "time()",
+        "href": "fun_time",
+        "data_name": "time()",
+        "type": "function"
+      },
+      {
+        "name": "time_close()",
+        "href": "fun_time_close",
+        "data_name": "time_close()",
+        "type": "function"
+      },
+      {
+        "name": "timestamp()",
+        "href": "fun_timestamp",
+        "data_name": "timestamp()",
+        "type": "function"
+      },
+      {
+        "name": "todegrees()",
+        "href": "fun_todegrees",
+        "data_name": "todegrees()",
+        "type": "function"
+      },
+      {
+        "name": "tonumber()",
+        "href": "fun_tonumber",
+        "data_name": "tonumber()",
+        "type": "function"
+      },
+      {
+        "name": "toradians()",
+        "href": "fun_toradians",
+        "data_name": "toradians()",
+        "type": "function"
+      },
+      {
+        "name": "tostring()",
+        "href": "fun_tostring",
+        "data_name": "tostring()",
+        "type": "function"
+      },
+      {
+        "name": "tr()",
+        "href": "fun_tr",
+        "data_name": "tr()",
+        "type": "function"
+      },
+      {
+        "name": "tsi()",
+        "href": "fun_tsi",
+        "data_name": "tsi()",
+        "type": "function"
+      },
+      {
+        "name": "valuewhen()",
+        "href": "fun_valuewhen",
+        "data_name": "valuewhen()",
+        "type": "function"
+      },
+      {
+        "name": "variance()",
+        "href": "fun_variance",
+        "data_name": "variance()",
+        "type": "function"
+      },
+      {
+        "name": "vwap()",
+        "href": "fun_vwap",
+        "data_name": "vwap()",
+        "type": "function"
+      },
+      {
+        "name": "vwma()",
+        "href": "fun_vwma",
+        "data_name": "vwma()",
+        "type": "function"
+      },
+      {
+        "name": "weekofyear()",
+        "href": "fun_weekofyear",
+        "data_name": "weekofyear()",
+        "type": "function"
+      },
+      {
+        "name": "wma()",
+        "href": "fun_wma",
+        "data_name": "wma()",
+        "type": "function"
+      },
+      {
+        "name": "wpr()",
+        "href": "fun_wpr",
+        "data_name": "wpr()",
+        "type": "function"
+      },
+      {
+        "name": "year()",
+        "href": "fun_year",
+        "data_name": "year()",
+        "type": "function"
+      }
+    ],
+    "Keywords": [
+      {
+        "name": "and",
+        "href": "kw_and",
+        "data_name": "and",
+        "type": "variable"
+      },
+      {
+        "name": "false",
+        "href": "kw_false",
+        "data_name": "false",
+        "type": "variable"
+      },
+      {
+        "name": "for",
+        "href": "kw_for",
+        "data_name": "for",
+        "type": "variable"
+      },
+      {
+        "name": "if",
+        "href": "kw_if",
+        "data_name": "if",
+        "type": "variable"
+      },
+      {
+        "name": "not",
+        "href": "kw_not",
+        "data_name": "not",
+        "type": "variable"
+      },
+      {
+        "name": "or",
+        "href": "kw_or",
+        "data_name": "or",
+        "type": "variable"
+      },
+      {
+        "name": "true",
+        "href": "kw_true",
+        "data_name": "true",
+        "type": "variable"
+      },
+      {
+        "name": "var",
+        "href": "kw_var",
+        "data_name": "var",
+        "type": "variable"
+      },
+      {
+        "name": "varip",
+        "href": "kw_varip",
+        "data_name": "varip",
+        "type": "variable"
+      }
+    ],
+    "Types": [
+      {
+        "name": "bool",
+        "href": "type_bool",
+        "data_name": "bool",
+        "type": "variable"
+      },
+      {
+        "name": "box",
+        "href": "type_box",
+        "data_name": "box",
+        "type": "variable"
+      },
+      {
+        "name": "color",
+        "href": "type_color",
+        "data_name": "color",
+        "type": "variable"
+      },
+      {
+        "name": "float",
+        "href": "type_float",
+        "data_name": "float",
+        "type": "variable"
+      },
+      {
+        "name": "int",
+        "href": "type_int",
+        "data_name": "int",
+        "type": "variable"
+      },
+      {
+        "name": "label",
+        "href": "type_label",
+        "data_name": "label",
+        "type": "variable"
+      },
+      {
+        "name": "line",
+        "href": "type_line",
+        "data_name": "line",
+        "type": "variable"
+      },
+      {
+        "name": "string",
+        "href": "type_string",
+        "data_name": "string",
+        "type": "variable"
+      },
+      {
+        "name": "table",
+        "href": "type_table",
+        "data_name": "table",
+        "type": "variable"
+      }
+    ],
+    "Operators": [
+      {
+        "name": "-",
+        "href": "op_-",
+        "data_name": "-",
+        "type": "variable"
+      },
+      {
+        "name": "-=",
+        "href": "op_-=",
+        "data_name": "-=",
+        "type": "variable"
+      },
+      {
+        "name": "!=",
+        "href": "op_!=",
+        "data_name": "!=",
+        "type": "variable"
+      },
+      {
+        "name": "?:",
+        "href": "op_?:",
+        "data_name": "?:",
+        "type": "variable"
+      },
+      {
+        "name": "[]",
+        "href": "op_[]",
+        "data_name": "[]",
+        "type": "variable"
+      },
+      {
+        "name": "*",
+        "href": "op_*",
+        "data_name": "*",
+        "type": "variable"
+      },
+      {
+        "name": "*=",
+        "href": "op_*=",
+        "data_name": "*=",
+        "type": "variable"
+      },
+      {
+        "name": "/",
+        "href": "op_/",
+        "data_name": "/",
+        "type": "variable"
+      },
+      {
+        "name": "/=",
+        "href": "op_/=",
+        "data_name": "/=",
+        "type": "variable"
+      },
+      {
+        "name": "%",
+        "href": "op_%",
+        "data_name": "%",
+        "type": "variable"
+      },
+      {
+        "name": "%=",
+        "href": "op_%=",
+        "data_name": "%=",
+        "type": "variable"
+      },
+      {
+        "name": "+",
+        "href": "op_+",
+        "data_name": "+",
+        "type": "variable"
+      },
+      {
+        "name": "+=",
+        "href": "op_+=",
+        "data_name": "+=",
+        "type": "variable"
+      },
+      {
+        "name": "<",
+        "href": "op_<",
+        "data_name": "<",
+        "type": "variable"
+      },
+      {
+        "name": "<=",
+        "href": "op_<=",
+        "data_name": "<=",
+        "type": "variable"
+      },
+      {
+        "name": "==",
+        "href": "op_==",
+        "data_name": "==",
+        "type": "variable"
+      },
+      {
+        "name": ">",
+        "href": "op_>",
+        "data_name": ">",
+        "type": "variable"
+      },
+      {
+        "name": ">=",
+        "href": "op_>=",
+        "data_name": ">=",
+        "type": "variable"
+      }
+    ]
+  },
+  "all_items": [
+    {
+      "name": "accdist",
+      "href": "var_accdist",
+      "data_name": "accdist",
+      "type": "variable"
+    },
+    {
+      "name": "bar_index",
+      "href": "var_bar_index",
+      "data_name": "bar_index",
+      "type": "variable"
+    },
+    {
+      "name": "barstate.isconfirmed",
+      "href": "var_barstate.isconfirmed",
+      "data_name": "barstate.isconfirmed",
+      "type": "property"
+    },
+    {
+      "name": "barstate.isfirst",
+      "href": "var_barstate.isfirst",
+      "data_name": "barstate.isfirst",
+      "type": "property"
+    },
+    {
+      "name": "barstate.ishistory",
+      "href": "var_barstate.ishistory",
+      "data_name": "barstate.ishistory",
+      "type": "property"
+    },
+    {
+      "name": "barstate.islast",
+      "href": "var_barstate.islast",
+      "data_name": "barstate.islast",
+      "type": "property"
+    },
+    {
+      "name": "barstate.islastconfirmedhistory",
+      "href": "var_barstate.islastconfirmedhistory",
+      "data_name": "barstate.islastconfirmedhistory",
+      "type": "property"
+    },
+    {
+      "name": "barstate.isnew",
+      "href": "var_barstate.isnew",
+      "data_name": "barstate.isnew",
+      "type": "property"
+    },
+    {
+      "name": "barstate.isrealtime",
+      "href": "var_barstate.isrealtime",
+      "data_name": "barstate.isrealtime",
+      "type": "property"
+    },
+    {
+      "name": "close",
+      "href": "var_close",
+      "data_name": "close",
+      "type": "variable"
+    },
+    {
+      "name": "dayofmonth",
+      "href": "var_dayofmonth",
+      "data_name": "dayofmonth",
+      "type": "variable"
+    },
+    {
+      "name": "dayofweek",
+      "href": "var_dayofweek",
+      "data_name": "dayofweek",
+      "type": "variable"
+    },
+    {
+      "name": "high",
+      "href": "var_high",
+      "data_name": "high",
+      "type": "variable"
+    },
+    {
+      "name": "hl2",
+      "href": "var_hl2",
+      "data_name": "hl2",
+      "type": "variable"
+    },
+    {
+      "name": "hlc3",
+      "href": "var_hlc3",
+      "data_name": "hlc3",
+      "type": "variable"
+    },
+    {
+      "name": "hour",
+      "href": "var_hour",
+      "data_name": "hour",
+      "type": "variable"
+    },
+    {
+      "name": "iii",
+      "href": "var_iii",
+      "data_name": "iii",
+      "type": "variable"
+    },
+    {
+      "name": "low",
+      "href": "var_low",
+      "data_name": "low",
+      "type": "variable"
+    },
+    {
+      "name": "minute",
+      "href": "var_minute",
+      "data_name": "minute",
+      "type": "variable"
+    },
+    {
+      "name": "month",
+      "href": "var_month",
+      "data_name": "month",
+      "type": "variable"
+    },
+    {
+      "name": "na",
+      "href": "var_na",
+      "data_name": "na",
+      "type": "variable"
+    },
+    {
+      "name": "nvi",
+      "href": "var_nvi",
+      "data_name": "nvi",
+      "type": "variable"
+    },
+    {
+      "name": "obv",
+      "href": "var_obv",
+      "data_name": "obv",
+      "type": "variable"
+    },
+    {
+      "name": "ohlc4",
+      "href": "var_ohlc4",
+      "data_name": "ohlc4",
+      "type": "variable"
+    },
+    {
+      "name": "open",
+      "href": "var_open",
+      "data_name": "open",
+      "type": "variable"
+    },
+    {
+      "name": "pvi",
+      "href": "var_pvi",
+      "data_name": "pvi",
+      "type": "variable"
+    },
+    {
+      "name": "pvt",
+      "href": "var_pvt",
+      "data_name": "pvt",
+      "type": "variable"
+    },
+    {
+      "name": "second",
+      "href": "var_second",
+      "data_name": "second",
+      "type": "variable"
+    },
+    {
+      "name": "session.ismarket",
+      "href": "var_session.ismarket",
+      "data_name": "session.ismarket",
+      "type": "property"
+    },
+    {
+      "name": "session.ispostmarket",
+      "href": "var_session.ispostmarket",
+      "data_name": "session.ispostmarket",
+      "type": "property"
+    },
+    {
+      "name": "session.ispremarket",
+      "href": "var_session.ispremarket",
+      "data_name": "session.ispremarket",
+      "type": "property"
+    },
+    {
+      "name": "strategy.closedtrades",
+      "href": "var_strategy.closedtrades",
+      "data_name": "strategy.closedtrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.equity",
+      "href": "var_strategy.equity",
+      "data_name": "strategy.equity",
+      "type": "property"
+    },
+    {
+      "name": "strategy.eventrades",
+      "href": "var_strategy.eventrades",
+      "data_name": "strategy.eventrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.grossloss",
+      "href": "var_strategy.grossloss",
+      "data_name": "strategy.grossloss",
+      "type": "property"
+    },
+    {
+      "name": "strategy.grossprofit",
+      "href": "var_strategy.grossprofit",
+      "data_name": "strategy.grossprofit",
+      "type": "property"
+    },
+    {
+      "name": "strategy.initial_capital",
+      "href": "var_strategy.initial_capital",
+      "data_name": "strategy.initial_capital",
+      "type": "property"
+    },
+    {
+      "name": "strategy.losstrades",
+      "href": "var_strategy.losstrades",
+      "data_name": "strategy.losstrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_contracts_held_all",
+      "href": "var_strategy.max_contracts_held_all",
+      "data_name": "strategy.max_contracts_held_all",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_contracts_held_long",
+      "href": "var_strategy.max_contracts_held_long",
+      "data_name": "strategy.max_contracts_held_long",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_contracts_held_short",
+      "href": "var_strategy.max_contracts_held_short",
+      "data_name": "strategy.max_contracts_held_short",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_drawdown",
+      "href": "var_strategy.max_drawdown",
+      "data_name": "strategy.max_drawdown",
+      "type": "property"
+    },
+    {
+      "name": "strategy.netprofit",
+      "href": "var_strategy.netprofit",
+      "data_name": "strategy.netprofit",
+      "type": "property"
+    },
+    {
+      "name": "strategy.openprofit",
+      "href": "var_strategy.openprofit",
+      "data_name": "strategy.openprofit",
+      "type": "property"
+    },
+    {
+      "name": "strategy.opentrades",
+      "href": "var_strategy.opentrades",
+      "data_name": "strategy.opentrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.position_avg_price",
+      "href": "var_strategy.position_avg_price",
+      "data_name": "strategy.position_avg_price",
+      "type": "property"
+    },
+    {
+      "name": "strategy.position_entry_name",
+      "href": "var_strategy.position_entry_name",
+      "data_name": "strategy.position_entry_name",
+      "type": "property"
+    },
+    {
+      "name": "strategy.position_size",
+      "href": "var_strategy.position_size",
+      "data_name": "strategy.position_size",
+      "type": "property"
+    },
+    {
+      "name": "strategy.wintrades",
+      "href": "var_strategy.wintrades",
+      "data_name": "strategy.wintrades",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.basecurrency",
+      "href": "var_syminfo.basecurrency",
+      "data_name": "syminfo.basecurrency",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.currency",
+      "href": "var_syminfo.currency",
+      "data_name": "syminfo.currency",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.description",
+      "href": "var_syminfo.description",
+      "data_name": "syminfo.description",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.mintick",
+      "href": "var_syminfo.mintick",
+      "data_name": "syminfo.mintick",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.pointvalue",
+      "href": "var_syminfo.pointvalue",
+      "data_name": "syminfo.pointvalue",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.prefix",
+      "href": "var_syminfo.prefix",
+      "data_name": "syminfo.prefix",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.root",
+      "href": "var_syminfo.root",
+      "data_name": "syminfo.root",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.session",
+      "href": "var_syminfo.session",
+      "data_name": "syminfo.session",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.ticker",
+      "href": "var_syminfo.ticker",
+      "data_name": "syminfo.ticker",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.tickerid",
+      "href": "var_syminfo.tickerid",
+      "data_name": "syminfo.tickerid",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.timezone",
+      "href": "var_syminfo.timezone",
+      "data_name": "syminfo.timezone",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.type",
+      "href": "var_syminfo.type",
+      "data_name": "syminfo.type",
+      "type": "property"
+    },
+    {
+      "name": "time",
+      "href": "var_time",
+      "data_name": "time",
+      "type": "variable"
+    },
+    {
+      "name": "time_close",
+      "href": "var_time_close",
+      "data_name": "time_close",
+      "type": "variable"
+    },
+    {
+      "name": "time_tradingday",
+      "href": "var_time_tradingday",
+      "data_name": "time_tradingday",
+      "type": "variable"
+    },
+    {
+      "name": "timeframe.isdaily",
+      "href": "var_timeframe.isdaily",
+      "data_name": "timeframe.isdaily",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.isdwm",
+      "href": "var_timeframe.isdwm",
+      "data_name": "timeframe.isdwm",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.isintraday",
+      "href": "var_timeframe.isintraday",
+      "data_name": "timeframe.isintraday",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.isminutes",
+      "href": "var_timeframe.isminutes",
+      "data_name": "timeframe.isminutes",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.ismonthly",
+      "href": "var_timeframe.ismonthly",
+      "data_name": "timeframe.ismonthly",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.isseconds",
+      "href": "var_timeframe.isseconds",
+      "data_name": "timeframe.isseconds",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.isweekly",
+      "href": "var_timeframe.isweekly",
+      "data_name": "timeframe.isweekly",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.multiplier",
+      "href": "var_timeframe.multiplier",
+      "data_name": "timeframe.multiplier",
+      "type": "property"
+    },
+    {
+      "name": "timeframe.period",
+      "href": "var_timeframe.period",
+      "data_name": "timeframe.period",
+      "type": "property"
+    },
+    {
+      "name": "timenow",
+      "href": "var_timenow",
+      "data_name": "timenow",
+      "type": "variable"
+    },
+    {
+      "name": "tr",
+      "href": "var_tr",
+      "data_name": "tr",
+      "type": "variable"
+    },
+    {
+      "name": "volume",
+      "href": "var_volume",
+      "data_name": "volume",
+      "type": "variable"
+    },
+    {
+      "name": "vwap",
+      "href": "var_vwap",
+      "data_name": "vwap",
+      "type": "variable"
+    },
+    {
+      "name": "wad",
+      "href": "var_wad",
+      "data_name": "wad",
+      "type": "variable"
+    },
+    {
+      "name": "weekofyear",
+      "href": "var_weekofyear",
+      "data_name": "weekofyear",
+      "type": "variable"
+    },
+    {
+      "name": "wvad",
+      "href": "var_wvad",
+      "data_name": "wvad",
+      "type": "variable"
+    },
+    {
+      "name": "year",
+      "href": "var_year",
+      "data_name": "year",
+      "type": "variable"
+    },
+    {
+      "name": "adjustment.dividends",
+      "href": "const_adjustment.dividends",
+      "data_name": "adjustment.dividends",
+      "type": "property"
+    },
+    {
+      "name": "adjustment.none",
+      "href": "const_adjustment.none",
+      "data_name": "adjustment.none",
+      "type": "property"
+    },
+    {
+      "name": "adjustment.splits",
+      "href": "const_adjustment.splits",
+      "data_name": "adjustment.splits",
+      "type": "property"
+    },
+    {
+      "name": "alert.freq_all",
+      "href": "const_alert.freq_all",
+      "data_name": "alert.freq_all",
+      "type": "property"
+    },
+    {
+      "name": "alert.freq_once_per_bar",
+      "href": "const_alert.freq_once_per_bar",
+      "data_name": "alert.freq_once_per_bar",
+      "type": "property"
+    },
+    {
+      "name": "alert.freq_once_per_bar_close",
+      "href": "const_alert.freq_once_per_bar_close",
+      "data_name": "alert.freq_once_per_bar_close",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.gaps_off",
+      "href": "const_barmerge.gaps_off",
+      "data_name": "barmerge.gaps_off",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.gaps_on",
+      "href": "const_barmerge.gaps_on",
+      "data_name": "barmerge.gaps_on",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.lookahead_off",
+      "href": "const_barmerge.lookahead_off",
+      "data_name": "barmerge.lookahead_off",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.lookahead_on",
+      "href": "const_barmerge.lookahead_on",
+      "data_name": "barmerge.lookahead_on",
+      "type": "property"
+    },
+    {
+      "name": "color.aqua",
+      "href": "const_color.aqua",
+      "data_name": "color.aqua",
+      "type": "property"
+    },
+    {
+      "name": "color.black",
+      "href": "const_color.black",
+      "data_name": "color.black",
+      "type": "property"
+    },
+    {
+      "name": "color.blue",
+      "href": "const_color.blue",
+      "data_name": "color.blue",
+      "type": "property"
+    },
+    {
+      "name": "color.fuchsia",
+      "href": "const_color.fuchsia",
+      "data_name": "color.fuchsia",
+      "type": "property"
+    },
+    {
+      "name": "color.gray",
+      "href": "const_color.gray",
+      "data_name": "color.gray",
+      "type": "property"
+    },
+    {
+      "name": "color.green",
+      "href": "const_color.green",
+      "data_name": "color.green",
+      "type": "property"
+    },
+    {
+      "name": "color.lime",
+      "href": "const_color.lime",
+      "data_name": "color.lime",
+      "type": "property"
+    },
+    {
+      "name": "color.maroon",
+      "href": "const_color.maroon",
+      "data_name": "color.maroon",
+      "type": "property"
+    },
+    {
+      "name": "color.navy",
+      "href": "const_color.navy",
+      "data_name": "color.navy",
+      "type": "property"
+    },
+    {
+      "name": "color.olive",
+      "href": "const_color.olive",
+      "data_name": "color.olive",
+      "type": "property"
+    },
+    {
+      "name": "color.orange",
+      "href": "const_color.orange",
+      "data_name": "color.orange",
+      "type": "property"
+    },
+    {
+      "name": "color.purple",
+      "href": "const_color.purple",
+      "data_name": "color.purple",
+      "type": "property"
+    },
+    {
+      "name": "color.red",
+      "href": "const_color.red",
+      "data_name": "color.red",
+      "type": "property"
+    },
+    {
+      "name": "color.silver",
+      "href": "const_color.silver",
+      "data_name": "color.silver",
+      "type": "property"
+    },
+    {
+      "name": "color.teal",
+      "href": "const_color.teal",
+      "data_name": "color.teal",
+      "type": "property"
+    },
+    {
+      "name": "color.white",
+      "href": "const_color.white",
+      "data_name": "color.white",
+      "type": "property"
+    },
+    {
+      "name": "color.yellow",
+      "href": "const_color.yellow",
+      "data_name": "color.yellow",
+      "type": "property"
+    },
+    {
+      "name": "currency.AUD",
+      "href": "const_currency.AUD",
+      "data_name": "currency.aud",
+      "type": "property"
+    },
+    {
+      "name": "currency.CAD",
+      "href": "const_currency.CAD",
+      "data_name": "currency.cad",
+      "type": "property"
+    },
+    {
+      "name": "currency.CHF",
+      "href": "const_currency.CHF",
+      "data_name": "currency.chf",
+      "type": "property"
+    },
+    {
+      "name": "currency.EUR",
+      "href": "const_currency.EUR",
+      "data_name": "currency.eur",
+      "type": "property"
+    },
+    {
+      "name": "currency.GBP",
+      "href": "const_currency.GBP",
+      "data_name": "currency.gbp",
+      "type": "property"
+    },
+    {
+      "name": "currency.HKD",
+      "href": "const_currency.HKD",
+      "data_name": "currency.hkd",
+      "type": "property"
+    },
+    {
+      "name": "currency.JPY",
+      "href": "const_currency.JPY",
+      "data_name": "currency.jpy",
+      "type": "property"
+    },
+    {
+      "name": "currency.NOK",
+      "href": "const_currency.NOK",
+      "data_name": "currency.nok",
+      "type": "property"
+    },
+    {
+      "name": "currency.NONE",
+      "href": "const_currency.NONE",
+      "data_name": "currency.none",
+      "type": "property"
+    },
+    {
+      "name": "currency.NZD",
+      "href": "const_currency.NZD",
+      "data_name": "currency.nzd",
+      "type": "property"
+    },
+    {
+      "name": "currency.RUB",
+      "href": "const_currency.RUB",
+      "data_name": "currency.rub",
+      "type": "property"
+    },
+    {
+      "name": "currency.SEK",
+      "href": "const_currency.SEK",
+      "data_name": "currency.sek",
+      "type": "property"
+    },
+    {
+      "name": "currency.SGD",
+      "href": "const_currency.SGD",
+      "data_name": "currency.sgd",
+      "type": "property"
+    },
+    {
+      "name": "currency.TRY",
+      "href": "const_currency.TRY",
+      "data_name": "currency.try",
+      "type": "property"
+    },
+    {
+      "name": "currency.USD",
+      "href": "const_currency.USD",
+      "data_name": "currency.usd",
+      "type": "property"
+    },
+    {
+      "name": "currency.ZAR",
+      "href": "const_currency.ZAR",
+      "data_name": "currency.zar",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.friday",
+      "href": "const_dayofweek.friday",
+      "data_name": "dayofweek.friday",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.monday",
+      "href": "const_dayofweek.monday",
+      "data_name": "dayofweek.monday",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.saturday",
+      "href": "const_dayofweek.saturday",
+      "data_name": "dayofweek.saturday",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.sunday",
+      "href": "const_dayofweek.sunday",
+      "data_name": "dayofweek.sunday",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.thursday",
+      "href": "const_dayofweek.thursday",
+      "data_name": "dayofweek.thursday",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.tuesday",
+      "href": "const_dayofweek.tuesday",
+      "data_name": "dayofweek.tuesday",
+      "type": "property"
+    },
+    {
+      "name": "dayofweek.wednesday",
+      "href": "const_dayofweek.wednesday",
+      "data_name": "dayofweek.wednesday",
+      "type": "property"
+    },
+    {
+      "name": "display.all",
+      "href": "const_display.all",
+      "data_name": "display.all",
+      "type": "property"
+    },
+    {
+      "name": "display.none",
+      "href": "const_display.none",
+      "data_name": "display.none",
+      "type": "property"
+    },
+    {
+      "name": "dividends.gross",
+      "href": "const_dividends.gross",
+      "data_name": "dividends.gross",
+      "type": "property"
+    },
+    {
+      "name": "dividends.net",
+      "href": "const_dividends.net",
+      "data_name": "dividends.net",
+      "type": "property"
+    },
+    {
+      "name": "earnings.actual",
+      "href": "const_earnings.actual",
+      "data_name": "earnings.actual",
+      "type": "property"
+    },
+    {
+      "name": "earnings.estimate",
+      "href": "const_earnings.estimate",
+      "data_name": "earnings.estimate",
+      "type": "property"
+    },
+    {
+      "name": "extend.both",
+      "href": "const_extend.both",
+      "data_name": "extend.both",
+      "type": "property"
+    },
+    {
+      "name": "extend.left",
+      "href": "const_extend.left",
+      "data_name": "extend.left",
+      "type": "property"
+    },
+    {
+      "name": "extend.none",
+      "href": "const_extend.none",
+      "data_name": "extend.none",
+      "type": "property"
+    },
+    {
+      "name": "extend.right",
+      "href": "const_extend.right",
+      "data_name": "extend.right",
+      "type": "property"
+    },
+    {
+      "name": "format.inherit",
+      "href": "const_format.inherit",
+      "data_name": "format.inherit",
+      "type": "property"
+    },
+    {
+      "name": "format.mintick",
+      "href": "const_format.mintick",
+      "data_name": "format.mintick",
+      "type": "property"
+    },
+    {
+      "name": "format.percent",
+      "href": "const_format.percent",
+      "data_name": "format.percent",
+      "type": "property"
+    },
+    {
+      "name": "format.price",
+      "href": "const_format.price",
+      "data_name": "format.price",
+      "type": "property"
+    },
+    {
+      "name": "format.volume",
+      "href": "const_format.volume",
+      "data_name": "format.volume",
+      "type": "property"
+    },
+    {
+      "name": "hline.style_dashed",
+      "href": "const_hline.style_dashed",
+      "data_name": "hline.style_dashed",
+      "type": "property"
+    },
+    {
+      "name": "hline.style_dotted",
+      "href": "const_hline.style_dotted",
+      "data_name": "hline.style_dotted",
+      "type": "property"
+    },
+    {
+      "name": "hline.style_solid",
+      "href": "const_hline.style_solid",
+      "data_name": "hline.style_solid",
+      "type": "property"
+    },
+    {
+      "name": "input.bool",
+      "href": "const_input.bool",
+      "data_name": "input.bool",
+      "type": "property"
+    },
+    {
+      "name": "input.color",
+      "href": "const_input.color",
+      "data_name": "input.color",
+      "type": "property"
+    },
+    {
+      "name": "input.float",
+      "href": "const_input.float",
+      "data_name": "input.float",
+      "type": "property"
+    },
+    {
+      "name": "input.integer",
+      "href": "const_input.integer",
+      "data_name": "input.integer",
+      "type": "property"
+    },
+    {
+      "name": "input.price",
+      "href": "const_input.price",
+      "data_name": "input.price",
+      "type": "property"
+    },
+    {
+      "name": "input.resolution",
+      "href": "const_input.resolution",
+      "data_name": "input.resolution",
+      "type": "property"
+    },
+    {
+      "name": "input.session",
+      "href": "const_input.session",
+      "data_name": "input.session",
+      "type": "property"
+    },
+    {
+      "name": "input.source",
+      "href": "const_input.source",
+      "data_name": "input.source",
+      "type": "property"
+    },
+    {
+      "name": "input.string",
+      "href": "const_input.string",
+      "data_name": "input.string",
+      "type": "property"
+    },
+    {
+      "name": "input.symbol",
+      "href": "const_input.symbol",
+      "data_name": "input.symbol",
+      "type": "property"
+    },
+    {
+      "name": "input.time",
+      "href": "const_input.time",
+      "data_name": "input.time",
+      "type": "property"
+    },
+    {
+      "name": "label.style_arrowdown",
+      "href": "const_label.style_arrowdown",
+      "data_name": "label.style_arrowdown",
+      "type": "property"
+    },
+    {
+      "name": "label.style_arrowup",
+      "href": "const_label.style_arrowup",
+      "data_name": "label.style_arrowup",
+      "type": "property"
+    },
+    {
+      "name": "label.style_circle",
+      "href": "const_label.style_circle",
+      "data_name": "label.style_circle",
+      "type": "property"
+    },
+    {
+      "name": "label.style_cross",
+      "href": "const_label.style_cross",
+      "data_name": "label.style_cross",
+      "type": "property"
+    },
+    {
+      "name": "label.style_diamond",
+      "href": "const_label.style_diamond",
+      "data_name": "label.style_diamond",
+      "type": "property"
+    },
+    {
+      "name": "label.style_flag",
+      "href": "const_label.style_flag",
+      "data_name": "label.style_flag",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_center",
+      "href": "const_label.style_label_center",
+      "data_name": "label.style_label_center",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_down",
+      "href": "const_label.style_label_down",
+      "data_name": "label.style_label_down",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_left",
+      "href": "const_label.style_label_left",
+      "data_name": "label.style_label_left",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_lower_left",
+      "href": "const_label.style_label_lower_left",
+      "data_name": "label.style_label_lower_left",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_lower_right",
+      "href": "const_label.style_label_lower_right",
+      "data_name": "label.style_label_lower_right",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_right",
+      "href": "const_label.style_label_right",
+      "data_name": "label.style_label_right",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_up",
+      "href": "const_label.style_label_up",
+      "data_name": "label.style_label_up",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_upper_left",
+      "href": "const_label.style_label_upper_left",
+      "data_name": "label.style_label_upper_left",
+      "type": "property"
+    },
+    {
+      "name": "label.style_label_upper_right",
+      "href": "const_label.style_label_upper_right",
+      "data_name": "label.style_label_upper_right",
+      "type": "property"
+    },
+    {
+      "name": "label.style_none",
+      "href": "const_label.style_none",
+      "data_name": "label.style_none",
+      "type": "property"
+    },
+    {
+      "name": "label.style_square",
+      "href": "const_label.style_square",
+      "data_name": "label.style_square",
+      "type": "property"
+    },
+    {
+      "name": "label.style_triangledown",
+      "href": "const_label.style_triangledown",
+      "data_name": "label.style_triangledown",
+      "type": "property"
+    },
+    {
+      "name": "label.style_triangleup",
+      "href": "const_label.style_triangleup",
+      "data_name": "label.style_triangleup",
+      "type": "property"
+    },
+    {
+      "name": "label.style_xcross",
+      "href": "const_label.style_xcross",
+      "data_name": "label.style_xcross",
+      "type": "property"
+    },
+    {
+      "name": "line.style_arrow_both",
+      "href": "const_line.style_arrow_both",
+      "data_name": "line.style_arrow_both",
+      "type": "property"
+    },
+    {
+      "name": "line.style_arrow_left",
+      "href": "const_line.style_arrow_left",
+      "data_name": "line.style_arrow_left",
+      "type": "property"
+    },
+    {
+      "name": "line.style_arrow_right",
+      "href": "const_line.style_arrow_right",
+      "data_name": "line.style_arrow_right",
+      "type": "property"
+    },
+    {
+      "name": "line.style_dashed",
+      "href": "const_line.style_dashed",
+      "data_name": "line.style_dashed",
+      "type": "property"
+    },
+    {
+      "name": "line.style_dotted",
+      "href": "const_line.style_dotted",
+      "data_name": "line.style_dotted",
+      "type": "property"
+    },
+    {
+      "name": "line.style_solid",
+      "href": "const_line.style_solid",
+      "data_name": "line.style_solid",
+      "type": "property"
+    },
+    {
+      "name": "location.abovebar",
+      "href": "const_location.abovebar",
+      "data_name": "location.abovebar",
+      "type": "property"
+    },
+    {
+      "name": "location.absolute",
+      "href": "const_location.absolute",
+      "data_name": "location.absolute",
+      "type": "property"
+    },
+    {
+      "name": "location.belowbar",
+      "href": "const_location.belowbar",
+      "data_name": "location.belowbar",
+      "type": "property"
+    },
+    {
+      "name": "location.bottom",
+      "href": "const_location.bottom",
+      "data_name": "location.bottom",
+      "type": "property"
+    },
+    {
+      "name": "location.top",
+      "href": "const_location.top",
+      "data_name": "location.top",
+      "type": "property"
+    },
+    {
+      "name": "math.e",
+      "href": "const_math.e",
+      "data_name": "math.e",
+      "type": "property"
+    },
+    {
+      "name": "math.phi",
+      "href": "const_math.phi",
+      "data_name": "math.phi",
+      "type": "property"
+    },
+    {
+      "name": "math.pi",
+      "href": "const_math.pi",
+      "data_name": "math.pi",
+      "type": "property"
+    },
+    {
+      "name": "math.rphi",
+      "href": "const_math.rphi",
+      "data_name": "math.rphi",
+      "type": "property"
+    },
+    {
+      "name": "order.ascending",
+      "href": "const_order.ascending",
+      "data_name": "order.ascending",
+      "type": "property"
+    },
+    {
+      "name": "order.descending",
+      "href": "const_order.descending",
+      "data_name": "order.descending",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_area",
+      "href": "const_plot.style_area",
+      "data_name": "plot.style_area",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_areabr",
+      "href": "const_plot.style_areabr",
+      "data_name": "plot.style_areabr",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_circles",
+      "href": "const_plot.style_circles",
+      "data_name": "plot.style_circles",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_columns",
+      "href": "const_plot.style_columns",
+      "data_name": "plot.style_columns",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_cross",
+      "href": "const_plot.style_cross",
+      "data_name": "plot.style_cross",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_histogram",
+      "href": "const_plot.style_histogram",
+      "data_name": "plot.style_histogram",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_line",
+      "href": "const_plot.style_line",
+      "data_name": "plot.style_line",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_linebr",
+      "href": "const_plot.style_linebr",
+      "data_name": "plot.style_linebr",
+      "type": "property"
+    },
+    {
+      "name": "plot.style_stepline",
+      "href": "const_plot.style_stepline",
+      "data_name": "plot.style_stepline",
+      "type": "property"
+    },
+    {
+      "name": "position.bottom_center",
+      "href": "const_position.bottom_center",
+      "data_name": "position.bottom_center",
+      "type": "property"
+    },
+    {
+      "name": "position.bottom_left",
+      "href": "const_position.bottom_left",
+      "data_name": "position.bottom_left",
+      "type": "property"
+    },
+    {
+      "name": "position.bottom_right",
+      "href": "const_position.bottom_right",
+      "data_name": "position.bottom_right",
+      "type": "property"
+    },
+    {
+      "name": "position.middle_center",
+      "href": "const_position.middle_center",
+      "data_name": "position.middle_center",
+      "type": "property"
+    },
+    {
+      "name": "position.middle_left",
+      "href": "const_position.middle_left",
+      "data_name": "position.middle_left",
+      "type": "property"
+    },
+    {
+      "name": "position.middle_right",
+      "href": "const_position.middle_right",
+      "data_name": "position.middle_right",
+      "type": "property"
+    },
+    {
+      "name": "position.top_center",
+      "href": "const_position.top_center",
+      "data_name": "position.top_center",
+      "type": "property"
+    },
+    {
+      "name": "position.top_left",
+      "href": "const_position.top_left",
+      "data_name": "position.top_left",
+      "type": "property"
+    },
+    {
+      "name": "position.top_right",
+      "href": "const_position.top_right",
+      "data_name": "position.top_right",
+      "type": "property"
+    },
+    {
+      "name": "scale.left",
+      "href": "const_scale.left",
+      "data_name": "scale.left",
+      "type": "property"
+    },
+    {
+      "name": "scale.none",
+      "href": "const_scale.none",
+      "data_name": "scale.none",
+      "type": "property"
+    },
+    {
+      "name": "scale.right",
+      "href": "const_scale.right",
+      "data_name": "scale.right",
+      "type": "property"
+    },
+    {
+      "name": "session.extended",
+      "href": "const_session.extended",
+      "data_name": "session.extended",
+      "type": "property"
+    },
+    {
+      "name": "session.regular",
+      "href": "const_session.regular",
+      "data_name": "session.regular",
+      "type": "property"
+    },
+    {
+      "name": "shape.arrowdown",
+      "href": "const_shape.arrowdown",
+      "data_name": "shape.arrowdown",
+      "type": "property"
+    },
+    {
+      "name": "shape.arrowup",
+      "href": "const_shape.arrowup",
+      "data_name": "shape.arrowup",
+      "type": "property"
+    },
+    {
+      "name": "shape.circle",
+      "href": "const_shape.circle",
+      "data_name": "shape.circle",
+      "type": "property"
+    },
+    {
+      "name": "shape.cross",
+      "href": "const_shape.cross",
+      "data_name": "shape.cross",
+      "type": "property"
+    },
+    {
+      "name": "shape.diamond",
+      "href": "const_shape.diamond",
+      "data_name": "shape.diamond",
+      "type": "property"
+    },
+    {
+      "name": "shape.flag",
+      "href": "const_shape.flag",
+      "data_name": "shape.flag",
+      "type": "property"
+    },
+    {
+      "name": "shape.labeldown",
+      "href": "const_shape.labeldown",
+      "data_name": "shape.labeldown",
+      "type": "property"
+    },
+    {
+      "name": "shape.labelup",
+      "href": "const_shape.labelup",
+      "data_name": "shape.labelup",
+      "type": "property"
+    },
+    {
+      "name": "shape.square",
+      "href": "const_shape.square",
+      "data_name": "shape.square",
+      "type": "property"
+    },
+    {
+      "name": "shape.triangledown",
+      "href": "const_shape.triangledown",
+      "data_name": "shape.triangledown",
+      "type": "property"
+    },
+    {
+      "name": "shape.triangleup",
+      "href": "const_shape.triangleup",
+      "data_name": "shape.triangleup",
+      "type": "property"
+    },
+    {
+      "name": "shape.xcross",
+      "href": "const_shape.xcross",
+      "data_name": "shape.xcross",
+      "type": "property"
+    },
+    {
+      "name": "size.auto",
+      "href": "const_size.auto",
+      "data_name": "size.auto",
+      "type": "property"
+    },
+    {
+      "name": "size.huge",
+      "href": "const_size.huge",
+      "data_name": "size.huge",
+      "type": "property"
+    },
+    {
+      "name": "size.large",
+      "href": "const_size.large",
+      "data_name": "size.large",
+      "type": "property"
+    },
+    {
+      "name": "size.normal",
+      "href": "const_size.normal",
+      "data_name": "size.normal",
+      "type": "property"
+    },
+    {
+      "name": "size.small",
+      "href": "const_size.small",
+      "data_name": "size.small",
+      "type": "property"
+    },
+    {
+      "name": "size.tiny",
+      "href": "const_size.tiny",
+      "data_name": "size.tiny",
+      "type": "property"
+    },
+    {
+      "name": "splits.denominator",
+      "href": "const_splits.denominator",
+      "data_name": "splits.denominator",
+      "type": "property"
+    },
+    {
+      "name": "splits.numerator",
+      "href": "const_splits.numerator",
+      "data_name": "splits.numerator",
+      "type": "property"
+    },
+    {
+      "name": "strategy.cash",
+      "href": "const_strategy.cash",
+      "data_name": "strategy.cash",
+      "type": "property"
+    },
+    {
+      "name": "strategy.commission.cash_per_contract",
+      "href": "const_strategy.commission.cash_per_contract",
+      "data_name": "strategy.commission.cash_per_contract",
+      "type": "property"
+    },
+    {
+      "name": "strategy.commission.cash_per_order",
+      "href": "const_strategy.commission.cash_per_order",
+      "data_name": "strategy.commission.cash_per_order",
+      "type": "property"
+    },
+    {
+      "name": "strategy.commission.percent",
+      "href": "const_strategy.commission.percent",
+      "data_name": "strategy.commission.percent",
+      "type": "property"
+    },
+    {
+      "name": "strategy.direction.all",
+      "href": "const_strategy.direction.all",
+      "data_name": "strategy.direction.all",
+      "type": "property"
+    },
+    {
+      "name": "strategy.direction.long",
+      "href": "const_strategy.direction.long",
+      "data_name": "strategy.direction.long",
+      "type": "property"
+    },
+    {
+      "name": "strategy.direction.short",
+      "href": "const_strategy.direction.short",
+      "data_name": "strategy.direction.short",
+      "type": "property"
+    },
+    {
+      "name": "strategy.fixed",
+      "href": "const_strategy.fixed",
+      "data_name": "strategy.fixed",
+      "type": "property"
+    },
+    {
+      "name": "strategy.long",
+      "href": "const_strategy.long",
+      "data_name": "strategy.long",
+      "type": "property"
+    },
+    {
+      "name": "strategy.oca.cancel",
+      "href": "const_strategy.oca.cancel",
+      "data_name": "strategy.oca.cancel",
+      "type": "property"
+    },
+    {
+      "name": "strategy.oca.none",
+      "href": "const_strategy.oca.none",
+      "data_name": "strategy.oca.none",
+      "type": "property"
+    },
+    {
+      "name": "strategy.oca.reduce",
+      "href": "const_strategy.oca.reduce",
+      "data_name": "strategy.oca.reduce",
+      "type": "property"
+    },
+    {
+      "name": "strategy.percent_of_equity",
+      "href": "const_strategy.percent_of_equity",
+      "data_name": "strategy.percent_of_equity",
+      "type": "property"
+    },
+    {
+      "name": "strategy.short",
+      "href": "const_strategy.short",
+      "data_name": "strategy.short",
+      "type": "property"
+    },
+    {
+      "name": "text.align_bottom",
+      "href": "const_text.align_bottom",
+      "data_name": "text.align_bottom",
+      "type": "property"
+    },
+    {
+      "name": "text.align_center",
+      "href": "const_text.align_center",
+      "data_name": "text.align_center",
+      "type": "property"
+    },
+    {
+      "name": "text.align_left",
+      "href": "const_text.align_left",
+      "data_name": "text.align_left",
+      "type": "property"
+    },
+    {
+      "name": "text.align_right",
+      "href": "const_text.align_right",
+      "data_name": "text.align_right",
+      "type": "property"
+    },
+    {
+      "name": "text.align_top",
+      "href": "const_text.align_top",
+      "data_name": "text.align_top",
+      "type": "property"
+    },
+    {
+      "name": "xloc.bar_index",
+      "href": "const_xloc.bar_index",
+      "data_name": "xloc.bar_index",
+      "type": "property"
+    },
+    {
+      "name": "xloc.bar_time",
+      "href": "const_xloc.bar_time",
+      "data_name": "xloc.bar_time",
+      "type": "property"
+    },
+    {
+      "name": "yloc.abovebar",
+      "href": "const_yloc.abovebar",
+      "data_name": "yloc.abovebar",
+      "type": "property"
+    },
+    {
+      "name": "yloc.belowbar",
+      "href": "const_yloc.belowbar",
+      "data_name": "yloc.belowbar",
+      "type": "property"
+    },
+    {
+      "name": "yloc.price",
+      "href": "const_yloc.price",
+      "data_name": "yloc.price",
+      "type": "property"
+    },
+    {
+      "name": "abs()",
+      "href": "fun_abs",
+      "data_name": "abs()",
+      "type": "function"
+    },
+    {
+      "name": "acos()",
+      "href": "fun_acos",
+      "data_name": "acos()",
+      "type": "function"
+    },
+    {
+      "name": "alert()",
+      "href": "fun_alert",
+      "data_name": "alert()",
+      "type": "function"
+    },
+    {
+      "name": "alertcondition()",
+      "href": "fun_alertcondition",
+      "data_name": "alertcondition()",
+      "type": "function"
+    },
+    {
+      "name": "alma()",
+      "href": "fun_alma",
+      "data_name": "alma()",
+      "type": "function"
+    },
+    {
+      "name": "array.avg()",
+      "href": "fun_array.avg",
+      "data_name": "array.avg()",
+      "type": "function"
+    },
+    {
+      "name": "array.clear()",
+      "href": "fun_array.clear",
+      "data_name": "array.clear()",
+      "type": "function"
+    },
+    {
+      "name": "array.concat()",
+      "href": "fun_array.concat",
+      "data_name": "array.concat()",
+      "type": "function"
+    },
+    {
+      "name": "array.copy()",
+      "href": "fun_array.copy",
+      "data_name": "array.copy()",
+      "type": "function"
+    },
+    {
+      "name": "array.covariance()",
+      "href": "fun_array.covariance",
+      "data_name": "array.covariance()",
+      "type": "function"
+    },
+    {
+      "name": "array.fill()",
+      "href": "fun_array.fill",
+      "data_name": "array.fill()",
+      "type": "function"
+    },
+    {
+      "name": "array.from()",
+      "href": "fun_array.from",
+      "data_name": "array.from()",
+      "type": "function"
+    },
+    {
+      "name": "array.get()",
+      "href": "fun_array.get",
+      "data_name": "array.get()",
+      "type": "function"
+    },
+    {
+      "name": "array.includes()",
+      "href": "fun_array.includes",
+      "data_name": "array.includes()",
+      "type": "function"
+    },
+    {
+      "name": "array.indexof()",
+      "href": "fun_array.indexof",
+      "data_name": "array.indexof()",
+      "type": "function"
+    },
+    {
+      "name": "array.insert()",
+      "href": "fun_array.insert",
+      "data_name": "array.insert()",
+      "type": "function"
+    },
+    {
+      "name": "array.join()",
+      "href": "fun_array.join",
+      "data_name": "array.join()",
+      "type": "function"
+    },
+    {
+      "name": "array.lastindexof()",
+      "href": "fun_array.lastindexof",
+      "data_name": "array.lastindexof()",
+      "type": "function"
+    },
+    {
+      "name": "array.max()",
+      "href": "fun_array.max",
+      "data_name": "array.max()",
+      "type": "function"
+    },
+    {
+      "name": "array.median()",
+      "href": "fun_array.median",
+      "data_name": "array.median()",
+      "type": "function"
+    },
+    {
+      "name": "array.min()",
+      "href": "fun_array.min",
+      "data_name": "array.min()",
+      "type": "function"
+    },
+    {
+      "name": "array.mode()",
+      "href": "fun_array.mode",
+      "data_name": "array.mode()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_bool()",
+      "href": "fun_array.new_bool",
+      "data_name": "array.new_bool()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_box()",
+      "href": "fun_array.new_box",
+      "data_name": "array.new_box()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_color()",
+      "href": "fun_array.new_color",
+      "data_name": "array.new_color()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_float()",
+      "href": "fun_array.new_float",
+      "data_name": "array.new_float()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_int()",
+      "href": "fun_array.new_int",
+      "data_name": "array.new_int()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_label()",
+      "href": "fun_array.new_label",
+      "data_name": "array.new_label()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_line()",
+      "href": "fun_array.new_line",
+      "data_name": "array.new_line()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_string()",
+      "href": "fun_array.new_string",
+      "data_name": "array.new_string()",
+      "type": "function"
+    },
+    {
+      "name": "array.new_table()",
+      "href": "fun_array.new_table",
+      "data_name": "array.new_table()",
+      "type": "function"
+    },
+    {
+      "name": "array.pop()",
+      "href": "fun_array.pop",
+      "data_name": "array.pop()",
+      "type": "function"
+    },
+    {
+      "name": "array.push()",
+      "href": "fun_array.push",
+      "data_name": "array.push()",
+      "type": "function"
+    },
+    {
+      "name": "array.range()",
+      "href": "fun_array.range",
+      "data_name": "array.range()",
+      "type": "function"
+    },
+    {
+      "name": "array.remove()",
+      "href": "fun_array.remove",
+      "data_name": "array.remove()",
+      "type": "function"
+    },
+    {
+      "name": "array.reverse()",
+      "href": "fun_array.reverse",
+      "data_name": "array.reverse()",
+      "type": "function"
+    },
+    {
+      "name": "array.set()",
+      "href": "fun_array.set",
+      "data_name": "array.set()",
+      "type": "function"
+    },
+    {
+      "name": "array.shift()",
+      "href": "fun_array.shift",
+      "data_name": "array.shift()",
+      "type": "function"
+    },
+    {
+      "name": "array.size()",
+      "href": "fun_array.size",
+      "data_name": "array.size()",
+      "type": "function"
+    },
+    {
+      "name": "array.slice()",
+      "href": "fun_array.slice",
+      "data_name": "array.slice()",
+      "type": "function"
+    },
+    {
+      "name": "array.sort()",
+      "href": "fun_array.sort",
+      "data_name": "array.sort()",
+      "type": "function"
+    },
+    {
+      "name": "array.standardize()",
+      "href": "fun_array.standardize",
+      "data_name": "array.standardize()",
+      "type": "function"
+    },
+    {
+      "name": "array.stdev()",
+      "href": "fun_array.stdev",
+      "data_name": "array.stdev()",
+      "type": "function"
+    },
+    {
+      "name": "array.sum()",
+      "href": "fun_array.sum",
+      "data_name": "array.sum()",
+      "type": "function"
+    },
+    {
+      "name": "array.unshift()",
+      "href": "fun_array.unshift",
+      "data_name": "array.unshift()",
+      "type": "function"
+    },
+    {
+      "name": "array.variance()",
+      "href": "fun_array.variance",
+      "data_name": "array.variance()",
+      "type": "function"
+    },
+    {
+      "name": "asin()",
+      "href": "fun_asin",
+      "data_name": "asin()",
+      "type": "function"
+    },
+    {
+      "name": "atan()",
+      "href": "fun_atan",
+      "data_name": "atan()",
+      "type": "function"
+    },
+    {
+      "name": "atr()",
+      "href": "fun_atr",
+      "data_name": "atr()",
+      "type": "function"
+    },
+    {
+      "name": "avg()",
+      "href": "fun_avg",
+      "data_name": "avg()",
+      "type": "function"
+    },
+    {
+      "name": "barcolor()",
+      "href": "fun_barcolor",
+      "data_name": "barcolor()",
+      "type": "function"
+    },
+    {
+      "name": "barssince()",
+      "href": "fun_barssince",
+      "data_name": "barssince()",
+      "type": "function"
+    },
+    {
+      "name": "bb()",
+      "href": "fun_bb",
+      "data_name": "bb()",
+      "type": "function"
+    },
+    {
+      "name": "bbw()",
+      "href": "fun_bbw",
+      "data_name": "bbw()",
+      "type": "function"
+    },
+    {
+      "name": "bgcolor()",
+      "href": "fun_bgcolor",
+      "data_name": "bgcolor()",
+      "type": "function"
+    },
+    {
+      "name": "bool()",
+      "href": "fun_bool",
+      "data_name": "bool()",
+      "type": "function"
+    },
+    {
+      "name": "box()",
+      "href": "fun_box",
+      "data_name": "box()",
+      "type": "function"
+    },
+    {
+      "name": "box.delete()",
+      "href": "fun_box.delete",
+      "data_name": "box.delete()",
+      "type": "function"
+    },
+    {
+      "name": "box.get_bottom()",
+      "href": "fun_box.get_bottom",
+      "data_name": "box.get_bottom()",
+      "type": "function"
+    },
+    {
+      "name": "box.get_left()",
+      "href": "fun_box.get_left",
+      "data_name": "box.get_left()",
+      "type": "function"
+    },
+    {
+      "name": "box.get_right()",
+      "href": "fun_box.get_right",
+      "data_name": "box.get_right()",
+      "type": "function"
+    },
+    {
+      "name": "box.get_top()",
+      "href": "fun_box.get_top",
+      "data_name": "box.get_top()",
+      "type": "function"
+    },
+    {
+      "name": "box.new()",
+      "href": "fun_box.new",
+      "data_name": "box.new()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_bgcolor()",
+      "href": "fun_box.set_bgcolor",
+      "data_name": "box.set_bgcolor()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_border_color()",
+      "href": "fun_box.set_border_color",
+      "data_name": "box.set_border_color()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_border_style()",
+      "href": "fun_box.set_border_style",
+      "data_name": "box.set_border_style()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_border_width()",
+      "href": "fun_box.set_border_width",
+      "data_name": "box.set_border_width()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_bottom()",
+      "href": "fun_box.set_bottom",
+      "data_name": "box.set_bottom()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_extend()",
+      "href": "fun_box.set_extend",
+      "data_name": "box.set_extend()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_left()",
+      "href": "fun_box.set_left",
+      "data_name": "box.set_left()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_lefttop()",
+      "href": "fun_box.set_lefttop",
+      "data_name": "box.set_lefttop()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_right()",
+      "href": "fun_box.set_right",
+      "data_name": "box.set_right()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_rightbottom()",
+      "href": "fun_box.set_rightbottom",
+      "data_name": "box.set_rightbottom()",
+      "type": "function"
+    },
+    {
+      "name": "box.set_top()",
+      "href": "fun_box.set_top",
+      "data_name": "box.set_top()",
+      "type": "function"
+    },
+    {
+      "name": "cci()",
+      "href": "fun_cci",
+      "data_name": "cci()",
+      "type": "function"
+    },
+    {
+      "name": "ceil()",
+      "href": "fun_ceil",
+      "data_name": "ceil()",
+      "type": "function"
+    },
+    {
+      "name": "change()",
+      "href": "fun_change",
+      "data_name": "change()",
+      "type": "function"
+    },
+    {
+      "name": "cmo()",
+      "href": "fun_cmo",
+      "data_name": "cmo()",
+      "type": "function"
+    },
+    {
+      "name": "cog()",
+      "href": "fun_cog",
+      "data_name": "cog()",
+      "type": "function"
+    },
+    {
+      "name": "color()",
+      "href": "fun_color",
+      "data_name": "color()",
+      "type": "function"
+    },
+    {
+      "name": "color.b()",
+      "href": "fun_color.b",
+      "data_name": "color.b()",
+      "type": "function"
+    },
+    {
+      "name": "color.from_gradient()",
+      "href": "fun_color.from_gradient",
+      "data_name": "color.from_gradient()",
+      "type": "function"
+    },
+    {
+      "name": "color.g()",
+      "href": "fun_color.g",
+      "data_name": "color.g()",
+      "type": "function"
+    },
+    {
+      "name": "color.new()",
+      "href": "fun_color.new",
+      "data_name": "color.new()",
+      "type": "function"
+    },
+    {
+      "name": "color.r()",
+      "href": "fun_color.r",
+      "data_name": "color.r()",
+      "type": "function"
+    },
+    {
+      "name": "color.rgb()",
+      "href": "fun_color.rgb",
+      "data_name": "color.rgb()",
+      "type": "function"
+    },
+    {
+      "name": "color.t()",
+      "href": "fun_color.t",
+      "data_name": "color.t()",
+      "type": "function"
+    },
+    {
+      "name": "correlation()",
+      "href": "fun_correlation",
+      "data_name": "correlation()",
+      "type": "function"
+    },
+    {
+      "name": "cos()",
+      "href": "fun_cos",
+      "data_name": "cos()",
+      "type": "function"
+    },
+    {
+      "name": "cross()",
+      "href": "fun_cross",
+      "data_name": "cross()",
+      "type": "function"
+    },
+    {
+      "name": "crossover()",
+      "href": "fun_crossover",
+      "data_name": "crossover()",
+      "type": "function"
+    },
+    {
+      "name": "crossunder()",
+      "href": "fun_crossunder",
+      "data_name": "crossunder()",
+      "type": "function"
+    },
+    {
+      "name": "cum()",
+      "href": "fun_cum",
+      "data_name": "cum()",
+      "type": "function"
+    },
+    {
+      "name": "dayofmonth()",
+      "href": "fun_dayofmonth",
+      "data_name": "dayofmonth()",
+      "type": "function"
+    },
+    {
+      "name": "dayofweek()",
+      "href": "fun_dayofweek",
+      "data_name": "dayofweek()",
+      "type": "function"
+    },
+    {
+      "name": "dev()",
+      "href": "fun_dev",
+      "data_name": "dev()",
+      "type": "function"
+    },
+    {
+      "name": "dividends()",
+      "href": "fun_dividends",
+      "data_name": "dividends()",
+      "type": "function"
+    },
+    {
+      "name": "dmi()",
+      "href": "fun_dmi",
+      "data_name": "dmi()",
+      "type": "function"
+    },
+    {
+      "name": "earnings()",
+      "href": "fun_earnings",
+      "data_name": "earnings()",
+      "type": "function"
+    },
+    {
+      "name": "ema()",
+      "href": "fun_ema",
+      "data_name": "ema()",
+      "type": "function"
+    },
+    {
+      "name": "exp()",
+      "href": "fun_exp",
+      "data_name": "exp()",
+      "type": "function"
+    },
+    {
+      "name": "falling()",
+      "href": "fun_falling",
+      "data_name": "falling()",
+      "type": "function"
+    },
+    {
+      "name": "fill()",
+      "href": "fun_fill",
+      "data_name": "fill()",
+      "type": "function"
+    },
+    {
+      "name": "financial()",
+      "href": "fun_financial",
+      "data_name": "financial()",
+      "type": "function"
+    },
+    {
+      "name": "fixnan()",
+      "href": "fun_fixnan",
+      "data_name": "fixnan()",
+      "type": "function"
+    },
+    {
+      "name": "float()",
+      "href": "fun_float",
+      "data_name": "float()",
+      "type": "function"
+    },
+    {
+      "name": "floor()",
+      "href": "fun_floor",
+      "data_name": "floor()",
+      "type": "function"
+    },
+    {
+      "name": "heikinashi()",
+      "href": "fun_heikinashi",
+      "data_name": "heikinashi()",
+      "type": "function"
+    },
+    {
+      "name": "highest()",
+      "href": "fun_highest",
+      "data_name": "highest()",
+      "type": "function"
+    },
+    {
+      "name": "highestbars()",
+      "href": "fun_highestbars",
+      "data_name": "highestbars()",
+      "type": "function"
+    },
+    {
+      "name": "hline()",
+      "href": "fun_hline",
+      "data_name": "hline()",
+      "type": "function"
+    },
+    {
+      "name": "hma()",
+      "href": "fun_hma",
+      "data_name": "hma()",
+      "type": "function"
+    },
+    {
+      "name": "hour()",
+      "href": "fun_hour",
+      "data_name": "hour()",
+      "type": "function"
+    },
+    {
+      "name": "iff()",
+      "href": "fun_iff",
+      "data_name": "iff()",
+      "type": "function"
+    },
+    {
+      "name": "input()",
+      "href": "fun_input",
+      "data_name": "input()",
+      "type": "function"
+    },
+    {
+      "name": "int()",
+      "href": "fun_int",
+      "data_name": "int()",
+      "type": "function"
+    },
+    {
+      "name": "kagi()",
+      "href": "fun_kagi",
+      "data_name": "kagi()",
+      "type": "function"
+    },
+    {
+      "name": "kc()",
+      "href": "fun_kc",
+      "data_name": "kc()",
+      "type": "function"
+    },
+    {
+      "name": "kcw()",
+      "href": "fun_kcw",
+      "data_name": "kcw()",
+      "type": "function"
+    },
+    {
+      "name": "label()",
+      "href": "fun_label",
+      "data_name": "label()",
+      "type": "function"
+    },
+    {
+      "name": "label.delete()",
+      "href": "fun_label.delete",
+      "data_name": "label.delete()",
+      "type": "function"
+    },
+    {
+      "name": "label.get_text()",
+      "href": "fun_label.get_text",
+      "data_name": "label.get_text()",
+      "type": "function"
+    },
+    {
+      "name": "label.get_x()",
+      "href": "fun_label.get_x",
+      "data_name": "label.get_x()",
+      "type": "function"
+    },
+    {
+      "name": "label.get_y()",
+      "href": "fun_label.get_y",
+      "data_name": "label.get_y()",
+      "type": "function"
+    },
+    {
+      "name": "label.new()",
+      "href": "fun_label.new",
+      "data_name": "label.new()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_color()",
+      "href": "fun_label.set_color",
+      "data_name": "label.set_color()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_size()",
+      "href": "fun_label.set_size",
+      "data_name": "label.set_size()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_style()",
+      "href": "fun_label.set_style",
+      "data_name": "label.set_style()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_text()",
+      "href": "fun_label.set_text",
+      "data_name": "label.set_text()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_textalign()",
+      "href": "fun_label.set_textalign",
+      "data_name": "label.set_textalign()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_textcolor()",
+      "href": "fun_label.set_textcolor",
+      "data_name": "label.set_textcolor()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_tooltip()",
+      "href": "fun_label.set_tooltip",
+      "data_name": "label.set_tooltip()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_x()",
+      "href": "fun_label.set_x",
+      "data_name": "label.set_x()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_xloc()",
+      "href": "fun_label.set_xloc",
+      "data_name": "label.set_xloc()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_xy()",
+      "href": "fun_label.set_xy",
+      "data_name": "label.set_xy()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_y()",
+      "href": "fun_label.set_y",
+      "data_name": "label.set_y()",
+      "type": "function"
+    },
+    {
+      "name": "label.set_yloc()",
+      "href": "fun_label.set_yloc",
+      "data_name": "label.set_yloc()",
+      "type": "function"
+    },
+    {
+      "name": "line()",
+      "href": "fun_line",
+      "data_name": "line()",
+      "type": "function"
+    },
+    {
+      "name": "line.delete()",
+      "href": "fun_line.delete",
+      "data_name": "line.delete()",
+      "type": "function"
+    },
+    {
+      "name": "line.get_price()",
+      "href": "fun_line.get_price",
+      "data_name": "line.get_price()",
+      "type": "function"
+    },
+    {
+      "name": "line.get_x1()",
+      "href": "fun_line.get_x1",
+      "data_name": "line.get_x1()",
+      "type": "function"
+    },
+    {
+      "name": "line.get_x2()",
+      "href": "fun_line.get_x2",
+      "data_name": "line.get_x2()",
+      "type": "function"
+    },
+    {
+      "name": "line.get_y1()",
+      "href": "fun_line.get_y1",
+      "data_name": "line.get_y1()",
+      "type": "function"
+    },
+    {
+      "name": "line.get_y2()",
+      "href": "fun_line.get_y2",
+      "data_name": "line.get_y2()",
+      "type": "function"
+    },
+    {
+      "name": "line.new()",
+      "href": "fun_line.new",
+      "data_name": "line.new()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_color()",
+      "href": "fun_line.set_color",
+      "data_name": "line.set_color()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_extend()",
+      "href": "fun_line.set_extend",
+      "data_name": "line.set_extend()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_style()",
+      "href": "fun_line.set_style",
+      "data_name": "line.set_style()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_width()",
+      "href": "fun_line.set_width",
+      "data_name": "line.set_width()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_x1()",
+      "href": "fun_line.set_x1",
+      "data_name": "line.set_x1()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_x2()",
+      "href": "fun_line.set_x2",
+      "data_name": "line.set_x2()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_xloc()",
+      "href": "fun_line.set_xloc",
+      "data_name": "line.set_xloc()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_xy1()",
+      "href": "fun_line.set_xy1",
+      "data_name": "line.set_xy1()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_xy2()",
+      "href": "fun_line.set_xy2",
+      "data_name": "line.set_xy2()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_y1()",
+      "href": "fun_line.set_y1",
+      "data_name": "line.set_y1()",
+      "type": "function"
+    },
+    {
+      "name": "line.set_y2()",
+      "href": "fun_line.set_y2",
+      "data_name": "line.set_y2()",
+      "type": "function"
+    },
+    {
+      "name": "linebreak()",
+      "href": "fun_linebreak",
+      "data_name": "linebreak()",
+      "type": "function"
+    },
+    {
+      "name": "linreg()",
+      "href": "fun_linreg",
+      "data_name": "linreg()",
+      "type": "function"
+    },
+    {
+      "name": "log()",
+      "href": "fun_log",
+      "data_name": "log()",
+      "type": "function"
+    },
+    {
+      "name": "log10()",
+      "href": "fun_log10",
+      "data_name": "log10()",
+      "type": "function"
+    },
+    {
+      "name": "lowest()",
+      "href": "fun_lowest",
+      "data_name": "lowest()",
+      "type": "function"
+    },
+    {
+      "name": "lowestbars()",
+      "href": "fun_lowestbars",
+      "data_name": "lowestbars()",
+      "type": "function"
+    },
+    {
+      "name": "macd()",
+      "href": "fun_macd",
+      "data_name": "macd()",
+      "type": "function"
+    },
+    {
+      "name": "max()",
+      "href": "fun_max",
+      "data_name": "max()",
+      "type": "function"
+    },
+    {
+      "name": "max_bars_back()",
+      "href": "fun_max_bars_back",
+      "data_name": "max_bars_back()",
+      "type": "function"
+    },
+    {
+      "name": "median()",
+      "href": "fun_median",
+      "data_name": "median()",
+      "type": "function"
+    },
+    {
+      "name": "mfi()",
+      "href": "fun_mfi",
+      "data_name": "mfi()",
+      "type": "function"
+    },
+    {
+      "name": "min()",
+      "href": "fun_min",
+      "data_name": "min()",
+      "type": "function"
+    },
+    {
+      "name": "minute()",
+      "href": "fun_minute",
+      "data_name": "minute()",
+      "type": "function"
+    },
+    {
+      "name": "mode()",
+      "href": "fun_mode",
+      "data_name": "mode()",
+      "type": "function"
+    },
+    {
+      "name": "mom()",
+      "href": "fun_mom",
+      "data_name": "mom()",
+      "type": "function"
+    },
+    {
+      "name": "month()",
+      "href": "fun_month",
+      "data_name": "month()",
+      "type": "function"
+    },
+    {
+      "name": "na()",
+      "href": "fun_na",
+      "data_name": "na()",
+      "type": "function"
+    },
+    {
+      "name": "nz()",
+      "href": "fun_nz",
+      "data_name": "nz()",
+      "type": "function"
+    },
+    {
+      "name": "offset()",
+      "href": "fun_offset",
+      "data_name": "offset()",
+      "type": "function"
+    },
+    {
+      "name": "percentile_linear_interpolation()",
+      "href": "fun_percentile_linear_interpolation",
+      "data_name": "percentile_linear_interpolation()",
+      "type": "function"
+    },
+    {
+      "name": "percentile_nearest_rank()",
+      "href": "fun_percentile_nearest_rank",
+      "data_name": "percentile_nearest_rank()",
+      "type": "function"
+    },
+    {
+      "name": "percentrank()",
+      "href": "fun_percentrank",
+      "data_name": "percentrank()",
+      "type": "function"
+    },
+    {
+      "name": "pivothigh()",
+      "href": "fun_pivothigh",
+      "data_name": "pivothigh()",
+      "type": "function"
+    },
+    {
+      "name": "pivotlow()",
+      "href": "fun_pivotlow",
+      "data_name": "pivotlow()",
+      "type": "function"
+    },
+    {
+      "name": "plot()",
+      "href": "fun_plot",
+      "data_name": "plot()",
+      "type": "function"
+    },
+    {
+      "name": "plotarrow()",
+      "href": "fun_plotarrow",
+      "data_name": "plotarrow()",
+      "type": "function"
+    },
+    {
+      "name": "plotbar()",
+      "href": "fun_plotbar",
+      "data_name": "plotbar()",
+      "type": "function"
+    },
+    {
+      "name": "plotcandle()",
+      "href": "fun_plotcandle",
+      "data_name": "plotcandle()",
+      "type": "function"
+    },
+    {
+      "name": "plotchar()",
+      "href": "fun_plotchar",
+      "data_name": "plotchar()",
+      "type": "function"
+    },
+    {
+      "name": "plotshape()",
+      "href": "fun_plotshape",
+      "data_name": "plotshape()",
+      "type": "function"
+    },
+    {
+      "name": "pointfigure()",
+      "href": "fun_pointfigure",
+      "data_name": "pointfigure()",
+      "type": "function"
+    },
+    {
+      "name": "pow()",
+      "href": "fun_pow",
+      "data_name": "pow()",
+      "type": "function"
+    },
+    {
+      "name": "quandl()",
+      "href": "fun_quandl",
+      "data_name": "quandl()",
+      "type": "function"
+    },
+    {
+      "name": "random()",
+      "href": "fun_random",
+      "data_name": "random()",
+      "type": "function"
+    },
+    {
+      "name": "range()",
+      "href": "fun_range",
+      "data_name": "range()",
+      "type": "function"
+    },
+    {
+      "name": "renko()",
+      "href": "fun_renko",
+      "data_name": "renko()",
+      "type": "function"
+    },
+    {
+      "name": "rising()",
+      "href": "fun_rising",
+      "data_name": "rising()",
+      "type": "function"
+    },
+    {
+      "name": "rma()",
+      "href": "fun_rma",
+      "data_name": "rma()",
+      "type": "function"
+    },
+    {
+      "name": "roc()",
+      "href": "fun_roc",
+      "data_name": "roc()",
+      "type": "function"
+    },
+    {
+      "name": "round()",
+      "href": "fun_round",
+      "data_name": "round()",
+      "type": "function"
+    },
+    {
+      "name": "round_to_mintick()",
+      "href": "fun_round_to_mintick",
+      "data_name": "round_to_mintick()",
+      "type": "function"
+    },
+    {
+      "name": "rsi()",
+      "href": "fun_rsi",
+      "data_name": "rsi()",
+      "type": "function"
+    },
+    {
+      "name": "sar()",
+      "href": "fun_sar",
+      "data_name": "sar()",
+      "type": "function"
+    },
+    {
+      "name": "second()",
+      "href": "fun_second",
+      "data_name": "second()",
+      "type": "function"
+    },
+    {
+      "name": "security()",
+      "href": "fun_security",
+      "data_name": "security()",
+      "type": "function"
+    },
+    {
+      "name": "sign()",
+      "href": "fun_sign",
+      "data_name": "sign()",
+      "type": "function"
+    },
+    {
+      "name": "sin()",
+      "href": "fun_sin",
+      "data_name": "sin()",
+      "type": "function"
+    },
+    {
+      "name": "sma()",
+      "href": "fun_sma",
+      "data_name": "sma()",
+      "type": "function"
+    },
+    {
+      "name": "splits()",
+      "href": "fun_splits",
+      "data_name": "splits()",
+      "type": "function"
+    },
+    {
+      "name": "sqrt()",
+      "href": "fun_sqrt",
+      "data_name": "sqrt()",
+      "type": "function"
+    },
+    {
+      "name": "stdev()",
+      "href": "fun_stdev",
+      "data_name": "stdev()",
+      "type": "function"
+    },
+    {
+      "name": "stoch()",
+      "href": "fun_stoch",
+      "data_name": "stoch()",
+      "type": "function"
+    },
+    {
+      "name": "str.format()",
+      "href": "fun_str.format",
+      "data_name": "str.format()",
+      "type": "function"
+    },
+    {
+      "name": "str.length()",
+      "href": "fun_str.length",
+      "data_name": "str.length()",
+      "type": "function"
+    },
+    {
+      "name": "str.replace_all()",
+      "href": "fun_str.replace_all",
+      "data_name": "str.replace_all()",
+      "type": "function"
+    },
+    {
+      "name": "str.split()",
+      "href": "fun_str.split",
+      "data_name": "str.split()",
+      "type": "function"
+    },
+    {
+      "name": "strategy()",
+      "href": "fun_strategy",
+      "data_name": "strategy()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.cancel()",
+      "href": "fun_strategy.cancel",
+      "data_name": "strategy.cancel()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.cancel_all()",
+      "href": "fun_strategy.cancel_all",
+      "data_name": "strategy.cancel_all()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.close()",
+      "href": "fun_strategy.close",
+      "data_name": "strategy.close()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.close_all()",
+      "href": "fun_strategy.close_all",
+      "data_name": "strategy.close_all()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.entry()",
+      "href": "fun_strategy.entry",
+      "data_name": "strategy.entry()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.exit()",
+      "href": "fun_strategy.exit",
+      "data_name": "strategy.exit()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.order()",
+      "href": "fun_strategy.order",
+      "data_name": "strategy.order()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.allow_entry_in()",
+      "href": "fun_strategy.risk.allow_entry_in",
+      "data_name": "strategy.risk.allow_entry_in()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_cons_loss_days()",
+      "href": "fun_strategy.risk.max_cons_loss_days",
+      "data_name": "strategy.risk.max_cons_loss_days()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_drawdown()",
+      "href": "fun_strategy.risk.max_drawdown",
+      "data_name": "strategy.risk.max_drawdown()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_intraday_filled_orders()",
+      "href": "fun_strategy.risk.max_intraday_filled_orders",
+      "data_name": "strategy.risk.max_intraday_filled_orders()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_intraday_loss()",
+      "href": "fun_strategy.risk.max_intraday_loss",
+      "data_name": "strategy.risk.max_intraday_loss()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_position_size()",
+      "href": "fun_strategy.risk.max_position_size",
+      "data_name": "strategy.risk.max_position_size()",
+      "type": "function"
+    },
+    {
+      "name": "string()",
+      "href": "fun_string",
+      "data_name": "string()",
+      "type": "function"
+    },
+    {
+      "name": "study()",
+      "href": "fun_study",
+      "data_name": "study()",
+      "type": "function"
+    },
+    {
+      "name": "sum()",
+      "href": "fun_sum",
+      "data_name": "sum()",
+      "type": "function"
+    },
+    {
+      "name": "supertrend()",
+      "href": "fun_supertrend",
+      "data_name": "supertrend()",
+      "type": "function"
+    },
+    {
+      "name": "swma()",
+      "href": "fun_swma",
+      "data_name": "swma()",
+      "type": "function"
+    },
+    {
+      "name": "table()",
+      "href": "fun_table",
+      "data_name": "table()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell()",
+      "href": "fun_table.cell",
+      "data_name": "table.cell()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_bgcolor()",
+      "href": "fun_table.cell_set_bgcolor",
+      "data_name": "table.cell_set_bgcolor()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_height()",
+      "href": "fun_table.cell_set_height",
+      "data_name": "table.cell_set_height()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_text()",
+      "href": "fun_table.cell_set_text",
+      "data_name": "table.cell_set_text()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_text_color()",
+      "href": "fun_table.cell_set_text_color",
+      "data_name": "table.cell_set_text_color()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_text_halign()",
+      "href": "fun_table.cell_set_text_halign",
+      "data_name": "table.cell_set_text_halign()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_text_size()",
+      "href": "fun_table.cell_set_text_size",
+      "data_name": "table.cell_set_text_size()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_text_valign()",
+      "href": "fun_table.cell_set_text_valign",
+      "data_name": "table.cell_set_text_valign()",
+      "type": "function"
+    },
+    {
+      "name": "table.cell_set_width()",
+      "href": "fun_table.cell_set_width",
+      "data_name": "table.cell_set_width()",
+      "type": "function"
+    },
+    {
+      "name": "table.clear()",
+      "href": "fun_table.clear",
+      "data_name": "table.clear()",
+      "type": "function"
+    },
+    {
+      "name": "table.delete()",
+      "href": "fun_table.delete",
+      "data_name": "table.delete()",
+      "type": "function"
+    },
+    {
+      "name": "table.new()",
+      "href": "fun_table.new",
+      "data_name": "table.new()",
+      "type": "function"
+    },
+    {
+      "name": "table.set_bgcolor()",
+      "href": "fun_table.set_bgcolor",
+      "data_name": "table.set_bgcolor()",
+      "type": "function"
+    },
+    {
+      "name": "table.set_border_color()",
+      "href": "fun_table.set_border_color",
+      "data_name": "table.set_border_color()",
+      "type": "function"
+    },
+    {
+      "name": "table.set_border_width()",
+      "href": "fun_table.set_border_width",
+      "data_name": "table.set_border_width()",
+      "type": "function"
+    },
+    {
+      "name": "table.set_frame_color()",
+      "href": "fun_table.set_frame_color",
+      "data_name": "table.set_frame_color()",
+      "type": "function"
+    },
+    {
+      "name": "table.set_frame_width()",
+      "href": "fun_table.set_frame_width",
+      "data_name": "table.set_frame_width()",
+      "type": "function"
+    },
+    {
+      "name": "table.set_position()",
+      "href": "fun_table.set_position",
+      "data_name": "table.set_position()",
+      "type": "function"
+    },
+    {
+      "name": "tan()",
+      "href": "fun_tan",
+      "data_name": "tan()",
+      "type": "function"
+    },
+    {
+      "name": "tickerid()",
+      "href": "fun_tickerid",
+      "data_name": "tickerid()",
+      "type": "function"
+    },
+    {
+      "name": "time()",
+      "href": "fun_time",
+      "data_name": "time()",
+      "type": "function"
+    },
+    {
+      "name": "time_close()",
+      "href": "fun_time_close",
+      "data_name": "time_close()",
+      "type": "function"
+    },
+    {
+      "name": "timestamp()",
+      "href": "fun_timestamp",
+      "data_name": "timestamp()",
+      "type": "function"
+    },
+    {
+      "name": "todegrees()",
+      "href": "fun_todegrees",
+      "data_name": "todegrees()",
+      "type": "function"
+    },
+    {
+      "name": "tonumber()",
+      "href": "fun_tonumber",
+      "data_name": "tonumber()",
+      "type": "function"
+    },
+    {
+      "name": "toradians()",
+      "href": "fun_toradians",
+      "data_name": "toradians()",
+      "type": "function"
+    },
+    {
+      "name": "tostring()",
+      "href": "fun_tostring",
+      "data_name": "tostring()",
+      "type": "function"
+    },
+    {
+      "name": "tr()",
+      "href": "fun_tr",
+      "data_name": "tr()",
+      "type": "function"
+    },
+    {
+      "name": "tsi()",
+      "href": "fun_tsi",
+      "data_name": "tsi()",
+      "type": "function"
+    },
+    {
+      "name": "valuewhen()",
+      "href": "fun_valuewhen",
+      "data_name": "valuewhen()",
+      "type": "function"
+    },
+    {
+      "name": "variance()",
+      "href": "fun_variance",
+      "data_name": "variance()",
+      "type": "function"
+    },
+    {
+      "name": "vwap()",
+      "href": "fun_vwap",
+      "data_name": "vwap()",
+      "type": "function"
+    },
+    {
+      "name": "vwma()",
+      "href": "fun_vwma",
+      "data_name": "vwma()",
+      "type": "function"
+    },
+    {
+      "name": "weekofyear()",
+      "href": "fun_weekofyear",
+      "data_name": "weekofyear()",
+      "type": "function"
+    },
+    {
+      "name": "wma()",
+      "href": "fun_wma",
+      "data_name": "wma()",
+      "type": "function"
+    },
+    {
+      "name": "wpr()",
+      "href": "fun_wpr",
+      "data_name": "wpr()",
+      "type": "function"
+    },
+    {
+      "name": "year()",
+      "href": "fun_year",
+      "data_name": "year()",
+      "type": "function"
+    },
+    {
+      "name": "and",
+      "href": "kw_and",
+      "data_name": "and",
+      "type": "variable"
+    },
+    {
+      "name": "false",
+      "href": "kw_false",
+      "data_name": "false",
+      "type": "variable"
+    },
+    {
+      "name": "for",
+      "href": "kw_for",
+      "data_name": "for",
+      "type": "variable"
+    },
+    {
+      "name": "if",
+      "href": "kw_if",
+      "data_name": "if",
+      "type": "variable"
+    },
+    {
+      "name": "not",
+      "href": "kw_not",
+      "data_name": "not",
+      "type": "variable"
+    },
+    {
+      "name": "or",
+      "href": "kw_or",
+      "data_name": "or",
+      "type": "variable"
+    },
+    {
+      "name": "true",
+      "href": "kw_true",
+      "data_name": "true",
+      "type": "variable"
+    },
+    {
+      "name": "var",
+      "href": "kw_var",
+      "data_name": "var",
+      "type": "variable"
+    },
+    {
+      "name": "varip",
+      "href": "kw_varip",
+      "data_name": "varip",
+      "type": "variable"
+    },
+    {
+      "name": "bool",
+      "href": "type_bool",
+      "data_name": "bool",
+      "type": "variable"
+    },
+    {
+      "name": "box",
+      "href": "type_box",
+      "data_name": "box",
+      "type": "variable"
+    },
+    {
+      "name": "color",
+      "href": "type_color",
+      "data_name": "color",
+      "type": "variable"
+    },
+    {
+      "name": "float",
+      "href": "type_float",
+      "data_name": "float",
+      "type": "variable"
+    },
+    {
+      "name": "int",
+      "href": "type_int",
+      "data_name": "int",
+      "type": "variable"
+    },
+    {
+      "name": "label",
+      "href": "type_label",
+      "data_name": "label",
+      "type": "variable"
+    },
+    {
+      "name": "line",
+      "href": "type_line",
+      "data_name": "line",
+      "type": "variable"
+    },
+    {
+      "name": "string",
+      "href": "type_string",
+      "data_name": "string",
+      "type": "variable"
+    },
+    {
+      "name": "table",
+      "href": "type_table",
+      "data_name": "table",
+      "type": "variable"
+    },
+    {
+      "name": "-",
+      "href": "op_-",
+      "data_name": "-",
+      "type": "variable"
+    },
+    {
+      "name": "-=",
+      "href": "op_-=",
+      "data_name": "-=",
+      "type": "variable"
+    },
+    {
+      "name": "!=",
+      "href": "op_!=",
+      "data_name": "!=",
+      "type": "variable"
+    },
+    {
+      "name": "?:",
+      "href": "op_?:",
+      "data_name": "?:",
+      "type": "variable"
+    },
+    {
+      "name": "[]",
+      "href": "op_[]",
+      "data_name": "[]",
+      "type": "variable"
+    },
+    {
+      "name": "*",
+      "href": "op_*",
+      "data_name": "*",
+      "type": "variable"
+    },
+    {
+      "name": "*=",
+      "href": "op_*=",
+      "data_name": "*=",
+      "type": "variable"
+    },
+    {
+      "name": "/",
+      "href": "op_/",
+      "data_name": "/",
+      "type": "variable"
+    },
+    {
+      "name": "/=",
+      "href": "op_/=",
+      "data_name": "/=",
+      "type": "variable"
+    },
+    {
+      "name": "%",
+      "href": "op_%",
+      "data_name": "%",
+      "type": "variable"
+    },
+    {
+      "name": "%=",
+      "href": "op_%=",
+      "data_name": "%=",
+      "type": "variable"
+    },
+    {
+      "name": "+",
+      "href": "op_+",
+      "data_name": "+",
+      "type": "variable"
+    },
+    {
+      "name": "+=",
+      "href": "op_+=",
+      "data_name": "+=",
+      "type": "variable"
+    },
+    {
+      "name": "<",
+      "href": "op_<",
+      "data_name": "<",
+      "type": "variable"
+    },
+    {
+      "name": "<=",
+      "href": "op_<=",
+      "data_name": "<=",
+      "type": "variable"
+    },
+    {
+      "name": "==",
+      "href": "op_==",
+      "data_name": "==",
+      "type": "variable"
+    },
+    {
+      "name": ">",
+      "href": "op_>",
+      "data_name": ">",
+      "type": "variable"
+    },
+    {
+      "name": ">=",
+      "href": "op_>=",
+      "data_name": ">=",
+      "type": "variable"
+    }
+  ]
+}

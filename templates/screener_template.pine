@@ -1,0 +1,20 @@
+//@version=5
+indicator("Screener Template", overlay=false)
+
+// Input parameters
+length = input.int(14, "Length", minval=1)
+
+// Calculations
+// TODO: Add your screener calculations here
+
+// Screening criteria
+// TODO: Define your screening conditions here
+
+// Output
+// TODO: Add your screener output (plot, alert, etc.)
+
+// Example output formats:
+// 1. Plot shapes on chart
+// 2. Table display
+// 3. Alert conditions
+// 4. Log output

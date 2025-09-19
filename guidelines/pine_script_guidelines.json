@@ -1,0 +1,63 @@
+{
+  "project_context": {
+    "description": "Pine Script development for TradingView indicators and screeners",
+    "primary_user": "Trader using Pine Script on TradingView"
+  },
+  "coding_standards": {
+    "code_style": {
+      "description": "Pine Script syntax and style requirements",
+      "rules": [
+        "Do not use semicolons (;) instead of line breaks - this is illegal in Pine Script",
+        "Do not use backslashes (\\) to continue long statements on another line - this is illegal in Pine Script",
+        "Do not use plus (+) to break lines into a new line - this is illegal in Pine Script",
+        "Use proper indentation for if, else, else if statements - Pine Script is very finicky about indentation",
+        "Be judicious in the use of curly braces {} - Pine Script mostly uses regular parentheses ()",
+        "Don't use too many levels of nesting"
+      ]
+    },
+    "function_usage": {
+      "description": "Correct function usage in Pine Script",
+      "rules": [
+        "Do not use ta.sum - it does not exist in the reference; always use math.sum",
+        "Use alert() instead of alertcondition()",
+        "nz() can only be used for int/float types, not for bool and text"
+      ]
+    },
+    "scope_restrictions": {
+      "description": "Scope and placement restrictions in Pine Script",
+      "rules": [
+        "plotshape cannot be used in local scope (inside an if statement)",
+        "You cannot define functions using the shorthand => syntax inside another function block - create a helper function outside the function loop and call it instead"
+      ]
+    },
+    "naming_conventions": {
+      "description": "Symbol and variable naming rules",
+      "rules": [
+        "Symbol names cannot have special characters - if they exist, they need to be replaced with underscores (_)"
+      ]
+    }
+  },
+  "code_delivery_preferences": {
+    "description": "How to deliver code to the user",
+    "preferences": [
+      "Return efficient code optimized for TradingView",
+      "If the return code is long, unless specifically asked, return snippets with the previous line/section so that it is easy to do a search and replace",
+      "Always use a light touch with minimal changes instead of large rewrites",
+      "Large rewrites only if specifically requested",
+      "When writing new indicators or full code for copy-paste, incorporate the required license header"
+    ]
+  },
+  "quality_assurance": {
+    "description": "Pre-delivery code checks",
+    "checklist": [
+      "Always do a pre-check of the syntax before posting code",
+      "Verify what is allowed vs. illegal in Pine Script",
+      "Refer to the above list of rules during code review",
+      "Refer to system instructions after every user input"
+    ]
+  },
+  "required_header": {
+    "description": "Mandatory header for new indicators",
+    "content": "// This Pine Script™ code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/\n// © ChiragPatnaik"
+  }
+}

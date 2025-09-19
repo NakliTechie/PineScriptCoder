@@ -1,0 +1,3664 @@
+{
+  "categories": {
+    "Variables": [
+      {
+        "name": "accdist",
+        "href": "var_accdist",
+        "data_name": "accdist",
+        "type": "variable"
+      },
+      {
+        "name": "barstate.isconfirmed",
+        "href": "var_barstate.isconfirmed",
+        "data_name": "barstate.isconfirmed",
+        "type": "property"
+      },
+      {
+        "name": "barstate.isfirst",
+        "href": "var_barstate.isfirst",
+        "data_name": "barstate.isfirst",
+        "type": "property"
+      },
+      {
+        "name": "barstate.ishistory",
+        "href": "var_barstate.ishistory",
+        "data_name": "barstate.ishistory",
+        "type": "property"
+      },
+      {
+        "name": "barstate.islast",
+        "href": "var_barstate.islast",
+        "data_name": "barstate.islast",
+        "type": "property"
+      },
+      {
+        "name": "barstate.isnew",
+        "href": "var_barstate.isnew",
+        "data_name": "barstate.isnew",
+        "type": "property"
+      },
+      {
+        "name": "barstate.isrealtime",
+        "href": "var_barstate.isrealtime",
+        "data_name": "barstate.isrealtime",
+        "type": "property"
+      },
+      {
+        "name": "close",
+        "href": "var_close",
+        "data_name": "close",
+        "type": "variable"
+      },
+      {
+        "name": "dayofmonth",
+        "href": "var_dayofmonth",
+        "data_name": "dayofmonth",
+        "type": "variable"
+      },
+      {
+        "name": "dayofweek",
+        "href": "var_dayofweek",
+        "data_name": "dayofweek",
+        "type": "variable"
+      },
+      {
+        "name": "high",
+        "href": "var_high",
+        "data_name": "high",
+        "type": "variable"
+      },
+      {
+        "name": "hl2",
+        "href": "var_hl2",
+        "data_name": "hl2",
+        "type": "variable"
+      },
+      {
+        "name": "hlc3",
+        "href": "var_hlc3",
+        "data_name": "hlc3",
+        "type": "variable"
+      },
+      {
+        "name": "hour",
+        "href": "var_hour",
+        "data_name": "hour",
+        "type": "variable"
+      },
+      {
+        "name": "interval",
+        "href": "var_interval",
+        "data_name": "interval",
+        "type": "variable"
+      },
+      {
+        "name": "isdaily",
+        "href": "var_isdaily",
+        "data_name": "isdaily",
+        "type": "variable"
+      },
+      {
+        "name": "isdwm",
+        "href": "var_isdwm",
+        "data_name": "isdwm",
+        "type": "variable"
+      },
+      {
+        "name": "isintraday",
+        "href": "var_isintraday",
+        "data_name": "isintraday",
+        "type": "variable"
+      },
+      {
+        "name": "isminutes",
+        "href": "var_isminutes",
+        "data_name": "isminutes",
+        "type": "variable"
+      },
+      {
+        "name": "ismonthly",
+        "href": "var_ismonthly",
+        "data_name": "ismonthly",
+        "type": "variable"
+      },
+      {
+        "name": "isseconds",
+        "href": "var_isseconds",
+        "data_name": "isseconds",
+        "type": "variable"
+      },
+      {
+        "name": "isweekly",
+        "href": "var_isweekly",
+        "data_name": "isweekly",
+        "type": "variable"
+      },
+      {
+        "name": "low",
+        "href": "var_low",
+        "data_name": "low",
+        "type": "variable"
+      },
+      {
+        "name": "minute",
+        "href": "var_minute",
+        "data_name": "minute",
+        "type": "variable"
+      },
+      {
+        "name": "month",
+        "href": "var_month",
+        "data_name": "month",
+        "type": "variable"
+      },
+      {
+        "name": "n",
+        "href": "var_n",
+        "data_name": "n",
+        "type": "variable"
+      },
+      {
+        "name": "na",
+        "href": "var_na",
+        "data_name": "na",
+        "type": "variable"
+      },
+      {
+        "name": "ohlc4",
+        "href": "var_ohlc4",
+        "data_name": "ohlc4",
+        "type": "variable"
+      },
+      {
+        "name": "open",
+        "href": "var_open",
+        "data_name": "open",
+        "type": "variable"
+      },
+      {
+        "name": "period",
+        "href": "var_period",
+        "data_name": "period",
+        "type": "variable"
+      },
+      {
+        "name": "second",
+        "href": "var_second",
+        "data_name": "second",
+        "type": "variable"
+      },
+      {
+        "name": "strategy.closedtrades",
+        "href": "var_strategy.closedtrades",
+        "data_name": "strategy.closedtrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.equity",
+        "href": "var_strategy.equity",
+        "data_name": "strategy.equity",
+        "type": "property"
+      },
+      {
+        "name": "strategy.eventrades",
+        "href": "var_strategy.eventrades",
+        "data_name": "strategy.eventrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.grossloss",
+        "href": "var_strategy.grossloss",
+        "data_name": "strategy.grossloss",
+        "type": "property"
+      },
+      {
+        "name": "strategy.grossprofit",
+        "href": "var_strategy.grossprofit",
+        "data_name": "strategy.grossprofit",
+        "type": "property"
+      },
+      {
+        "name": "strategy.initial_capital",
+        "href": "var_strategy.initial_capital",
+        "data_name": "strategy.initial_capital",
+        "type": "property"
+      },
+      {
+        "name": "strategy.losstrades",
+        "href": "var_strategy.losstrades",
+        "data_name": "strategy.losstrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_contracts_held_all",
+        "href": "var_strategy.max_contracts_held_all",
+        "data_name": "strategy.max_contracts_held_all",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_contracts_held_long",
+        "href": "var_strategy.max_contracts_held_long",
+        "data_name": "strategy.max_contracts_held_long",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_contracts_held_short",
+        "href": "var_strategy.max_contracts_held_short",
+        "data_name": "strategy.max_contracts_held_short",
+        "type": "property"
+      },
+      {
+        "name": "strategy.max_drawdown",
+        "href": "var_strategy.max_drawdown",
+        "data_name": "strategy.max_drawdown",
+        "type": "property"
+      },
+      {
+        "name": "strategy.netprofit",
+        "href": "var_strategy.netprofit",
+        "data_name": "strategy.netprofit",
+        "type": "property"
+      },
+      {
+        "name": "strategy.openprofit",
+        "href": "var_strategy.openprofit",
+        "data_name": "strategy.openprofit",
+        "type": "property"
+      },
+      {
+        "name": "strategy.opentrades",
+        "href": "var_strategy.opentrades",
+        "data_name": "strategy.opentrades",
+        "type": "property"
+      },
+      {
+        "name": "strategy.position_avg_price",
+        "href": "var_strategy.position_avg_price",
+        "data_name": "strategy.position_avg_price",
+        "type": "property"
+      },
+      {
+        "name": "strategy.position_entry_name",
+        "href": "var_strategy.position_entry_name",
+        "data_name": "strategy.position_entry_name",
+        "type": "property"
+      },
+      {
+        "name": "strategy.position_size",
+        "href": "var_strategy.position_size",
+        "data_name": "strategy.position_size",
+        "type": "property"
+      },
+      {
+        "name": "strategy.wintrades",
+        "href": "var_strategy.wintrades",
+        "data_name": "strategy.wintrades",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.mintick",
+        "href": "var_syminfo.mintick",
+        "data_name": "syminfo.mintick",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.pointvalue",
+        "href": "var_syminfo.pointvalue",
+        "data_name": "syminfo.pointvalue",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.prefix",
+        "href": "var_syminfo.prefix",
+        "data_name": "syminfo.prefix",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.root",
+        "href": "var_syminfo.root",
+        "data_name": "syminfo.root",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.session",
+        "href": "var_syminfo.session",
+        "data_name": "syminfo.session",
+        "type": "property"
+      },
+      {
+        "name": "syminfo.timezone",
+        "href": "var_syminfo.timezone",
+        "data_name": "syminfo.timezone",
+        "type": "property"
+      },
+      {
+        "name": "ticker",
+        "href": "var_ticker",
+        "data_name": "ticker",
+        "type": "variable"
+      },
+      {
+        "name": "tickerid",
+        "href": "var_tickerid",
+        "data_name": "tickerid",
+        "type": "variable"
+      },
+      {
+        "name": "time",
+        "href": "var_time",
+        "data_name": "time",
+        "type": "variable"
+      },
+      {
+        "name": "timenow",
+        "href": "var_timenow",
+        "data_name": "timenow",
+        "type": "variable"
+      },
+      {
+        "name": "tr",
+        "href": "var_tr",
+        "data_name": "tr",
+        "type": "variable"
+      },
+      {
+        "name": "volume",
+        "href": "var_volume",
+        "data_name": "volume",
+        "type": "variable"
+      },
+      {
+        "name": "vwap",
+        "href": "var_vwap",
+        "data_name": "vwap",
+        "type": "variable"
+      },
+      {
+        "name": "weekofyear",
+        "href": "var_weekofyear",
+        "data_name": "weekofyear",
+        "type": "variable"
+      },
+      {
+        "name": "year",
+        "href": "var_year",
+        "data_name": "year",
+        "type": "variable"
+      }
+    ],
+    "Constants": [
+      {
+        "name": "adjustment.dividends",
+        "href": "const_adjustment.dividends",
+        "data_name": "adjustment.dividends",
+        "type": "property"
+      },
+      {
+        "name": "adjustment.none",
+        "href": "const_adjustment.none",
+        "data_name": "adjustment.none",
+        "type": "property"
+      },
+      {
+        "name": "adjustment.splits",
+        "href": "const_adjustment.splits",
+        "data_name": "adjustment.splits",
+        "type": "property"
+      },
+      {
+        "name": "aqua",
+        "href": "const_aqua",
+        "data_name": "aqua",
+        "type": "variable"
+      },
+      {
+        "name": "area",
+        "href": "const_area",
+        "data_name": "area",
+        "type": "variable"
+      },
+      {
+        "name": "areabr",
+        "href": "const_areabr",
+        "data_name": "areabr",
+        "type": "variable"
+      },
+      {
+        "name": "barmerge.gaps_off",
+        "href": "const_barmerge.gaps_off",
+        "data_name": "barmerge.gaps_off",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.gaps_on",
+        "href": "const_barmerge.gaps_on",
+        "data_name": "barmerge.gaps_on",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.lookahead_off",
+        "href": "const_barmerge.lookahead_off",
+        "data_name": "barmerge.lookahead_off",
+        "type": "property"
+      },
+      {
+        "name": "barmerge.lookahead_on",
+        "href": "const_barmerge.lookahead_on",
+        "data_name": "barmerge.lookahead_on",
+        "type": "property"
+      },
+      {
+        "name": "black",
+        "href": "const_black",
+        "data_name": "black",
+        "type": "variable"
+      },
+      {
+        "name": "blue",
+        "href": "const_blue",
+        "data_name": "blue",
+        "type": "variable"
+      },
+      {
+        "name": "bool",
+        "href": "const_bool",
+        "data_name": "bool",
+        "type": "variable"
+      },
+      {
+        "name": "circles",
+        "href": "const_circles",
+        "data_name": "circles",
+        "type": "variable"
+      },
+      {
+        "name": "columns",
+        "href": "const_columns",
+        "data_name": "columns",
+        "type": "variable"
+      },
+      {
+        "name": "cross",
+        "href": "const_cross",
+        "data_name": "cross",
+        "type": "variable"
+      },
+      {
+        "name": "currency.AUD",
+        "href": "const_currency.AUD",
+        "data_name": "currency.aud",
+        "type": "property"
+      },
+      {
+        "name": "currency.CAD",
+        "href": "const_currency.CAD",
+        "data_name": "currency.cad",
+        "type": "property"
+      },
+      {
+        "name": "currency.CHF",
+        "href": "const_currency.CHF",
+        "data_name": "currency.chf",
+        "type": "property"
+      },
+      {
+        "name": "currency.EUR",
+        "href": "const_currency.EUR",
+        "data_name": "currency.eur",
+        "type": "property"
+      },
+      {
+        "name": "currency.GBP",
+        "href": "const_currency.GBP",
+        "data_name": "currency.gbp",
+        "type": "property"
+      },
+      {
+        "name": "currency.HKD",
+        "href": "const_currency.HKD",
+        "data_name": "currency.hkd",
+        "type": "property"
+      },
+      {
+        "name": "currency.JPY",
+        "href": "const_currency.JPY",
+        "data_name": "currency.jpy",
+        "type": "property"
+      },
+      {
+        "name": "currency.NOK",
+        "href": "const_currency.NOK",
+        "data_name": "currency.nok",
+        "type": "property"
+      },
+      {
+        "name": "currency.NONE",
+        "href": "const_currency.NONE",
+        "data_name": "currency.none",
+        "type": "property"
+      },
+      {
+        "name": "currency.NZD",
+        "href": "const_currency.NZD",
+        "data_name": "currency.nzd",
+        "type": "property"
+      },
+      {
+        "name": "currency.RUB",
+        "href": "const_currency.RUB",
+        "data_name": "currency.rub",
+        "type": "property"
+      },
+      {
+        "name": "currency.SEK",
+        "href": "const_currency.SEK",
+        "data_name": "currency.sek",
+        "type": "property"
+      },
+      {
+        "name": "currency.SGD",
+        "href": "const_currency.SGD",
+        "data_name": "currency.sgd",
+        "type": "property"
+      },
+      {
+        "name": "currency.TRY",
+        "href": "const_currency.TRY",
+        "data_name": "currency.try",
+        "type": "property"
+      },
+      {
+        "name": "currency.USD",
+        "href": "const_currency.USD",
+        "data_name": "currency.usd",
+        "type": "property"
+      },
+      {
+        "name": "currency.ZAR",
+        "href": "const_currency.ZAR",
+        "data_name": "currency.zar",
+        "type": "property"
+      },
+      {
+        "name": "dashed",
+        "href": "const_dashed",
+        "data_name": "dashed",
+        "type": "variable"
+      },
+      {
+        "name": "dotted",
+        "href": "const_dotted",
+        "data_name": "dotted",
+        "type": "variable"
+      },
+      {
+        "name": "float",
+        "href": "const_float",
+        "data_name": "float",
+        "type": "variable"
+      },
+      {
+        "name": "friday",
+        "href": "const_friday",
+        "data_name": "friday",
+        "type": "variable"
+      },
+      {
+        "name": "fuchsia",
+        "href": "const_fuchsia",
+        "data_name": "fuchsia",
+        "type": "variable"
+      },
+      {
+        "name": "gray",
+        "href": "const_gray",
+        "data_name": "gray",
+        "type": "variable"
+      },
+      {
+        "name": "green",
+        "href": "const_green",
+        "data_name": "green",
+        "type": "variable"
+      },
+      {
+        "name": "histogram",
+        "href": "const_histogram",
+        "data_name": "histogram",
+        "type": "variable"
+      },
+      {
+        "name": "integer",
+        "href": "const_integer",
+        "data_name": "integer",
+        "type": "variable"
+      },
+      {
+        "name": "lime",
+        "href": "const_lime",
+        "data_name": "lime",
+        "type": "variable"
+      },
+      {
+        "name": "line",
+        "href": "const_line",
+        "data_name": "line",
+        "type": "variable"
+      },
+      {
+        "name": "linebr",
+        "href": "const_linebr",
+        "data_name": "linebr",
+        "type": "variable"
+      },
+      {
+        "name": "location.abovebar",
+        "href": "const_location.abovebar",
+        "data_name": "location.abovebar",
+        "type": "property"
+      },
+      {
+        "name": "location.absolute",
+        "href": "const_location.absolute",
+        "data_name": "location.absolute",
+        "type": "property"
+      },
+      {
+        "name": "location.belowbar",
+        "href": "const_location.belowbar",
+        "data_name": "location.belowbar",
+        "type": "property"
+      },
+      {
+        "name": "location.bottom",
+        "href": "const_location.bottom",
+        "data_name": "location.bottom",
+        "type": "property"
+      },
+      {
+        "name": "location.top",
+        "href": "const_location.top",
+        "data_name": "location.top",
+        "type": "property"
+      },
+      {
+        "name": "maroon",
+        "href": "const_maroon",
+        "data_name": "maroon",
+        "type": "variable"
+      },
+      {
+        "name": "monday",
+        "href": "const_monday",
+        "data_name": "monday",
+        "type": "variable"
+      },
+      {
+        "name": "navy",
+        "href": "const_navy",
+        "data_name": "navy",
+        "type": "variable"
+      },
+      {
+        "name": "olive",
+        "href": "const_olive",
+        "data_name": "olive",
+        "type": "variable"
+      },
+      {
+        "name": "orange",
+        "href": "const_orange",
+        "data_name": "orange",
+        "type": "variable"
+      },
+      {
+        "name": "purple",
+        "href": "const_purple",
+        "data_name": "purple",
+        "type": "variable"
+      },
+      {
+        "name": "red",
+        "href": "const_red",
+        "data_name": "red",
+        "type": "variable"
+      },
+      {
+        "name": "resolution",
+        "href": "const_resolution",
+        "data_name": "resolution",
+        "type": "variable"
+      },
+      {
+        "name": "saturday",
+        "href": "const_saturday",
+        "data_name": "saturday",
+        "type": "variable"
+      },
+      {
+        "name": "scale.left",
+        "href": "const_scale.left",
+        "data_name": "scale.left",
+        "type": "property"
+      },
+      {
+        "name": "scale.none",
+        "href": "const_scale.none",
+        "data_name": "scale.none",
+        "type": "property"
+      },
+      {
+        "name": "scale.right",
+        "href": "const_scale.right",
+        "data_name": "scale.right",
+        "type": "property"
+      },
+      {
+        "name": "session",
+        "href": "const_session",
+        "data_name": "session",
+        "type": "variable"
+      },
+      {
+        "name": "session.extended",
+        "href": "const_session.extended",
+        "data_name": "session.extended",
+        "type": "property"
+      },
+      {
+        "name": "session.regular",
+        "href": "const_session.regular",
+        "data_name": "session.regular",
+        "type": "property"
+      },
+      {
+        "name": "shape.arrowdown",
+        "href": "const_shape.arrowdown",
+        "data_name": "shape.arrowdown",
+        "type": "property"
+      },
+      {
+        "name": "shape.arrowup",
+        "href": "const_shape.arrowup",
+        "data_name": "shape.arrowup",
+        "type": "property"
+      },
+      {
+        "name": "shape.circle",
+        "href": "const_shape.circle",
+        "data_name": "shape.circle",
+        "type": "property"
+      },
+      {
+        "name": "shape.cross",
+        "href": "const_shape.cross",
+        "data_name": "shape.cross",
+        "type": "property"
+      },
+      {
+        "name": "shape.diamond",
+        "href": "const_shape.diamond",
+        "data_name": "shape.diamond",
+        "type": "property"
+      },
+      {
+        "name": "shape.flag",
+        "href": "const_shape.flag",
+        "data_name": "shape.flag",
+        "type": "property"
+      },
+      {
+        "name": "shape.labeldown",
+        "href": "const_shape.labeldown",
+        "data_name": "shape.labeldown",
+        "type": "property"
+      },
+      {
+        "name": "shape.labelup",
+        "href": "const_shape.labelup",
+        "data_name": "shape.labelup",
+        "type": "property"
+      },
+      {
+        "name": "shape.square",
+        "href": "const_shape.square",
+        "data_name": "shape.square",
+        "type": "property"
+      },
+      {
+        "name": "shape.triangledown",
+        "href": "const_shape.triangledown",
+        "data_name": "shape.triangledown",
+        "type": "property"
+      },
+      {
+        "name": "shape.triangleup",
+        "href": "const_shape.triangleup",
+        "data_name": "shape.triangleup",
+        "type": "property"
+      },
+      {
+        "name": "shape.xcross",
+        "href": "const_shape.xcross",
+        "data_name": "shape.xcross",
+        "type": "property"
+      },
+      {
+        "name": "silver",
+        "href": "const_silver",
+        "data_name": "silver",
+        "type": "variable"
+      },
+      {
+        "name": "size.auto",
+        "href": "const_size.auto",
+        "data_name": "size.auto",
+        "type": "property"
+      },
+      {
+        "name": "size.huge",
+        "href": "const_size.huge",
+        "data_name": "size.huge",
+        "type": "property"
+      },
+      {
+        "name": "size.large",
+        "href": "const_size.large",
+        "data_name": "size.large",
+        "type": "property"
+      },
+      {
+        "name": "size.normal",
+        "href": "const_size.normal",
+        "data_name": "size.normal",
+        "type": "property"
+      },
+      {
+        "name": "size.small",
+        "href": "const_size.small",
+        "data_name": "size.small",
+        "type": "property"
+      },
+      {
+        "name": "size.tiny",
+        "href": "const_size.tiny",
+        "data_name": "size.tiny",
+        "type": "property"
+      },
+      {
+        "name": "solid",
+        "href": "const_solid",
+        "data_name": "solid",
+        "type": "variable"
+      },
+      {
+        "name": "source",
+        "href": "const_source",
+        "data_name": "source",
+        "type": "variable"
+      },
+      {
+        "name": "stepline",
+        "href": "const_stepline",
+        "data_name": "stepline",
+        "type": "variable"
+      },
+      {
+        "name": "strategy.cash",
+        "href": "const_strategy.cash",
+        "data_name": "strategy.cash",
+        "type": "property"
+      },
+      {
+        "name": "strategy.commission.cash_per_contract",
+        "href": "const_strategy.commission.cash_per_contract",
+        "data_name": "strategy.commission.cash_per_contract",
+        "type": "property"
+      },
+      {
+        "name": "strategy.commission.cash_per_order",
+        "href": "const_strategy.commission.cash_per_order",
+        "data_name": "strategy.commission.cash_per_order",
+        "type": "property"
+      },
+      {
+        "name": "strategy.commission.percent",
+        "href": "const_strategy.commission.percent",
+        "data_name": "strategy.commission.percent",
+        "type": "property"
+      },
+      {
+        "name": "strategy.direction.all",
+        "href": "const_strategy.direction.all",
+        "data_name": "strategy.direction.all",
+        "type": "property"
+      },
+      {
+        "name": "strategy.direction.long",
+        "href": "const_strategy.direction.long",
+        "data_name": "strategy.direction.long",
+        "type": "property"
+      },
+      {
+        "name": "strategy.direction.short",
+        "href": "const_strategy.direction.short",
+        "data_name": "strategy.direction.short",
+        "type": "property"
+      },
+      {
+        "name": "strategy.fixed",
+        "href": "const_strategy.fixed",
+        "data_name": "strategy.fixed",
+        "type": "property"
+      },
+      {
+        "name": "strategy.long",
+        "href": "const_strategy.long",
+        "data_name": "strategy.long",
+        "type": "property"
+      },
+      {
+        "name": "strategy.oca.cancel",
+        "href": "const_strategy.oca.cancel",
+        "data_name": "strategy.oca.cancel",
+        "type": "property"
+      },
+      {
+        "name": "strategy.oca.none",
+        "href": "const_strategy.oca.none",
+        "data_name": "strategy.oca.none",
+        "type": "property"
+      },
+      {
+        "name": "strategy.oca.reduce",
+        "href": "const_strategy.oca.reduce",
+        "data_name": "strategy.oca.reduce",
+        "type": "property"
+      },
+      {
+        "name": "strategy.percent_of_equity",
+        "href": "const_strategy.percent_of_equity",
+        "data_name": "strategy.percent_of_equity",
+        "type": "property"
+      },
+      {
+        "name": "strategy.short",
+        "href": "const_strategy.short",
+        "data_name": "strategy.short",
+        "type": "property"
+      },
+      {
+        "name": "string",
+        "href": "const_string",
+        "data_name": "string",
+        "type": "variable"
+      },
+      {
+        "name": "sunday",
+        "href": "const_sunday",
+        "data_name": "sunday",
+        "type": "variable"
+      },
+      {
+        "name": "symbol",
+        "href": "const_symbol",
+        "data_name": "symbol",
+        "type": "variable"
+      },
+      {
+        "name": "teal",
+        "href": "const_teal",
+        "data_name": "teal",
+        "type": "variable"
+      },
+      {
+        "name": "thursday",
+        "href": "const_thursday",
+        "data_name": "thursday",
+        "type": "variable"
+      },
+      {
+        "name": "tuesday",
+        "href": "const_tuesday",
+        "data_name": "tuesday",
+        "type": "variable"
+      },
+      {
+        "name": "wednesday",
+        "href": "const_wednesday",
+        "data_name": "wednesday",
+        "type": "variable"
+      },
+      {
+        "name": "white",
+        "href": "const_white",
+        "data_name": "white",
+        "type": "variable"
+      },
+      {
+        "name": "yellow",
+        "href": "const_yellow",
+        "data_name": "yellow",
+        "type": "variable"
+      }
+    ],
+    "Functions": [
+      {
+        "name": "abs()",
+        "href": "fun_abs",
+        "data_name": "abs()",
+        "type": "function"
+      },
+      {
+        "name": "acos()",
+        "href": "fun_acos",
+        "data_name": "acos()",
+        "type": "function"
+      },
+      {
+        "name": "alertcondition()",
+        "href": "fun_alertcondition",
+        "data_name": "alertcondition()",
+        "type": "function"
+      },
+      {
+        "name": "alma()",
+        "href": "fun_alma",
+        "data_name": "alma()",
+        "type": "function"
+      },
+      {
+        "name": "asin()",
+        "href": "fun_asin",
+        "data_name": "asin()",
+        "type": "function"
+      },
+      {
+        "name": "atan()",
+        "href": "fun_atan",
+        "data_name": "atan()",
+        "type": "function"
+      },
+      {
+        "name": "atr()",
+        "href": "fun_atr",
+        "data_name": "atr()",
+        "type": "function"
+      },
+      {
+        "name": "avg()",
+        "href": "fun_avg",
+        "data_name": "avg()",
+        "type": "function"
+      },
+      {
+        "name": "barcolor()",
+        "href": "fun_barcolor",
+        "data_name": "barcolor()",
+        "type": "function"
+      },
+      {
+        "name": "barssince()",
+        "href": "fun_barssince",
+        "data_name": "barssince()",
+        "type": "function"
+      },
+      {
+        "name": "bgcolor()",
+        "href": "fun_bgcolor",
+        "data_name": "bgcolor()",
+        "type": "function"
+      },
+      {
+        "name": "cci()",
+        "href": "fun_cci",
+        "data_name": "cci()",
+        "type": "function"
+      },
+      {
+        "name": "ceil()",
+        "href": "fun_ceil",
+        "data_name": "ceil()",
+        "type": "function"
+      },
+      {
+        "name": "change()",
+        "href": "fun_change",
+        "data_name": "change()",
+        "type": "function"
+      },
+      {
+        "name": "cog()",
+        "href": "fun_cog",
+        "data_name": "cog()",
+        "type": "function"
+      },
+      {
+        "name": "color()",
+        "href": "fun_color",
+        "data_name": "color()",
+        "type": "function"
+      },
+      {
+        "name": "correlation()",
+        "href": "fun_correlation",
+        "data_name": "correlation()",
+        "type": "function"
+      },
+      {
+        "name": "cos()",
+        "href": "fun_cos",
+        "data_name": "cos()",
+        "type": "function"
+      },
+      {
+        "name": "cross()",
+        "href": "fun_cross",
+        "data_name": "cross()",
+        "type": "function"
+      },
+      {
+        "name": "crossover()",
+        "href": "fun_crossover",
+        "data_name": "crossover()",
+        "type": "function"
+      },
+      {
+        "name": "crossunder()",
+        "href": "fun_crossunder",
+        "data_name": "crossunder()",
+        "type": "function"
+      },
+      {
+        "name": "cum()",
+        "href": "fun_cum",
+        "data_name": "cum()",
+        "type": "function"
+      },
+      {
+        "name": "dayofmonth()",
+        "href": "fun_dayofmonth",
+        "data_name": "dayofmonth()",
+        "type": "function"
+      },
+      {
+        "name": "dayofweek()",
+        "href": "fun_dayofweek",
+        "data_name": "dayofweek()",
+        "type": "function"
+      },
+      {
+        "name": "dev()",
+        "href": "fun_dev",
+        "data_name": "dev()",
+        "type": "function"
+      },
+      {
+        "name": "ema()",
+        "href": "fun_ema",
+        "data_name": "ema()",
+        "type": "function"
+      },
+      {
+        "name": "exp()",
+        "href": "fun_exp",
+        "data_name": "exp()",
+        "type": "function"
+      },
+      {
+        "name": "falling()",
+        "href": "fun_falling",
+        "data_name": "falling()",
+        "type": "function"
+      },
+      {
+        "name": "fill()",
+        "href": "fun_fill",
+        "data_name": "fill()",
+        "type": "function"
+      },
+      {
+        "name": "fixnan()",
+        "href": "fun_fixnan",
+        "data_name": "fixnan()",
+        "type": "function"
+      },
+      {
+        "name": "floor()",
+        "href": "fun_floor",
+        "data_name": "floor()",
+        "type": "function"
+      },
+      {
+        "name": "heikinashi()",
+        "href": "fun_heikinashi",
+        "data_name": "heikinashi()",
+        "type": "function"
+      },
+      {
+        "name": "highest()",
+        "href": "fun_highest",
+        "data_name": "highest()",
+        "type": "function"
+      },
+      {
+        "name": "highestbars()",
+        "href": "fun_highestbars",
+        "data_name": "highestbars()",
+        "type": "function"
+      },
+      {
+        "name": "hline()",
+        "href": "fun_hline",
+        "data_name": "hline()",
+        "type": "function"
+      },
+      {
+        "name": "hour()",
+        "href": "fun_hour",
+        "data_name": "hour()",
+        "type": "function"
+      },
+      {
+        "name": "iff()",
+        "href": "fun_iff",
+        "data_name": "iff()",
+        "type": "function"
+      },
+      {
+        "name": "input()",
+        "href": "fun_input",
+        "data_name": "input()",
+        "type": "function"
+      },
+      {
+        "name": "kagi()",
+        "href": "fun_kagi",
+        "data_name": "kagi()",
+        "type": "function"
+      },
+      {
+        "name": "linebreak()",
+        "href": "fun_linebreak",
+        "data_name": "linebreak()",
+        "type": "function"
+      },
+      {
+        "name": "linreg()",
+        "href": "fun_linreg",
+        "data_name": "linreg()",
+        "type": "function"
+      },
+      {
+        "name": "log()",
+        "href": "fun_log",
+        "data_name": "log()",
+        "type": "function"
+      },
+      {
+        "name": "log10()",
+        "href": "fun_log10",
+        "data_name": "log10()",
+        "type": "function"
+      },
+      {
+        "name": "lowest()",
+        "href": "fun_lowest",
+        "data_name": "lowest()",
+        "type": "function"
+      },
+      {
+        "name": "lowestbars()",
+        "href": "fun_lowestbars",
+        "data_name": "lowestbars()",
+        "type": "function"
+      },
+      {
+        "name": "macd()",
+        "href": "fun_macd",
+        "data_name": "macd()",
+        "type": "function"
+      },
+      {
+        "name": "max()",
+        "href": "fun_max",
+        "data_name": "max()",
+        "type": "function"
+      },
+      {
+        "name": "min()",
+        "href": "fun_min",
+        "data_name": "min()",
+        "type": "function"
+      },
+      {
+        "name": "minute()",
+        "href": "fun_minute",
+        "data_name": "minute()",
+        "type": "function"
+      },
+      {
+        "name": "mom()",
+        "href": "fun_mom",
+        "data_name": "mom()",
+        "type": "function"
+      },
+      {
+        "name": "month()",
+        "href": "fun_month",
+        "data_name": "month()",
+        "type": "function"
+      },
+      {
+        "name": "na()",
+        "href": "fun_na",
+        "data_name": "na()",
+        "type": "function"
+      },
+      {
+        "name": "nz()",
+        "href": "fun_nz",
+        "data_name": "nz()",
+        "type": "function"
+      },
+      {
+        "name": "offset()",
+        "href": "fun_offset",
+        "data_name": "offset()",
+        "type": "function"
+      },
+      {
+        "name": "percentile_linear_interpolation()",
+        "href": "fun_percentile_linear_interpolation",
+        "data_name": "percentile_linear_interpolation()",
+        "type": "function"
+      },
+      {
+        "name": "percentile_nearest_rank()",
+        "href": "fun_percentile_nearest_rank",
+        "data_name": "percentile_nearest_rank()",
+        "type": "function"
+      },
+      {
+        "name": "percentrank()",
+        "href": "fun_percentrank",
+        "data_name": "percentrank()",
+        "type": "function"
+      },
+      {
+        "name": "pivothigh()",
+        "href": "fun_pivothigh",
+        "data_name": "pivothigh()",
+        "type": "function"
+      },
+      {
+        "name": "pivotlow()",
+        "href": "fun_pivotlow",
+        "data_name": "pivotlow()",
+        "type": "function"
+      },
+      {
+        "name": "plot()",
+        "href": "fun_plot",
+        "data_name": "plot()",
+        "type": "function"
+      },
+      {
+        "name": "plotarrow()",
+        "href": "fun_plotarrow",
+        "data_name": "plotarrow()",
+        "type": "function"
+      },
+      {
+        "name": "plotbar()",
+        "href": "fun_plotbar",
+        "data_name": "plotbar()",
+        "type": "function"
+      },
+      {
+        "name": "plotcandle()",
+        "href": "fun_plotcandle",
+        "data_name": "plotcandle()",
+        "type": "function"
+      },
+      {
+        "name": "plotchar()",
+        "href": "fun_plotchar",
+        "data_name": "plotchar()",
+        "type": "function"
+      },
+      {
+        "name": "plotshape()",
+        "href": "fun_plotshape",
+        "data_name": "plotshape()",
+        "type": "function"
+      },
+      {
+        "name": "pointfigure()",
+        "href": "fun_pointfigure",
+        "data_name": "pointfigure()",
+        "type": "function"
+      },
+      {
+        "name": "pow()",
+        "href": "fun_pow",
+        "data_name": "pow()",
+        "type": "function"
+      },
+      {
+        "name": "renko()",
+        "href": "fun_renko",
+        "data_name": "renko()",
+        "type": "function"
+      },
+      {
+        "name": "rising()",
+        "href": "fun_rising",
+        "data_name": "rising()",
+        "type": "function"
+      },
+      {
+        "name": "rma()",
+        "href": "fun_rma",
+        "data_name": "rma()",
+        "type": "function"
+      },
+      {
+        "name": "roc()",
+        "href": "fun_roc",
+        "data_name": "roc()",
+        "type": "function"
+      },
+      {
+        "name": "round()",
+        "href": "fun_round",
+        "data_name": "round()",
+        "type": "function"
+      },
+      {
+        "name": "rsi()",
+        "href": "fun_rsi",
+        "data_name": "rsi()",
+        "type": "function"
+      },
+      {
+        "name": "sar()",
+        "href": "fun_sar",
+        "data_name": "sar()",
+        "type": "function"
+      },
+      {
+        "name": "second()",
+        "href": "fun_second",
+        "data_name": "second()",
+        "type": "function"
+      },
+      {
+        "name": "security()",
+        "href": "fun_security",
+        "data_name": "security()",
+        "type": "function"
+      },
+      {
+        "name": "sign()",
+        "href": "fun_sign",
+        "data_name": "sign()",
+        "type": "function"
+      },
+      {
+        "name": "sin()",
+        "href": "fun_sin",
+        "data_name": "sin()",
+        "type": "function"
+      },
+      {
+        "name": "sma()",
+        "href": "fun_sma",
+        "data_name": "sma()",
+        "type": "function"
+      },
+      {
+        "name": "sqrt()",
+        "href": "fun_sqrt",
+        "data_name": "sqrt()",
+        "type": "function"
+      },
+      {
+        "name": "stdev()",
+        "href": "fun_stdev",
+        "data_name": "stdev()",
+        "type": "function"
+      },
+      {
+        "name": "stoch()",
+        "href": "fun_stoch",
+        "data_name": "stoch()",
+        "type": "function"
+      },
+      {
+        "name": "strategy()",
+        "href": "fun_strategy",
+        "data_name": "strategy()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.cancel()",
+        "href": "fun_strategy.cancel",
+        "data_name": "strategy.cancel()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.cancel_all()",
+        "href": "fun_strategy.cancel_all",
+        "data_name": "strategy.cancel_all()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.close()",
+        "href": "fun_strategy.close",
+        "data_name": "strategy.close()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.close_all()",
+        "href": "fun_strategy.close_all",
+        "data_name": "strategy.close_all()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.entry()",
+        "href": "fun_strategy.entry",
+        "data_name": "strategy.entry()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.exit()",
+        "href": "fun_strategy.exit",
+        "data_name": "strategy.exit()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.order()",
+        "href": "fun_strategy.order",
+        "data_name": "strategy.order()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.allow_entry_in()",
+        "href": "fun_strategy.risk.allow_entry_in",
+        "data_name": "strategy.risk.allow_entry_in()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_cons_loss_days()",
+        "href": "fun_strategy.risk.max_cons_loss_days",
+        "data_name": "strategy.risk.max_cons_loss_days()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_drawdown()",
+        "href": "fun_strategy.risk.max_drawdown",
+        "data_name": "strategy.risk.max_drawdown()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_intraday_filled_orders()",
+        "href": "fun_strategy.risk.max_intraday_filled_orders",
+        "data_name": "strategy.risk.max_intraday_filled_orders()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_intraday_loss()",
+        "href": "fun_strategy.risk.max_intraday_loss",
+        "data_name": "strategy.risk.max_intraday_loss()",
+        "type": "function"
+      },
+      {
+        "name": "strategy.risk.max_position_size()",
+        "href": "fun_strategy.risk.max_position_size",
+        "data_name": "strategy.risk.max_position_size()",
+        "type": "function"
+      },
+      {
+        "name": "study()",
+        "href": "fun_study",
+        "data_name": "study()",
+        "type": "function"
+      },
+      {
+        "name": "sum()",
+        "href": "fun_sum",
+        "data_name": "sum()",
+        "type": "function"
+      },
+      {
+        "name": "swma()",
+        "href": "fun_swma",
+        "data_name": "swma()",
+        "type": "function"
+      },
+      {
+        "name": "tan()",
+        "href": "fun_tan",
+        "data_name": "tan()",
+        "type": "function"
+      },
+      {
+        "name": "tickerid()",
+        "href": "fun_tickerid",
+        "data_name": "tickerid()",
+        "type": "function"
+      },
+      {
+        "name": "time()",
+        "href": "fun_time",
+        "data_name": "time()",
+        "type": "function"
+      },
+      {
+        "name": "timestamp()",
+        "href": "fun_timestamp",
+        "data_name": "timestamp()",
+        "type": "function"
+      },
+      {
+        "name": "tostring()",
+        "href": "fun_tostring",
+        "data_name": "tostring()",
+        "type": "function"
+      },
+      {
+        "name": "tr()",
+        "href": "fun_tr",
+        "data_name": "tr()",
+        "type": "function"
+      },
+      {
+        "name": "tsi()",
+        "href": "fun_tsi",
+        "data_name": "tsi()",
+        "type": "function"
+      },
+      {
+        "name": "valuewhen()",
+        "href": "fun_valuewhen",
+        "data_name": "valuewhen()",
+        "type": "function"
+      },
+      {
+        "name": "variance()",
+        "href": "fun_variance",
+        "data_name": "variance()",
+        "type": "function"
+      },
+      {
+        "name": "vwap()",
+        "href": "fun_vwap",
+        "data_name": "vwap()",
+        "type": "function"
+      },
+      {
+        "name": "vwma()",
+        "href": "fun_vwma",
+        "data_name": "vwma()",
+        "type": "function"
+      },
+      {
+        "name": "weekofyear()",
+        "href": "fun_weekofyear",
+        "data_name": "weekofyear()",
+        "type": "function"
+      },
+      {
+        "name": "wma()",
+        "href": "fun_wma",
+        "data_name": "wma()",
+        "type": "function"
+      },
+      {
+        "name": "year()",
+        "href": "fun_year",
+        "data_name": "year()",
+        "type": "function"
+      }
+    ],
+    "Keywords": [
+      {
+        "name": "and",
+        "href": "kw_and",
+        "data_name": "and",
+        "type": "variable"
+      },
+      {
+        "name": "for",
+        "href": "kw_for",
+        "data_name": "for",
+        "type": "variable"
+      },
+      {
+        "name": "if",
+        "href": "kw_if",
+        "data_name": "if",
+        "type": "variable"
+      },
+      {
+        "name": "not",
+        "href": "kw_not",
+        "data_name": "not",
+        "type": "variable"
+      },
+      {
+        "name": "or",
+        "href": "kw_or",
+        "data_name": "or",
+        "type": "variable"
+      }
+    ],
+    "Operators": [
+      {
+        "name": "-",
+        "href": "op_-",
+        "data_name": "-",
+        "type": "variable"
+      },
+      {
+        "name": "!=",
+        "href": "op_!=",
+        "data_name": "!=",
+        "type": "variable"
+      },
+      {
+        "name": "?:",
+        "href": "op_?:",
+        "data_name": "?:",
+        "type": "variable"
+      },
+      {
+        "name": "[]",
+        "href": "op_[]",
+        "data_name": "[]",
+        "type": "variable"
+      },
+      {
+        "name": "*",
+        "href": "op_*",
+        "data_name": "*",
+        "type": "variable"
+      },
+      {
+        "name": "/",
+        "href": "op_/",
+        "data_name": "/",
+        "type": "variable"
+      },
+      {
+        "name": "%",
+        "href": "op_%",
+        "data_name": "%",
+        "type": "variable"
+      },
+      {
+        "name": "+",
+        "href": "op_+",
+        "data_name": "+",
+        "type": "variable"
+      },
+      {
+        "name": "<",
+        "href": "op_<",
+        "data_name": "<",
+        "type": "variable"
+      },
+      {
+        "name": "<=",
+        "href": "op_<=",
+        "data_name": "<=",
+        "type": "variable"
+      },
+      {
+        "name": "==",
+        "href": "op_==",
+        "data_name": "==",
+        "type": "variable"
+      },
+      {
+        "name": ">",
+        "href": "op_>",
+        "data_name": ">",
+        "type": "variable"
+      },
+      {
+        "name": ">=",
+        "href": "op_>=",
+        "data_name": ">=",
+        "type": "variable"
+      }
+    ]
+  },
+  "all_items": [
+    {
+      "name": "accdist",
+      "href": "var_accdist",
+      "data_name": "accdist",
+      "type": "variable"
+    },
+    {
+      "name": "barstate.isconfirmed",
+      "href": "var_barstate.isconfirmed",
+      "data_name": "barstate.isconfirmed",
+      "type": "property"
+    },
+    {
+      "name": "barstate.isfirst",
+      "href": "var_barstate.isfirst",
+      "data_name": "barstate.isfirst",
+      "type": "property"
+    },
+    {
+      "name": "barstate.ishistory",
+      "href": "var_barstate.ishistory",
+      "data_name": "barstate.ishistory",
+      "type": "property"
+    },
+    {
+      "name": "barstate.islast",
+      "href": "var_barstate.islast",
+      "data_name": "barstate.islast",
+      "type": "property"
+    },
+    {
+      "name": "barstate.isnew",
+      "href": "var_barstate.isnew",
+      "data_name": "barstate.isnew",
+      "type": "property"
+    },
+    {
+      "name": "barstate.isrealtime",
+      "href": "var_barstate.isrealtime",
+      "data_name": "barstate.isrealtime",
+      "type": "property"
+    },
+    {
+      "name": "close",
+      "href": "var_close",
+      "data_name": "close",
+      "type": "variable"
+    },
+    {
+      "name": "dayofmonth",
+      "href": "var_dayofmonth",
+      "data_name": "dayofmonth",
+      "type": "variable"
+    },
+    {
+      "name": "dayofweek",
+      "href": "var_dayofweek",
+      "data_name": "dayofweek",
+      "type": "variable"
+    },
+    {
+      "name": "high",
+      "href": "var_high",
+      "data_name": "high",
+      "type": "variable"
+    },
+    {
+      "name": "hl2",
+      "href": "var_hl2",
+      "data_name": "hl2",
+      "type": "variable"
+    },
+    {
+      "name": "hlc3",
+      "href": "var_hlc3",
+      "data_name": "hlc3",
+      "type": "variable"
+    },
+    {
+      "name": "hour",
+      "href": "var_hour",
+      "data_name": "hour",
+      "type": "variable"
+    },
+    {
+      "name": "interval",
+      "href": "var_interval",
+      "data_name": "interval",
+      "type": "variable"
+    },
+    {
+      "name": "isdaily",
+      "href": "var_isdaily",
+      "data_name": "isdaily",
+      "type": "variable"
+    },
+    {
+      "name": "isdwm",
+      "href": "var_isdwm",
+      "data_name": "isdwm",
+      "type": "variable"
+    },
+    {
+      "name": "isintraday",
+      "href": "var_isintraday",
+      "data_name": "isintraday",
+      "type": "variable"
+    },
+    {
+      "name": "isminutes",
+      "href": "var_isminutes",
+      "data_name": "isminutes",
+      "type": "variable"
+    },
+    {
+      "name": "ismonthly",
+      "href": "var_ismonthly",
+      "data_name": "ismonthly",
+      "type": "variable"
+    },
+    {
+      "name": "isseconds",
+      "href": "var_isseconds",
+      "data_name": "isseconds",
+      "type": "variable"
+    },
+    {
+      "name": "isweekly",
+      "href": "var_isweekly",
+      "data_name": "isweekly",
+      "type": "variable"
+    },
+    {
+      "name": "low",
+      "href": "var_low",
+      "data_name": "low",
+      "type": "variable"
+    },
+    {
+      "name": "minute",
+      "href": "var_minute",
+      "data_name": "minute",
+      "type": "variable"
+    },
+    {
+      "name": "month",
+      "href": "var_month",
+      "data_name": "month",
+      "type": "variable"
+    },
+    {
+      "name": "n",
+      "href": "var_n",
+      "data_name": "n",
+      "type": "variable"
+    },
+    {
+      "name": "na",
+      "href": "var_na",
+      "data_name": "na",
+      "type": "variable"
+    },
+    {
+      "name": "ohlc4",
+      "href": "var_ohlc4",
+      "data_name": "ohlc4",
+      "type": "variable"
+    },
+    {
+      "name": "open",
+      "href": "var_open",
+      "data_name": "open",
+      "type": "variable"
+    },
+    {
+      "name": "period",
+      "href": "var_period",
+      "data_name": "period",
+      "type": "variable"
+    },
+    {
+      "name": "second",
+      "href": "var_second",
+      "data_name": "second",
+      "type": "variable"
+    },
+    {
+      "name": "strategy.closedtrades",
+      "href": "var_strategy.closedtrades",
+      "data_name": "strategy.closedtrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.equity",
+      "href": "var_strategy.equity",
+      "data_name": "strategy.equity",
+      "type": "property"
+    },
+    {
+      "name": "strategy.eventrades",
+      "href": "var_strategy.eventrades",
+      "data_name": "strategy.eventrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.grossloss",
+      "href": "var_strategy.grossloss",
+      "data_name": "strategy.grossloss",
+      "type": "property"
+    },
+    {
+      "name": "strategy.grossprofit",
+      "href": "var_strategy.grossprofit",
+      "data_name": "strategy.grossprofit",
+      "type": "property"
+    },
+    {
+      "name": "strategy.initial_capital",
+      "href": "var_strategy.initial_capital",
+      "data_name": "strategy.initial_capital",
+      "type": "property"
+    },
+    {
+      "name": "strategy.losstrades",
+      "href": "var_strategy.losstrades",
+      "data_name": "strategy.losstrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_contracts_held_all",
+      "href": "var_strategy.max_contracts_held_all",
+      "data_name": "strategy.max_contracts_held_all",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_contracts_held_long",
+      "href": "var_strategy.max_contracts_held_long",
+      "data_name": "strategy.max_contracts_held_long",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_contracts_held_short",
+      "href": "var_strategy.max_contracts_held_short",
+      "data_name": "strategy.max_contracts_held_short",
+      "type": "property"
+    },
+    {
+      "name": "strategy.max_drawdown",
+      "href": "var_strategy.max_drawdown",
+      "data_name": "strategy.max_drawdown",
+      "type": "property"
+    },
+    {
+      "name": "strategy.netprofit",
+      "href": "var_strategy.netprofit",
+      "data_name": "strategy.netprofit",
+      "type": "property"
+    },
+    {
+      "name": "strategy.openprofit",
+      "href": "var_strategy.openprofit",
+      "data_name": "strategy.openprofit",
+      "type": "property"
+    },
+    {
+      "name": "strategy.opentrades",
+      "href": "var_strategy.opentrades",
+      "data_name": "strategy.opentrades",
+      "type": "property"
+    },
+    {
+      "name": "strategy.position_avg_price",
+      "href": "var_strategy.position_avg_price",
+      "data_name": "strategy.position_avg_price",
+      "type": "property"
+    },
+    {
+      "name": "strategy.position_entry_name",
+      "href": "var_strategy.position_entry_name",
+      "data_name": "strategy.position_entry_name",
+      "type": "property"
+    },
+    {
+      "name": "strategy.position_size",
+      "href": "var_strategy.position_size",
+      "data_name": "strategy.position_size",
+      "type": "property"
+    },
+    {
+      "name": "strategy.wintrades",
+      "href": "var_strategy.wintrades",
+      "data_name": "strategy.wintrades",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.mintick",
+      "href": "var_syminfo.mintick",
+      "data_name": "syminfo.mintick",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.pointvalue",
+      "href": "var_syminfo.pointvalue",
+      "data_name": "syminfo.pointvalue",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.prefix",
+      "href": "var_syminfo.prefix",
+      "data_name": "syminfo.prefix",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.root",
+      "href": "var_syminfo.root",
+      "data_name": "syminfo.root",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.session",
+      "href": "var_syminfo.session",
+      "data_name": "syminfo.session",
+      "type": "property"
+    },
+    {
+      "name": "syminfo.timezone",
+      "href": "var_syminfo.timezone",
+      "data_name": "syminfo.timezone",
+      "type": "property"
+    },
+    {
+      "name": "ticker",
+      "href": "var_ticker",
+      "data_name": "ticker",
+      "type": "variable"
+    },
+    {
+      "name": "tickerid",
+      "href": "var_tickerid",
+      "data_name": "tickerid",
+      "type": "variable"
+    },
+    {
+      "name": "time",
+      "href": "var_time",
+      "data_name": "time",
+      "type": "variable"
+    },
+    {
+      "name": "timenow",
+      "href": "var_timenow",
+      "data_name": "timenow",
+      "type": "variable"
+    },
+    {
+      "name": "tr",
+      "href": "var_tr",
+      "data_name": "tr",
+      "type": "variable"
+    },
+    {
+      "name": "volume",
+      "href": "var_volume",
+      "data_name": "volume",
+      "type": "variable"
+    },
+    {
+      "name": "vwap",
+      "href": "var_vwap",
+      "data_name": "vwap",
+      "type": "variable"
+    },
+    {
+      "name": "weekofyear",
+      "href": "var_weekofyear",
+      "data_name": "weekofyear",
+      "type": "variable"
+    },
+    {
+      "name": "year",
+      "href": "var_year",
+      "data_name": "year",
+      "type": "variable"
+    },
+    {
+      "name": "adjustment.dividends",
+      "href": "const_adjustment.dividends",
+      "data_name": "adjustment.dividends",
+      "type": "property"
+    },
+    {
+      "name": "adjustment.none",
+      "href": "const_adjustment.none",
+      "data_name": "adjustment.none",
+      "type": "property"
+    },
+    {
+      "name": "adjustment.splits",
+      "href": "const_adjustment.splits",
+      "data_name": "adjustment.splits",
+      "type": "property"
+    },
+    {
+      "name": "aqua",
+      "href": "const_aqua",
+      "data_name": "aqua",
+      "type": "variable"
+    },
+    {
+      "name": "area",
+      "href": "const_area",
+      "data_name": "area",
+      "type": "variable"
+    },
+    {
+      "name": "areabr",
+      "href": "const_areabr",
+      "data_name": "areabr",
+      "type": "variable"
+    },
+    {
+      "name": "barmerge.gaps_off",
+      "href": "const_barmerge.gaps_off",
+      "data_name": "barmerge.gaps_off",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.gaps_on",
+      "href": "const_barmerge.gaps_on",
+      "data_name": "barmerge.gaps_on",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.lookahead_off",
+      "href": "const_barmerge.lookahead_off",
+      "data_name": "barmerge.lookahead_off",
+      "type": "property"
+    },
+    {
+      "name": "barmerge.lookahead_on",
+      "href": "const_barmerge.lookahead_on",
+      "data_name": "barmerge.lookahead_on",
+      "type": "property"
+    },
+    {
+      "name": "black",
+      "href": "const_black",
+      "data_name": "black",
+      "type": "variable"
+    },
+    {
+      "name": "blue",
+      "href": "const_blue",
+      "data_name": "blue",
+      "type": "variable"
+    },
+    {
+      "name": "bool",
+      "href": "const_bool",
+      "data_name": "bool",
+      "type": "variable"
+    },
+    {
+      "name": "circles",
+      "href": "const_circles",
+      "data_name": "circles",
+      "type": "variable"
+    },
+    {
+      "name": "columns",
+      "href": "const_columns",
+      "data_name": "columns",
+      "type": "variable"
+    },
+    {
+      "name": "cross",
+      "href": "const_cross",
+      "data_name": "cross",
+      "type": "variable"
+    },
+    {
+      "name": "currency.AUD",
+      "href": "const_currency.AUD",
+      "data_name": "currency.aud",
+      "type": "property"
+    },
+    {
+      "name": "currency.CAD",
+      "href": "const_currency.CAD",
+      "data_name": "currency.cad",
+      "type": "property"
+    },
+    {
+      "name": "currency.CHF",
+      "href": "const_currency.CHF",
+      "data_name": "currency.chf",
+      "type": "property"
+    },
+    {
+      "name": "currency.EUR",
+      "href": "const_currency.EUR",
+      "data_name": "currency.eur",
+      "type": "property"
+    },
+    {
+      "name": "currency.GBP",
+      "href": "const_currency.GBP",
+      "data_name": "currency.gbp",
+      "type": "property"
+    },
+    {
+      "name": "currency.HKD",
+      "href": "const_currency.HKD",
+      "data_name": "currency.hkd",
+      "type": "property"
+    },
+    {
+      "name": "currency.JPY",
+      "href": "const_currency.JPY",
+      "data_name": "currency.jpy",
+      "type": "property"
+    },
+    {
+      "name": "currency.NOK",
+      "href": "const_currency.NOK",
+      "data_name": "currency.nok",
+      "type": "property"
+    },
+    {
+      "name": "currency.NONE",
+      "href": "const_currency.NONE",
+      "data_name": "currency.none",
+      "type": "property"
+    },
+    {
+      "name": "currency.NZD",
+      "href": "const_currency.NZD",
+      "data_name": "currency.nzd",
+      "type": "property"
+    },
+    {
+      "name": "currency.RUB",
+      "href": "const_currency.RUB",
+      "data_name": "currency.rub",
+      "type": "property"
+    },
+    {
+      "name": "currency.SEK",
+      "href": "const_currency.SEK",
+      "data_name": "currency.sek",
+      "type": "property"
+    },
+    {
+      "name": "currency.SGD",
+      "href": "const_currency.SGD",
+      "data_name": "currency.sgd",
+      "type": "property"
+    },
+    {
+      "name": "currency.TRY",
+      "href": "const_currency.TRY",
+      "data_name": "currency.try",
+      "type": "property"
+    },
+    {
+      "name": "currency.USD",
+      "href": "const_currency.USD",
+      "data_name": "currency.usd",
+      "type": "property"
+    },
+    {
+      "name": "currency.ZAR",
+      "href": "const_currency.ZAR",
+      "data_name": "currency.zar",
+      "type": "property"
+    },
+    {
+      "name": "dashed",
+      "href": "const_dashed",
+      "data_name": "dashed",
+      "type": "variable"
+    },
+    {
+      "name": "dotted",
+      "href": "const_dotted",
+      "data_name": "dotted",
+      "type": "variable"
+    },
+    {
+      "name": "float",
+      "href": "const_float",
+      "data_name": "float",
+      "type": "variable"
+    },
+    {
+      "name": "friday",
+      "href": "const_friday",
+      "data_name": "friday",
+      "type": "variable"
+    },
+    {
+      "name": "fuchsia",
+      "href": "const_fuchsia",
+      "data_name": "fuchsia",
+      "type": "variable"
+    },
+    {
+      "name": "gray",
+      "href": "const_gray",
+      "data_name": "gray",
+      "type": "variable"
+    },
+    {
+      "name": "green",
+      "href": "const_green",
+      "data_name": "green",
+      "type": "variable"
+    },
+    {
+      "name": "histogram",
+      "href": "const_histogram",
+      "data_name": "histogram",
+      "type": "variable"
+    },
+    {
+      "name": "integer",
+      "href": "const_integer",
+      "data_name": "integer",
+      "type": "variable"
+    },
+    {
+      "name": "lime",
+      "href": "const_lime",
+      "data_name": "lime",
+      "type": "variable"
+    },
+    {
+      "name": "line",
+      "href": "const_line",
+      "data_name": "line",
+      "type": "variable"
+    },
+    {
+      "name": "linebr",
+      "href": "const_linebr",
+      "data_name": "linebr",
+      "type": "variable"
+    },
+    {
+      "name": "location.abovebar",
+      "href": "const_location.abovebar",
+      "data_name": "location.abovebar",
+      "type": "property"
+    },
+    {
+      "name": "location.absolute",
+      "href": "const_location.absolute",
+      "data_name": "location.absolute",
+      "type": "property"
+    },
+    {
+      "name": "location.belowbar",
+      "href": "const_location.belowbar",
+      "data_name": "location.belowbar",
+      "type": "property"
+    },
+    {
+      "name": "location.bottom",
+      "href": "const_location.bottom",
+      "data_name": "location.bottom",
+      "type": "property"
+    },
+    {
+      "name": "location.top",
+      "href": "const_location.top",
+      "data_name": "location.top",
+      "type": "property"
+    },
+    {
+      "name": "maroon",
+      "href": "const_maroon",
+      "data_name": "maroon",
+      "type": "variable"
+    },
+    {
+      "name": "monday",
+      "href": "const_monday",
+      "data_name": "monday",
+      "type": "variable"
+    },
+    {
+      "name": "navy",
+      "href": "const_navy",
+      "data_name": "navy",
+      "type": "variable"
+    },
+    {
+      "name": "olive",
+      "href": "const_olive",
+      "data_name": "olive",
+      "type": "variable"
+    },
+    {
+      "name": "orange",
+      "href": "const_orange",
+      "data_name": "orange",
+      "type": "variable"
+    },
+    {
+      "name": "purple",
+      "href": "const_purple",
+      "data_name": "purple",
+      "type": "variable"
+    },
+    {
+      "name": "red",
+      "href": "const_red",
+      "data_name": "red",
+      "type": "variable"
+    },
+    {
+      "name": "resolution",
+      "href": "const_resolution",
+      "data_name": "resolution",
+      "type": "variable"
+    },
+    {
+      "name": "saturday",
+      "href": "const_saturday",
+      "data_name": "saturday",
+      "type": "variable"
+    },
+    {
+      "name": "scale.left",
+      "href": "const_scale.left",
+      "data_name": "scale.left",
+      "type": "property"
+    },
+    {
+      "name": "scale.none",
+      "href": "const_scale.none",
+      "data_name": "scale.none",
+      "type": "property"
+    },
+    {
+      "name": "scale.right",
+      "href": "const_scale.right",
+      "data_name": "scale.right",
+      "type": "property"
+    },
+    {
+      "name": "session",
+      "href": "const_session",
+      "data_name": "session",
+      "type": "variable"
+    },
+    {
+      "name": "session.extended",
+      "href": "const_session.extended",
+      "data_name": "session.extended",
+      "type": "property"
+    },
+    {
+      "name": "session.regular",
+      "href": "const_session.regular",
+      "data_name": "session.regular",
+      "type": "property"
+    },
+    {
+      "name": "shape.arrowdown",
+      "href": "const_shape.arrowdown",
+      "data_name": "shape.arrowdown",
+      "type": "property"
+    },
+    {
+      "name": "shape.arrowup",
+      "href": "const_shape.arrowup",
+      "data_name": "shape.arrowup",
+      "type": "property"
+    },
+    {
+      "name": "shape.circle",
+      "href": "const_shape.circle",
+      "data_name": "shape.circle",
+      "type": "property"
+    },
+    {
+      "name": "shape.cross",
+      "href": "const_shape.cross",
+      "data_name": "shape.cross",
+      "type": "property"
+    },
+    {
+      "name": "shape.diamond",
+      "href": "const_shape.diamond",
+      "data_name": "shape.diamond",
+      "type": "property"
+    },
+    {
+      "name": "shape.flag",
+      "href": "const_shape.flag",
+      "data_name": "shape.flag",
+      "type": "property"
+    },
+    {
+      "name": "shape.labeldown",
+      "href": "const_shape.labeldown",
+      "data_name": "shape.labeldown",
+      "type": "property"
+    },
+    {
+      "name": "shape.labelup",
+      "href": "const_shape.labelup",
+      "data_name": "shape.labelup",
+      "type": "property"
+    },
+    {
+      "name": "shape.square",
+      "href": "const_shape.square",
+      "data_name": "shape.square",
+      "type": "property"
+    },
+    {
+      "name": "shape.triangledown",
+      "href": "const_shape.triangledown",
+      "data_name": "shape.triangledown",
+      "type": "property"
+    },
+    {
+      "name": "shape.triangleup",
+      "href": "const_shape.triangleup",
+      "data_name": "shape.triangleup",
+      "type": "property"
+    },
+    {
+      "name": "shape.xcross",
+      "href": "const_shape.xcross",
+      "data_name": "shape.xcross",
+      "type": "property"
+    },
+    {
+      "name": "silver",
+      "href": "const_silver",
+      "data_name": "silver",
+      "type": "variable"
+    },
+    {
+      "name": "size.auto",
+      "href": "const_size.auto",
+      "data_name": "size.auto",
+      "type": "property"
+    },
+    {
+      "name": "size.huge",
+      "href": "const_size.huge",
+      "data_name": "size.huge",
+      "type": "property"
+    },
+    {
+      "name": "size.large",
+      "href": "const_size.large",
+      "data_name": "size.large",
+      "type": "property"
+    },
+    {
+      "name": "size.normal",
+      "href": "const_size.normal",
+      "data_name": "size.normal",
+      "type": "property"
+    },
+    {
+      "name": "size.small",
+      "href": "const_size.small",
+      "data_name": "size.small",
+      "type": "property"
+    },
+    {
+      "name": "size.tiny",
+      "href": "const_size.tiny",
+      "data_name": "size.tiny",
+      "type": "property"
+    },
+    {
+      "name": "solid",
+      "href": "const_solid",
+      "data_name": "solid",
+      "type": "variable"
+    },
+    {
+      "name": "source",
+      "href": "const_source",
+      "data_name": "source",
+      "type": "variable"
+    },
+    {
+      "name": "stepline",
+      "href": "const_stepline",
+      "data_name": "stepline",
+      "type": "variable"
+    },
+    {
+      "name": "strategy.cash",
+      "href": "const_strategy.cash",
+      "data_name": "strategy.cash",
+      "type": "property"
+    },
+    {
+      "name": "strategy.commission.cash_per_contract",
+      "href": "const_strategy.commission.cash_per_contract",
+      "data_name": "strategy.commission.cash_per_contract",
+      "type": "property"
+    },
+    {
+      "name": "strategy.commission.cash_per_order",
+      "href": "const_strategy.commission.cash_per_order",
+      "data_name": "strategy.commission.cash_per_order",
+      "type": "property"
+    },
+    {
+      "name": "strategy.commission.percent",
+      "href": "const_strategy.commission.percent",
+      "data_name": "strategy.commission.percent",
+      "type": "property"
+    },
+    {
+      "name": "strategy.direction.all",
+      "href": "const_strategy.direction.all",
+      "data_name": "strategy.direction.all",
+      "type": "property"
+    },
+    {
+      "name": "strategy.direction.long",
+      "href": "const_strategy.direction.long",
+      "data_name": "strategy.direction.long",
+      "type": "property"
+    },
+    {
+      "name": "strategy.direction.short",
+      "href": "const_strategy.direction.short",
+      "data_name": "strategy.direction.short",
+      "type": "property"
+    },
+    {
+      "name": "strategy.fixed",
+      "href": "const_strategy.fixed",
+      "data_name": "strategy.fixed",
+      "type": "property"
+    },
+    {
+      "name": "strategy.long",
+      "href": "const_strategy.long",
+      "data_name": "strategy.long",
+      "type": "property"
+    },
+    {
+      "name": "strategy.oca.cancel",
+      "href": "const_strategy.oca.cancel",
+      "data_name": "strategy.oca.cancel",
+      "type": "property"
+    },
+    {
+      "name": "strategy.oca.none",
+      "href": "const_strategy.oca.none",
+      "data_name": "strategy.oca.none",
+      "type": "property"
+    },
+    {
+      "name": "strategy.oca.reduce",
+      "href": "const_strategy.oca.reduce",
+      "data_name": "strategy.oca.reduce",
+      "type": "property"
+    },
+    {
+      "name": "strategy.percent_of_equity",
+      "href": "const_strategy.percent_of_equity",
+      "data_name": "strategy.percent_of_equity",
+      "type": "property"
+    },
+    {
+      "name": "strategy.short",
+      "href": "const_strategy.short",
+      "data_name": "strategy.short",
+      "type": "property"
+    },
+    {
+      "name": "string",
+      "href": "const_string",
+      "data_name": "string",
+      "type": "variable"
+    },
+    {
+      "name": "sunday",
+      "href": "const_sunday",
+      "data_name": "sunday",
+      "type": "variable"
+    },
+    {
+      "name": "symbol",
+      "href": "const_symbol",
+      "data_name": "symbol",
+      "type": "variable"
+    },
+    {
+      "name": "teal",
+      "href": "const_teal",
+      "data_name": "teal",
+      "type": "variable"
+    },
+    {
+      "name": "thursday",
+      "href": "const_thursday",
+      "data_name": "thursday",
+      "type": "variable"
+    },
+    {
+      "name": "tuesday",
+      "href": "const_tuesday",
+      "data_name": "tuesday",
+      "type": "variable"
+    },
+    {
+      "name": "wednesday",
+      "href": "const_wednesday",
+      "data_name": "wednesday",
+      "type": "variable"
+    },
+    {
+      "name": "white",
+      "href": "const_white",
+      "data_name": "white",
+      "type": "variable"
+    },
+    {
+      "name": "yellow",
+      "href": "const_yellow",
+      "data_name": "yellow",
+      "type": "variable"
+    },
+    {
+      "name": "abs()",
+      "href": "fun_abs",
+      "data_name": "abs()",
+      "type": "function"
+    },
+    {
+      "name": "acos()",
+      "href": "fun_acos",
+      "data_name": "acos()",
+      "type": "function"
+    },
+    {
+      "name": "alertcondition()",
+      "href": "fun_alertcondition",
+      "data_name": "alertcondition()",
+      "type": "function"
+    },
+    {
+      "name": "alma()",
+      "href": "fun_alma",
+      "data_name": "alma()",
+      "type": "function"
+    },
+    {
+      "name": "asin()",
+      "href": "fun_asin",
+      "data_name": "asin()",
+      "type": "function"
+    },
+    {
+      "name": "atan()",
+      "href": "fun_atan",
+      "data_name": "atan()",
+      "type": "function"
+    },
+    {
+      "name": "atr()",
+      "href": "fun_atr",
+      "data_name": "atr()",
+      "type": "function"
+    },
+    {
+      "name": "avg()",
+      "href": "fun_avg",
+      "data_name": "avg()",
+      "type": "function"
+    },
+    {
+      "name": "barcolor()",
+      "href": "fun_barcolor",
+      "data_name": "barcolor()",
+      "type": "function"
+    },
+    {
+      "name": "barssince()",
+      "href": "fun_barssince",
+      "data_name": "barssince()",
+      "type": "function"
+    },
+    {
+      "name": "bgcolor()",
+      "href": "fun_bgcolor",
+      "data_name": "bgcolor()",
+      "type": "function"
+    },
+    {
+      "name": "cci()",
+      "href": "fun_cci",
+      "data_name": "cci()",
+      "type": "function"
+    },
+    {
+      "name": "ceil()",
+      "href": "fun_ceil",
+      "data_name": "ceil()",
+      "type": "function"
+    },
+    {
+      "name": "change()",
+      "href": "fun_change",
+      "data_name": "change()",
+      "type": "function"
+    },
+    {
+      "name": "cog()",
+      "href": "fun_cog",
+      "data_name": "cog()",
+      "type": "function"
+    },
+    {
+      "name": "color()",
+      "href": "fun_color",
+      "data_name": "color()",
+      "type": "function"
+    },
+    {
+      "name": "correlation()",
+      "href": "fun_correlation",
+      "data_name": "correlation()",
+      "type": "function"
+    },
+    {
+      "name": "cos()",
+      "href": "fun_cos",
+      "data_name": "cos()",
+      "type": "function"
+    },
+    {
+      "name": "cross()",
+      "href": "fun_cross",
+      "data_name": "cross()",
+      "type": "function"
+    },
+    {
+      "name": "crossover()",
+      "href": "fun_crossover",
+      "data_name": "crossover()",
+      "type": "function"
+    },
+    {
+      "name": "crossunder()",
+      "href": "fun_crossunder",
+      "data_name": "crossunder()",
+      "type": "function"
+    },
+    {
+      "name": "cum()",
+      "href": "fun_cum",
+      "data_name": "cum()",
+      "type": "function"
+    },
+    {
+      "name": "dayofmonth()",
+      "href": "fun_dayofmonth",
+      "data_name": "dayofmonth()",
+      "type": "function"
+    },
+    {
+      "name": "dayofweek()",
+      "href": "fun_dayofweek",
+      "data_name": "dayofweek()",
+      "type": "function"
+    },
+    {
+      "name": "dev()",
+      "href": "fun_dev",
+      "data_name": "dev()",
+      "type": "function"
+    },
+    {
+      "name": "ema()",
+      "href": "fun_ema",
+      "data_name": "ema()",
+      "type": "function"
+    },
+    {
+      "name": "exp()",
+      "href": "fun_exp",
+      "data_name": "exp()",
+      "type": "function"
+    },
+    {
+      "name": "falling()",
+      "href": "fun_falling",
+      "data_name": "falling()",
+      "type": "function"
+    },
+    {
+      "name": "fill()",
+      "href": "fun_fill",
+      "data_name": "fill()",
+      "type": "function"
+    },
+    {
+      "name": "fixnan()",
+      "href": "fun_fixnan",
+      "data_name": "fixnan()",
+      "type": "function"
+    },
+    {
+      "name": "floor()",
+      "href": "fun_floor",
+      "data_name": "floor()",
+      "type": "function"
+    },
+    {
+      "name": "heikinashi()",
+      "href": "fun_heikinashi",
+      "data_name": "heikinashi()",
+      "type": "function"
+    },
+    {
+      "name": "highest()",
+      "href": "fun_highest",
+      "data_name": "highest()",
+      "type": "function"
+    },
+    {
+      "name": "highestbars()",
+      "href": "fun_highestbars",
+      "data_name": "highestbars()",
+      "type": "function"
+    },
+    {
+      "name": "hline()",
+      "href": "fun_hline",
+      "data_name": "hline()",
+      "type": "function"
+    },
+    {
+      "name": "hour()",
+      "href": "fun_hour",
+      "data_name": "hour()",
+      "type": "function"
+    },
+    {
+      "name": "iff()",
+      "href": "fun_iff",
+      "data_name": "iff()",
+      "type": "function"
+    },
+    {
+      "name": "input()",
+      "href": "fun_input",
+      "data_name": "input()",
+      "type": "function"
+    },
+    {
+      "name": "kagi()",
+      "href": "fun_kagi",
+      "data_name": "kagi()",
+      "type": "function"
+    },
+    {
+      "name": "linebreak()",
+      "href": "fun_linebreak",
+      "data_name": "linebreak()",
+      "type": "function"
+    },
+    {
+      "name": "linreg()",
+      "href": "fun_linreg",
+      "data_name": "linreg()",
+      "type": "function"
+    },
+    {
+      "name": "log()",
+      "href": "fun_log",
+      "data_name": "log()",
+      "type": "function"
+    },
+    {
+      "name": "log10()",
+      "href": "fun_log10",
+      "data_name": "log10()",
+      "type": "function"
+    },
+    {
+      "name": "lowest()",
+      "href": "fun_lowest",
+      "data_name": "lowest()",
+      "type": "function"
+    },
+    {
+      "name": "lowestbars()",
+      "href": "fun_lowestbars",
+      "data_name": "lowestbars()",
+      "type": "function"
+    },
+    {
+      "name": "macd()",
+      "href": "fun_macd",
+      "data_name": "macd()",
+      "type": "function"
+    },
+    {
+      "name": "max()",
+      "href": "fun_max",
+      "data_name": "max()",
+      "type": "function"
+    },
+    {
+      "name": "min()",
+      "href": "fun_min",
+      "data_name": "min()",
+      "type": "function"
+    },
+    {
+      "name": "minute()",
+      "href": "fun_minute",
+      "data_name": "minute()",
+      "type": "function"
+    },
+    {
+      "name": "mom()",
+      "href": "fun_mom",
+      "data_name": "mom()",
+      "type": "function"
+    },
+    {
+      "name": "month()",
+      "href": "fun_month",
+      "data_name": "month()",
+      "type": "function"
+    },
+    {
+      "name": "na()",
+      "href": "fun_na",
+      "data_name": "na()",
+      "type": "function"
+    },
+    {
+      "name": "nz()",
+      "href": "fun_nz",
+      "data_name": "nz()",
+      "type": "function"
+    },
+    {
+      "name": "offset()",
+      "href": "fun_offset",
+      "data_name": "offset()",
+      "type": "function"
+    },
+    {
+      "name": "percentile_linear_interpolation()",
+      "href": "fun_percentile_linear_interpolation",
+      "data_name": "percentile_linear_interpolation()",
+      "type": "function"
+    },
+    {
+      "name": "percentile_nearest_rank()",
+      "href": "fun_percentile_nearest_rank",
+      "data_name": "percentile_nearest_rank()",
+      "type": "function"
+    },
+    {
+      "name": "percentrank()",
+      "href": "fun_percentrank",
+      "data_name": "percentrank()",
+      "type": "function"
+    },
+    {
+      "name": "pivothigh()",
+      "href": "fun_pivothigh",
+      "data_name": "pivothigh()",
+      "type": "function"
+    },
+    {
+      "name": "pivotlow()",
+      "href": "fun_pivotlow",
+      "data_name": "pivotlow()",
+      "type": "function"
+    },
+    {
+      "name": "plot()",
+      "href": "fun_plot",
+      "data_name": "plot()",
+      "type": "function"
+    },
+    {
+      "name": "plotarrow()",
+      "href": "fun_plotarrow",
+      "data_name": "plotarrow()",
+      "type": "function"
+    },
+    {
+      "name": "plotbar()",
+      "href": "fun_plotbar",
+      "data_name": "plotbar()",
+      "type": "function"
+    },
+    {
+      "name": "plotcandle()",
+      "href": "fun_plotcandle",
+      "data_name": "plotcandle()",
+      "type": "function"
+    },
+    {
+      "name": "plotchar()",
+      "href": "fun_plotchar",
+      "data_name": "plotchar()",
+      "type": "function"
+    },
+    {
+      "name": "plotshape()",
+      "href": "fun_plotshape",
+      "data_name": "plotshape()",
+      "type": "function"
+    },
+    {
+      "name": "pointfigure()",
+      "href": "fun_pointfigure",
+      "data_name": "pointfigure()",
+      "type": "function"
+    },
+    {
+      "name": "pow()",
+      "href": "fun_pow",
+      "data_name": "pow()",
+      "type": "function"
+    },
+    {
+      "name": "renko()",
+      "href": "fun_renko",
+      "data_name": "renko()",
+      "type": "function"
+    },
+    {
+      "name": "rising()",
+      "href": "fun_rising",
+      "data_name": "rising()",
+      "type": "function"
+    },
+    {
+      "name": "rma()",
+      "href": "fun_rma",
+      "data_name": "rma()",
+      "type": "function"
+    },
+    {
+      "name": "roc()",
+      "href": "fun_roc",
+      "data_name": "roc()",
+      "type": "function"
+    },
+    {
+      "name": "round()",
+      "href": "fun_round",
+      "data_name": "round()",
+      "type": "function"
+    },
+    {
+      "name": "rsi()",
+      "href": "fun_rsi",
+      "data_name": "rsi()",
+      "type": "function"
+    },
+    {
+      "name": "sar()",
+      "href": "fun_sar",
+      "data_name": "sar()",
+      "type": "function"
+    },
+    {
+      "name": "second()",
+      "href": "fun_second",
+      "data_name": "second()",
+      "type": "function"
+    },
+    {
+      "name": "security()",
+      "href": "fun_security",
+      "data_name": "security()",
+      "type": "function"
+    },
+    {
+      "name": "sign()",
+      "href": "fun_sign",
+      "data_name": "sign()",
+      "type": "function"
+    },
+    {
+      "name": "sin()",
+      "href": "fun_sin",
+      "data_name": "sin()",
+      "type": "function"
+    },
+    {
+      "name": "sma()",
+      "href": "fun_sma",
+      "data_name": "sma()",
+      "type": "function"
+    },
+    {
+      "name": "sqrt()",
+      "href": "fun_sqrt",
+      "data_name": "sqrt()",
+      "type": "function"
+    },
+    {
+      "name": "stdev()",
+      "href": "fun_stdev",
+      "data_name": "stdev()",
+      "type": "function"
+    },
+    {
+      "name": "stoch()",
+      "href": "fun_stoch",
+      "data_name": "stoch()",
+      "type": "function"
+    },
+    {
+      "name": "strategy()",
+      "href": "fun_strategy",
+      "data_name": "strategy()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.cancel()",
+      "href": "fun_strategy.cancel",
+      "data_name": "strategy.cancel()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.cancel_all()",
+      "href": "fun_strategy.cancel_all",
+      "data_name": "strategy.cancel_all()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.close()",
+      "href": "fun_strategy.close",
+      "data_name": "strategy.close()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.close_all()",
+      "href": "fun_strategy.close_all",
+      "data_name": "strategy.close_all()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.entry()",
+      "href": "fun_strategy.entry",
+      "data_name": "strategy.entry()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.exit()",
+      "href": "fun_strategy.exit",
+      "data_name": "strategy.exit()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.order()",
+      "href": "fun_strategy.order",
+      "data_name": "strategy.order()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.allow_entry_in()",
+      "href": "fun_strategy.risk.allow_entry_in",
+      "data_name": "strategy.risk.allow_entry_in()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_cons_loss_days()",
+      "href": "fun_strategy.risk.max_cons_loss_days",
+      "data_name": "strategy.risk.max_cons_loss_days()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_drawdown()",
+      "href": "fun_strategy.risk.max_drawdown",
+      "data_name": "strategy.risk.max_drawdown()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_intraday_filled_orders()",
+      "href": "fun_strategy.risk.max_intraday_filled_orders",
+      "data_name": "strategy.risk.max_intraday_filled_orders()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_intraday_loss()",
+      "href": "fun_strategy.risk.max_intraday_loss",
+      "data_name": "strategy.risk.max_intraday_loss()",
+      "type": "function"
+    },
+    {
+      "name": "strategy.risk.max_position_size()",
+      "href": "fun_strategy.risk.max_position_size",
+      "data_name": "strategy.risk.max_position_size()",
+      "type": "function"
+    },
+    {
+      "name": "study()",
+      "href": "fun_study",
+      "data_name": "study()",
+      "type": "function"
+    },
+    {
+      "name": "sum()",
+      "href": "fun_sum",
+      "data_name": "sum()",
+      "type": "function"
+    },
+    {
+      "name": "swma()",
+      "href": "fun_swma",
+      "data_name": "swma()",
+      "type": "function"
+    },
+    {
+      "name": "tan()",
+      "href": "fun_tan",
+      "data_name": "tan()",
+      "type": "function"
+    },
+    {
+      "name": "tickerid()",
+      "href": "fun_tickerid",
+      "data_name": "tickerid()",
+      "type": "function"
+    },
+    {
+      "name": "time()",
+      "href": "fun_time",
+      "data_name": "time()",
+      "type": "function"
+    },
+    {
+      "name": "timestamp()",
+      "href": "fun_timestamp",
+      "data_name": "timestamp()",
+      "type": "function"
+    },
+    {
+      "name": "tostring()",
+      "href": "fun_tostring",
+      "data_name": "tostring()",
+      "type": "function"
+    },
+    {
+      "name": "tr()",
+      "href": "fun_tr",
+      "data_name": "tr()",
+      "type": "function"
+    },
+    {
+      "name": "tsi()",
+      "href": "fun_tsi",
+      "data_name": "tsi()",
+      "type": "function"
+    },
+    {
+      "name": "valuewhen()",
+      "href": "fun_valuewhen",
+      "data_name": "valuewhen()",
+      "type": "function"
+    },
+    {
+      "name": "variance()",
+      "href": "fun_variance",
+      "data_name": "variance()",
+      "type": "function"
+    },
+    {
+      "name": "vwap()",
+      "href": "fun_vwap",
+      "data_name": "vwap()",
+      "type": "function"
+    },
+    {
+      "name": "vwma()",
+      "href": "fun_vwma",
+      "data_name": "vwma()",
+      "type": "function"
+    },
+    {
+      "name": "weekofyear()",
+      "href": "fun_weekofyear",
+      "data_name": "weekofyear()",
+      "type": "function"
+    },
+    {
+      "name": "wma()",
+      "href": "fun_wma",
+      "data_name": "wma()",
+      "type": "function"
+    },
+    {
+      "name": "year()",
+      "href": "fun_year",
+      "data_name": "year()",
+      "type": "function"
+    },
+    {
+      "name": "and",
+      "href": "kw_and",
+      "data_name": "and",
+      "type": "variable"
+    },
+    {
+      "name": "for",
+      "href": "kw_for",
+      "data_name": "for",
+      "type": "variable"
+    },
+    {
+      "name": "if",
+      "href": "kw_if",
+      "data_name": "if",
+      "type": "variable"
+    },
+    {
+      "name": "not",
+      "href": "kw_not",
+      "data_name": "not",
+      "type": "variable"
+    },
+    {
+      "name": "or",
+      "href": "kw_or",
+      "data_name": "or",
+      "type": "variable"
+    },
+    {
+      "name": "-",
+      "href": "op_-",
+      "data_name": "-",
+      "type": "variable"
+    },
+    {
+      "name": "!=",
+      "href": "op_!=",
+      "data_name": "!=",
+      "type": "variable"
+    },
+    {
+      "name": "?:",
+      "href": "op_?:",
+      "data_name": "?:",
+      "type": "variable"
+    },
+    {
+      "name": "[]",
+      "href": "op_[]",
+      "data_name": "[]",
+      "type": "variable"
+    },
+    {
+      "name": "*",
+      "href": "op_*",
+      "data_name": "*",
+      "type": "variable"
+    },
+    {
+      "name": "/",
+      "href": "op_/",
+      "data_name": "/",
+      "type": "variable"
+    },
+    {
+      "name": "%",
+      "href": "op_%",
+      "data_name": "%",
+      "type": "variable"
+    },
+    {
+      "name": "+",
+      "href": "op_+",
+      "data_name": "+",
+      "type": "variable"
+    },
+    {
+      "name": "<",
+      "href": "op_<",
+      "data_name": "<",
+      "type": "variable"
+    },
+    {
+      "name": "<=",
+      "href": "op_<=",
+      "data_name": "<=",
+      "type": "variable"
+    },
+    {
+      "name": "==",
+      "href": "op_==",
+      "data_name": "==",
+      "type": "variable"
+    },
+    {
+      "name": ">",
+      "href": "op_>",
+      "data_name": ">",
+      "type": "variable"
+    },
+    {
+      "name": ">=",
+      "href": "op_>=",
+      "data_name": ">=",
+      "type": "variable"
+    }
+  ]
+}

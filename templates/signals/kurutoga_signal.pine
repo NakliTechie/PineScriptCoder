@@ -1,0 +1,48 @@
+calculateKurutogaSignal() => 
+    // Define the three lengths
+    len1 = baseLength
+    len2 = baseLength * 2
+    len3 = baseLength * 4
+
+    // Calculations for Length 1 (baseLength)
+    high1 = ta.highest(high, len1)
+    low1 = ta.lowest(low, len1)
+    midpoint1 = _calc_midpoint(high1, low1)
+    divergence1 = close - midpoint1
+
+    // Calculations for Length 2 (2 * baseLength)
+    high2 = ta.highest(high, len2)
+    low2 = ta.lowest(low, len2)
+    midpoint2 = _calc_midpoint(high2, low2)
+    divergence2 = close - midpoint2
+
+    // Calculations for Length 3 (4 * baseLength)
+    high3 = ta.highest(high, len3)
+    low3 = ta.lowest(low, len3)
+    midpoint3 = _calc_midpoint(high3, low3)
+    divergence3 = close - midpoint3
+
+    // Signal Logic
+    // Bullish condition: All three are positive, and weren't on the previous bar
+    allPositive = divergence1 > 0 and divergence2 > 0 and divergence3 > 0
+    bullishSignal = allPositive and not allPositive[1]
+
+    // Bearish condition: All three are negative, and weren't on the previous bar
+    allNegative = divergence1 < 0 and divergence2 < 0 and divergence3 < 0
+    bearishSignal = allNegative and not allNegative[1]
+
+    // Signal Determination
+    string signalCode = "---"
+    if bullishSignal
+        signalCode := "BUY"
+    else if bearishSignal
+        signalCode := "SELL"
+
+    // Append percentage change if a signal exists
+    if signalCode != "---"
+        // Use the current bar's close and previous bar's close for percentage change
+        float pct_change = ((close - close[1]) / close[1]) * 100.0
+        string pct_change_str = str.format("{0,number,#.##}%", pct_change)
+        signalCode := signalCode + " " + pct_change_str
+        
+    signalCode
