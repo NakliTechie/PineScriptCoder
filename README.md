@@ -1,6 +1,6 @@
 # Pine Script Development Framework
 
-This repository contains a complete framework for Pine Script development with organized references, guidelines, and development tools.
+This repository contains a complete framework for Pine Script development with organized references, guidelines, and development tools. This framework was created using [Qwen Code](https://github.com/QwenLM/qwen-code).
 
 ## Directory Structure
 
@@ -201,7 +201,7 @@ pip install requests beautifulsoup4 selenium
 
 ## Enhanced Development Experience
 
-For an enhanced development experience, we recommend checking out [Qwen Code](https://github.com/QwenLM/qwen-code), an AI-powered development environment that provides intelligent code completion, automated documentation, and workflow automation for Pine Script development.
+For an enhanced development experience, we recommend checking out [Qwen Code](https://github.com/QwenLM/qwen-code), the AI-powered development environment that was used to create this framework. You can find this project on [GitHub](https://github.com/NakliTechie/PineScriptCoder).
 
 ## Key Benefits
 

@@ -1,6 +1,6 @@
 # Pine Script Development Framework
 
-This is a comprehensive Pine Script development framework with organized references, guidelines, and development tools for creating TradingView indicators, strategies, and screeners. This framework was created using [Qwen Code](https://github.com/QwenLM/qwen-code).
+This is a comprehensive Pine Script development framework with organized references, guidelines, and development tools for creating TradingView indicators, strategies, and screeners. This framework was created using [Qwen Code](https://github.com/QwenLM/qwen-code). You can find this project on [GitHub](https://github.com/NakliTechie/PineScriptCoder).
 
 ## Project Overview
 
