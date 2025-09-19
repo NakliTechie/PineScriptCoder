@@ -49,7 +49,6 @@ This repository contains a complete framework for Pine Script development with o
 │   └── scrape_pine_reference_selenium.py # Scrape Pine Script reference with Selenium
 ├── templates/                     # Code templates for different development types
 │   ├── gold_standard_screener_template.pine # Multi-instance screener template
-│   ├── hti_screener_example.pine  # HTI screener concrete example
 │   ├── indicator_template.pine    # New indicator development template
 │   ├── strategy_template.pine     # New strategy development template
 │   ├── screener_template.pine      # New screener development template

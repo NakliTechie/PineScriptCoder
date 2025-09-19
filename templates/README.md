@@ -49,9 +49,6 @@ This directory contains templates for different types of Pine Script development
    
    # For screeners (using gold standard)
    cp templates/gold_standard_screener_template.pine screeners/my_screener.pine
-   
-   # For HTI-based screeners
-   cp templates/hti_screener_example.pine screeners/my_hti_screener.pine
    ```
 
 2. **Rename the file** to reflect your specific development
